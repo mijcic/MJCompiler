@@ -1,0 +1,68 @@
+INFO  20:43:36,482 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:43:36,527 - #2 program
+INFO  20:43:36,527 - #44 TestIf
+INFO  20:43:36,527 - #3 {
+INFO  20:43:36,529 - #11 void
+INFO  20:43:36,529 - #44 main
+INFO  20:43:36,529 - #12 (
+INFO  20:43:36,530 - #13 )
+INFO  20:43:36,530 - #43 set
+INFO  20:43:36,531 - #44 i
+INFO  20:43:36,531 - #7 ,
+INFO  20:43:36,531 - #44 j
+INFO  20:43:36,531 - #7 ,
+INFO  20:43:36,531 - #44 k
+INFO  20:43:36,531 - #8 ;
+INFO  20:43:36,532 - #3 {
+INFO  20:43:36,533 - #4 }
+INFO  20:43:36,533 - #4 }
+INFO  20:43:36,536 - Program(
+  ProgramName(
+   TestIf
+  ) [ProgramName]
+  ConstVarDeclList_e(
+  ) [ConstVarDeclList_e]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_set(
+          ) [Type_set]
+          LocalVarDeclElem_var(
+           i
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_more(
+            LocalVarDeclElem_var(
+             j
+            ) [LocalVarDeclElem_var]
+            LocalVarDeclListMore_more(
+              LocalVarDeclElem_var(
+               k
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclListMore_more]
+          ) [LocalVarDeclListMore_more]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_e(
+        ) [MethodsVarDeclList_e]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  20:43:36,537 - =========================================================================
+INFO  20:43:36,543 - =========================================================================
+INFO  20:43:36,546 - Generisanje koda uspesno zavrseno!

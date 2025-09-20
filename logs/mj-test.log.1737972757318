@@ -1,0 +1,116 @@
+INFO  11:11:33,006 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  11:11:33,098 - #2 program
+INFO  11:11:33,098 - #44 Keske
+INFO  11:11:33,099 - #5 const
+INFO  11:11:33,100 - #44 int
+INFO  11:11:33,100 - #44 pi
+INFO  11:11:33,101 - #6 =
+INFO  11:11:33,101 - #45 3
+INFO  11:11:33,101 - #8 ;
+INFO  11:11:33,102 - #44 int
+INFO  11:11:33,104 - #44 x
+INFO  11:11:33,104 - #7 ,
+INFO  11:11:33,104 - #44 y
+INFO  11:11:33,104 - #9 [
+INFO  11:11:33,104 - #10 ]
+INFO  11:11:33,104 - #8 ;
+INFO  11:11:33,105 - #3 {
+INFO  11:11:33,107 - #11 void
+INFO  11:11:33,107 - #44 main
+INFO  11:11:33,108 - #12 (
+INFO  11:11:33,109 - #13 )
+INFO  11:11:33,110 - #3 {
+INFO  11:11:33,112 - #20 print
+INFO  11:11:33,117 - #12 (
+INFO  11:11:33,117 - #45 1
+INFO  11:11:33,117 - #33 +
+INFO  11:11:33,120 - #45 3
+INFO  11:11:33,122 - #13 )
+INFO  11:11:33,122 - #8 ;
+INFO  11:11:33,122 - #4 }
+INFO  11:11:33,123 - #4 }
+INFO  11:11:33,130 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type(
+         int
+        ) [Type]
+        GlobalVarDeclElem_var(
+         x
+        ) [GlobalVarDeclElem_var]
+        GlobalVarDeclListMore_more(
+          GlobalVarDeclElem_array(
+           y
+          ) [GlobalVarDeclElem_array]
+          GlobalVarDeclListMore_e(
+          ) [GlobalVarDeclListMore_e]
+        ) [GlobalVarDeclListMore_more]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_e(
+      ) [ConstVarDeclList_e]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_list(
+        Statement_print_expr(
+          Expr_term(
+            Term(
+              Factor_number(
+               1
+              ) [Factor_number]
+              TermMore_e(
+              ) [TermMore_e]
+            ) [Term]
+            ExprMore_more(
+              ExprMore_e(
+              ) [ExprMore_e]
+              Addop_plus(
+              ) [Addop_plus]
+              Term(
+                Factor_number(
+                 3
+                ) [Factor_number]
+                TermMore_e(
+                ) [TermMore_e]
+              ) [Term]
+            ) [ExprMore_more]
+          ) [Expr_term]
+        ) [Statement_print_expr]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  11:11:33,131 - =========================================================================
+INFO  11:11:33,139 - =========================================================================
+INFO  11:11:33,144 - Generisanje koda uspesno zavrseno!

@@ -1,0 +1,83 @@
+INFO  13:04:31,980 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:04:32,040 - #2 program
+INFO  13:04:32,040 - #44 Keske
+INFO  13:04:32,040 - #3 {
+INFO  13:04:32,040 - #11 void
+INFO  13:04:32,041 - #44 main
+INFO  13:04:32,041 - #12 (
+INFO  13:04:32,041 - #13 )
+INFO  13:04:32,042 - #3 {
+INFO  13:04:32,043 - #3 {
+INFO  13:04:32,043 - #20 print
+INFO  13:04:32,043 - #12 (
+INFO  13:04:32,043 - #45 1
+INFO  13:04:32,043 - #13 )
+INFO  13:04:32,044 - #8 ;
+INFO  13:04:32,044 - #20 print
+INFO  13:04:32,045 - #12 (
+INFO  13:04:32,045 - #45 2
+INFO  13:04:32,045 - #13 )
+INFO  13:04:32,045 - #8 ;
+INFO  13:04:32,045 - #4 }
+INFO  13:04:32,045 - #4 }
+INFO  13:04:32,046 - #4 }
+INFO  13:04:32,051 - Program(
+ Keske
+  ConstVarDeclList_e(
+  ) [ConstVarDeclList_e]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+       main
+        MethodsSignatureFormPars_e(
+        ) [MethodsSignatureFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_list(
+        Statement_statementList(
+          StatementList_list(
+            Statement_print_expr(
+              Expr_term(
+                Term(
+                  Factor_number(
+                   1
+                  ) [Factor_number]
+                  TermMore_e(
+                  ) [TermMore_e]
+                ) [Term]
+                ExprMore_e(
+                ) [ExprMore_e]
+              ) [Expr_term]
+            ) [Statement_print_expr]
+            StatementList_list(
+              Statement_print_expr(
+                Expr_term(
+                  Term(
+                    Factor_number(
+                     2
+                    ) [Factor_number]
+                    TermMore_e(
+                    ) [TermMore_e]
+                  ) [Term]
+                  ExprMore_e(
+                  ) [ExprMore_e]
+                ) [Expr_term]
+              ) [Statement_print_expr]
+              StatementList_e(
+              ) [StatementList_e]
+            ) [StatementList_list]
+          ) [StatementList_list]
+        ) [Statement_statementList]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  13:04:32,051 - =========================================================================
+INFO  13:04:32,051 - Parsiranje uspesno zavrseno!

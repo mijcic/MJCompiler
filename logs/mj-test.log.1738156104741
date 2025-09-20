@@ -1,0 +1,97 @@
+INFO  14:07:59,238 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:07:59,279 - #2 program
+INFO  14:07:59,279 - #44 test301
+INFO  14:07:59,279 - #5 const
+INFO  14:07:59,280 - #44 int
+INFO  14:07:59,280 - #44 nula
+INFO  14:07:59,280 - #6 =
+INFO  14:07:59,280 - #45 0
+INFO  14:07:59,280 - #8 ;
+INFO  14:07:59,281 - #5 const
+INFO  14:07:59,282 - #44 int
+INFO  14:07:59,282 - #44 jedan
+INFO  14:07:59,282 - #6 =
+INFO  14:07:59,282 - #45 1
+INFO  14:07:59,282 - #8 ;
+INFO  14:07:59,282 - #5 const
+INFO  14:07:59,282 - #44 int
+INFO  14:07:59,282 - #44 pet
+INFO  14:07:59,282 - #6 =
+INFO  14:07:59,282 - #45 5
+INFO  14:07:59,282 - #8 ;
+INFO  14:07:59,282 - #3 {
+INFO  14:07:59,283 - #11 void
+INFO  14:07:59,283 - #44 main
+INFO  14:07:59,284 - #12 (
+INFO  14:07:59,284 - #13 )
+INFO  14:07:59,285 - #3 {
+INFO  14:07:59,286 - #4 }
+INFO  14:07:59,286 - #4 }
+INFO  14:07:59,289 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       nula
+       0
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclElem_number(
+         jedan
+         1
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclElem_number(
+           pet
+           5
+          ) [ConstDeclElem_number]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_e(
+        ) [ConstVarDeclList_e]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  14:07:59,289 - =========================================================================
+INFO  14:07:59,295 - =========================================================================
+INFO  14:07:59,298 - Generisanje koda uspesno zavrseno!

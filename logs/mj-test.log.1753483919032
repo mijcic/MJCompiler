@@ -1,0 +1,69 @@
+INFO  00:41:51,647 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  00:41:51,743 - #2 program
+INFO  00:41:51,744 - #44 Keske
+INFO  00:41:51,744 - #5 const
+INFO  00:41:51,744 - #44 int
+INFO  00:41:51,745 - #44 pi
+INFO  00:41:51,745 - #6 =
+INFO  00:41:51,745 - #45 3
+INFO  00:41:51,745 - #7 ,
+INFO  00:41:51,745 - #44 g
+INFO  00:41:51,745 - #6 =
+INFO  00:41:51,745 - #45 11
+INFO  00:41:51,747 - #8 ;
+INFO  00:41:51,748 - #3 {
+INFO  00:41:51,749 - #11 void
+INFO  00:41:51,749 - #44 main
+INFO  00:41:51,750 - #12 (
+INFO  00:41:51,751 - #13 )
+INFO  00:41:51,753 - #3 {
+INFO  00:41:51,754 - #4 }
+INFO  00:41:51,756 - #4 }
+INFO  00:41:51,761 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_more(
+        ConstDeclElem_number(
+         g
+         11
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclListMore_more]
+    ) [ConstDeclList]
+    ConstVarDeclList_e(
+    ) [ConstVarDeclList_e]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  00:41:51,768 - =========================================================================
+INFO  00:41:51,778 - =========================================================================
+INFO  00:41:51,779 - Parsiranje uspesno zavrseno!

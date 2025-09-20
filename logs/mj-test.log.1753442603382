@@ -1,0 +1,122 @@
+INFO  12:39:07,295 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  12:39:07,393 - #2 program
+INFO  12:39:07,393 - #44 Keske
+INFO  12:39:07,393 - #5 const
+INFO  12:39:07,394 - #44 int
+INFO  12:39:07,395 - #44 pi
+INFO  12:39:07,395 - #6 =
+INFO  12:39:07,395 - #45 3
+INFO  12:39:07,395 - #8 ;
+INFO  12:39:07,396 - #44 char
+INFO  12:39:07,397 - #44 carr
+INFO  12:39:07,397 - #9 [
+INFO  12:39:07,397 - #10 ]
+INFO  12:39:07,397 - #8 ;
+INFO  12:39:07,399 - #3 {
+INFO  12:39:07,402 - #11 void
+INFO  12:39:07,402 - #44 main
+INFO  12:39:07,403 - #12 (
+INFO  12:39:07,404 - #13 )
+INFO  12:39:07,405 - #3 {
+INFO  12:39:07,407 - #44 a
+INFO  12:39:07,407 - #6 =
+INFO  12:39:07,411 - #44 b
+INFO  12:39:07,419 - #8 ;
+INFO  12:39:07,425 - #4 }
+INFO  12:39:07,426 - #4 }
+INFO  12:39:07,434 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type_type(
+         char
+        ) [Type_type]
+        GlobalVarDeclElem_array(
+         carr
+        ) [GlobalVarDeclElem_array]
+        GlobalVarDeclListMore_e(
+        ) [GlobalVarDeclListMore_e]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_e(
+      ) [ConstVarDeclList_e]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_expr(
+              DesignatorOption_designator(
+                Designator(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                  DesignatorMore_e(
+                  ) [DesignatorMore_e]
+                ) [Designator]
+              ) [DesignatorOption_designator]
+              Assignop(
+              ) [Assignop]
+              Expr_term(
+                Term(
+                  Factor_designator(
+                    DesignatorOption_designator(
+                      Designator(
+                        DesignatorName(
+                         b
+                        ) [DesignatorName]
+                        DesignatorMore_e(
+                        ) [DesignatorMore_e]
+                      ) [Designator]
+                    ) [DesignatorOption_designator]
+                  ) [Factor_designator]
+                  TermMore_e(
+                  ) [TermMore_e]
+                ) [Term]
+                ExprMore_e(
+                ) [ExprMore_e]
+              ) [Expr_term]
+            ) [DesignatorStatementAssignop_expr]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  12:39:07,435 - =========================================================================
+ERROR 12:39:07,444 - Pristup nedefinisanoj promenljivoj: a na liniji 8
+ERROR 12:39:07,444 - Pristup nedefinisanoj promenljivoj: a na liniji 8
+ERROR 12:39:07,445 - Pristup nedefinisanoj promenljivoj: b na liniji 8
+ERROR 12:39:07,445 - Pristup nedefinisanoj promenljivoj: b na liniji 8
+INFO  12:39:07,445 - =========================================================================
+INFO  12:39:07,446 - Parsiranje NIJE uspesno zavrseno!

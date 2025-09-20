@@ -1,0 +1,195 @@
+INFO  18:17:39,637 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:17:39,680 - #2 program
+INFO  18:17:39,680 - #44 Keske
+INFO  18:17:39,680 - #5 const
+INFO  18:17:39,681 - #44 int
+INFO  18:17:39,681 - #44 pi
+INFO  18:17:39,682 - #6 =
+INFO  18:17:39,682 - #45 3
+INFO  18:17:39,682 - #7 ,
+INFO  18:17:39,682 - #44 g
+INFO  18:17:39,682 - #6 =
+INFO  18:17:39,682 - #45 11
+INFO  18:17:39,682 - #8 ;
+INFO  18:17:39,683 - #44 char
+INFO  18:17:39,683 - #44 x
+INFO  18:17:39,684 - #7 ,
+INFO  18:17:39,684 - #44 y
+INFO  18:17:39,684 - #9 [
+INFO  18:17:39,684 - #10 ]
+INFO  18:17:39,684 - #8 ;
+INFO  18:17:39,684 - #5 const
+INFO  18:17:39,685 - #44 bool
+INFO  18:17:39,685 - #44 t
+INFO  18:17:39,687 - #6 =
+INFO  18:17:39,687 - #46 0
+INFO  18:17:39,687 - #8 ;
+INFO  18:17:39,687 - #3 {
+INFO  18:17:39,688 - #11 void
+INFO  18:17:39,688 - #44 main
+INFO  18:17:39,689 - #12 (
+INFO  18:17:39,689 - #13 )
+INFO  18:17:39,690 - #44 int
+INFO  18:17:39,690 - #44 a
+INFO  18:17:39,691 - #7 ,
+INFO  18:17:39,691 - #44 b
+INFO  18:17:39,691 - #9 [
+INFO  18:17:39,691 - #10 ]
+INFO  18:17:39,691 - #8 ;
+INFO  18:17:39,692 - #44 int
+INFO  18:17:39,692 - #44 x
+INFO  18:17:39,692 - #9 [
+INFO  18:17:39,692 - #10 ]
+INFO  18:17:39,692 - #7 ,
+INFO  18:17:39,693 - #44 y
+INFO  18:17:39,693 - #8 ;
+INFO  18:17:39,693 - #44 char
+INFO  18:17:39,693 - #44 eol
+INFO  18:17:39,693 - #8 ;
+INFO  18:17:39,693 - #3 {
+INFO  18:17:39,694 - #20 print
+INFO  18:17:39,694 - #12 (
+INFO  18:17:39,694 - #47 c
+INFO  18:17:39,694 - #13 )
+INFO  18:17:39,696 - #8 ;
+INFO  18:17:39,696 - #4 }
+INFO  18:17:39,697 - #4 }
+INFO  18:17:39,702 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_more(
+        ConstDeclElem_number(
+         g
+         11
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclListMore_more]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type(
+         char
+        ) [Type]
+        GlobalVarDeclElem_var(
+         x
+        ) [GlobalVarDeclElem_var]
+        GlobalVarDeclListMore_more(
+          GlobalVarDeclElem_array(
+           y
+          ) [GlobalVarDeclElem_array]
+          GlobalVarDeclListMore_e(
+          ) [GlobalVarDeclListMore_e]
+        ) [GlobalVarDeclListMore_more]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type(
+           bool
+          ) [Type]
+          ConstDeclElem_bool(
+           t
+           0
+          ) [ConstDeclElem_bool]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_e(
+        ) [ConstVarDeclList_e]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type(
+           int
+          ) [Type]
+          LocalVarDeclElem_var(
+           a
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_more(
+            LocalVarDeclElem_array(
+             b
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclListMore_more]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type(
+             int
+            ) [Type]
+            LocalVarDeclElem_array(
+             x
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_more(
+              LocalVarDeclElem_var(
+               y
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclListMore_more]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_list(
+            LocalVarDeclList(
+              Type(
+               char
+              ) [Type]
+              LocalVarDeclElem_var(
+               eol
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclList]
+            MethodsVarDeclList_e(
+            ) [MethodsVarDeclList_e]
+          ) [MethodsVarDeclList_list]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_print_expr(
+          Expr_term(
+            Term(
+              Factor_character(
+               c
+              ) [Factor_character]
+              TermMore_e(
+              ) [TermMore_e]
+            ) [Term]
+            ExprMore_e(
+            ) [ExprMore_e]
+          ) [Expr_term]
+        ) [Statement_print_expr]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  18:17:39,702 - =========================================================================
+INFO  18:17:39,708 - =========================================================================
+INFO  18:17:39,708 - Parsiranje uspesno zavrseno!

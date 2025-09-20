@@ -1,0 +1,78 @@
+INFO  01:11:48,661 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  01:11:48,755 - #2 program
+INFO  01:11:48,755 - #44 Keske
+INFO  01:11:48,755 - #5 const
+INFO  01:11:48,757 - #44 bool
+INFO  01:11:48,757 - #44 pi
+INFO  01:11:48,757 - #6 =
+INFO  01:11:48,758 - #46 0
+INFO  01:11:48,758 - #8 ;
+INFO  01:11:48,759 - #5 const
+INFO  01:11:48,759 - #44 int
+INFO  01:11:48,760 - #44 g
+INFO  01:11:48,760 - #6 =
+INFO  01:11:48,760 - #45 11
+INFO  01:11:48,760 - #8 ;
+INFO  01:11:48,760 - #3 {
+INFO  01:11:48,762 - #11 void
+INFO  01:11:48,762 - #44 main
+INFO  01:11:48,763 - #12 (
+INFO  01:11:48,764 - #13 )
+INFO  01:11:48,765 - #3 {
+INFO  01:11:48,766 - #4 }
+INFO  01:11:48,768 - #4 }
+INFO  01:11:48,780 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       bool
+      ) [Type_type]
+      ConstDeclElem_bool(
+       pi
+       0
+      ) [ConstDeclElem_bool]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type_type(
+         int
+        ) [Type_type]
+        ConstDeclElem_number(
+         g
+         11
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_e(
+      ) [ConstVarDeclList_e]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  01:11:48,780 - =========================================================================
+INFO  01:11:48,791 - =========================================================================
+INFO  01:11:48,792 - Parsiranje uspesno zavrseno!

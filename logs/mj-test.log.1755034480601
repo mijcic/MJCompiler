@@ -1,0 +1,254 @@
+INFO  22:56:36,414 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  22:56:36,451 - #2 program
+INFO  22:56:36,451 - #44 OporavakOdGresakaTest
+INFO  22:56:36,451 - #5 const
+INFO  22:56:36,451 - #44 int
+INFO  22:56:36,451 - #44 a
+INFO  22:56:36,452 - #6 =
+INFO  22:56:36,452 - #45 3
+INFO  22:56:36,452 - #8 ;
+INFO  22:56:36,452 - #5 const
+INFO  22:56:36,453 - #44 char
+INFO  22:56:36,453 - #44 b
+INFO  22:56:36,453 - #6 =
+INFO  22:56:36,453 - #47 b
+INFO  22:56:36,453 - #8 ;
+INFO  22:56:36,453 - #5 const
+INFO  22:56:36,453 - #44 bool
+INFO  22:56:36,453 - #44 c
+INFO  22:56:36,455 - #6 =
+INFO  22:56:36,455 - #46 0
+INFO  22:56:36,455 - #8 ;
+INFO  22:56:36,455 - #44 char
+INFO  22:56:36,462 - #44 d
+INFO  22:56:36,462 - #6 =
+ERROR 22:56:36,462 - 
+Sintaksna greska na liniji 7
+INFO  22:56:36,462 - #47 d
+INFO  22:56:36,462 - #8 ;
+INFO  22:56:36,462 - #3 {
+INFO  22:56:36,462 - #44 int
+INFO  22:56:36,462 - #44 method1
+ERROR 22:56:36,462 - [GlobalVarDeclElem] Oporavak od greske kod definicije globalne promenljive. Linija: 7
+INFO  22:56:36,464 - #12 (
+INFO  22:56:36,464 - #44 int
+INFO  22:56:36,465 - #44 e
+INFO  22:56:36,465 - #6 =
+ERROR 22:56:36,465 - 
+Sintaksna greska na liniji 11
+INFO  22:56:36,465 - #45 5
+INFO  22:56:36,465 - #7 ,
+INFO  22:56:36,465 - #44 char
+INFO  22:56:36,465 - #44 f
+INFO  22:56:36,465 - #6 =
+ERROR 22:56:36,465 - [FormParsElem] Oporavak od greske kod definicije formalnog parametra funkcije. Linija: 10
+ERROR 22:56:36,465 - 
+Sintaksna greska na liniji 12
+INFO  22:56:36,465 - #47 f
+INFO  22:56:36,465 - #7 ,
+INFO  22:56:36,465 - #44 bool
+INFO  22:56:36,465 - #44 b
+INFO  22:56:36,465 - #6 =
+ERROR 22:56:36,465 - [FormParsElem] Oporavak od greske kod definicije formalnog parametra funkcije. Linija: 11
+ERROR 22:56:36,467 - 
+Sintaksna greska na liniji 13
+INFO  22:56:36,467 - #46 1
+INFO  22:56:36,467 - #13 )
+INFO  22:56:36,467 - #3 {
+INFO  22:56:36,467 - #20 print
+INFO  22:56:36,467 - #12 (
+ERROR 22:56:36,467 - [FormParsElem] Oporavak od greske kod definicije formalnog parametra funkcije. Linija: 12
+INFO  22:56:36,469 - #44 b
+INFO  22:56:36,469 - #13 )
+INFO  22:56:36,470 - #8 ;
+INFO  22:56:36,471 - #18 return
+INFO  22:56:36,471 - #44 a
+INFO  22:56:36,471 - #8 ;
+INFO  22:56:36,471 - #4 }
+INFO  22:56:36,471 - #11 void
+INFO  22:56:36,472 - #44 main
+INFO  22:56:36,472 - #12 (
+INFO  22:56:36,472 - #13 )
+INFO  22:56:36,472 - #3 {
+INFO  22:56:36,472 - #44 method1
+INFO  22:56:36,472 - #12 (
+INFO  22:56:36,474 - #13 )
+INFO  22:56:36,475 - #8 ;
+INFO  22:56:36,475 - #4 }
+INFO  22:56:36,475 - #4 }
+INFO  22:56:36,477 - Program(
+  ProgramName(
+   OporavakOdGresakaTest
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       a
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type_type(
+         char
+        ) [Type_type]
+        ConstDeclElem_character(
+         b
+         b
+        ) [ConstDeclElem_character]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type_type(
+           bool
+          ) [Type_type]
+          ConstDeclElem_bool(
+           c
+           0
+          ) [ConstDeclElem_bool]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_var_list(
+          GlobalVarDeclList(
+            Type_type(
+             char
+            ) [Type_type]
+            GlobalVarDeclElem_ERROR(
+            ) [GlobalVarDeclElem_ERROR]
+            GlobalVarDeclListMore_e(
+            ) [GlobalVarDeclListMore_e]
+          ) [GlobalVarDeclList]
+          ConstVarDeclList_e(
+          ) [ConstVarDeclList_e]
+        ) [ConstVarDeclList_var_list]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_type(
+          Type_type(
+           int
+          ) [Type_type]
+        ) [MethodsType_type]
+        MethodName(
+         method1
+        ) [MethodName]
+        MethodSignaturesFormPars_list(
+          FormParsList(
+            FormParsElem_ERROR(
+            ) [FormParsElem_ERROR]
+            FormParsListMore_more(
+              FormParsElem_ERROR(
+              ) [FormParsElem_ERROR]
+              FormParsListMore_more(
+                FormParsElem_ERROR(
+                ) [FormParsElem_ERROR]
+                FormParsListMore_e(
+                ) [FormParsListMore_e]
+              ) [FormParsListMore_more]
+            ) [FormParsListMore_more]
+          ) [FormParsList]
+        ) [MethodSignaturesFormPars_list]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodDeclElemLeftBrace(
+      ) [MethodDeclElemLeftBrace]
+      MethodsStatementList_list(
+        Statement_print_expr(
+          Expr_term(
+            Term(
+              Factor_designator(
+                DesignatorOption_designator(
+                  Designator(
+                    DesignatorName(
+                     b
+                    ) [DesignatorName]
+                  ) [Designator]
+                ) [DesignatorOption_designator]
+              ) [Factor_designator]
+              TermMore_e(
+              ) [TermMore_e]
+            ) [Term]
+            ExprMore_e(
+            ) [ExprMore_e]
+          ) [Expr_term]
+        ) [Statement_print_expr]
+        MethodsStatementList_list(
+          Statement_return_expr(
+            Expr_term(
+              Term(
+                Factor_designator(
+                  DesignatorOption_designator(
+                    Designator(
+                      DesignatorName(
+                       a
+                      ) [DesignatorName]
+                    ) [Designator]
+                  ) [DesignatorOption_designator]
+                ) [Factor_designator]
+                TermMore_e(
+                ) [TermMore_e]
+              ) [Term]
+              ExprMore_e(
+              ) [ExprMore_e]
+            ) [Expr_term]
+          ) [Statement_return_expr]
+          MethodsStatementList_e(
+          ) [MethodsStatementList_e]
+        ) [MethodsStatementList_list]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_more(
+      MethodDeclElem(
+        MethodSignature(
+          MethodsType_void(
+          ) [MethodsType_void]
+          MethodName(
+           main
+          ) [MethodName]
+          MethodSignaturesFormPars_e(
+          ) [MethodSignaturesFormPars_e]
+        ) [MethodSignature]
+        MethodsVarDeclList_e(
+        ) [MethodsVarDeclList_e]
+        MethodDeclElemLeftBrace(
+        ) [MethodDeclElemLeftBrace]
+        MethodsStatementList_list(
+          Statement_designatorStatement(
+            DesignatorStatement_no_params(
+              DesignatorOption_designator(
+                Designator(
+                  DesignatorName(
+                   method1
+                  ) [DesignatorName]
+                ) [Designator]
+              ) [DesignatorOption_designator]
+              NoActParsList(
+                StartOfActParsList(
+                ) [StartOfActParsList]
+              ) [NoActParsList]
+            ) [DesignatorStatement_no_params]
+          ) [Statement_designatorStatement]
+          MethodsStatementList_e(
+          ) [MethodsStatementList_e]
+        ) [MethodsStatementList_list]
+      ) [MethodDeclElem]
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+    ) [MethodDeclList_more]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  22:56:36,477 - =========================================================================
+INFO  22:56:36,486 - =========================================================================
+INFO  22:56:36,487 - Parsiranje NIJE uspesno zavrseno!

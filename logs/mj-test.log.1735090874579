@@ -1,0 +1,57 @@
+INFO  01:02:22,311 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  01:02:22,431 - #2 program
+INFO  01:02:22,432 - #44 Keske
+INFO  01:02:22,432 - #5 const
+INFO  01:02:22,434 - #44 int
+INFO  01:02:22,434 - #44 pi
+INFO  01:02:22,435 - #6 =
+INFO  01:02:22,435 - #45 3
+INFO  01:02:22,435 - #8 ;
+INFO  01:02:22,437 - #3 {
+INFO  01:02:22,440 - #11 void
+INFO  01:02:22,440 - #44 main
+INFO  01:02:22,442 - #12 (
+INFO  01:02:22,442 - #13 )
+INFO  01:02:22,444 - #3 {
+INFO  01:02:22,447 - #4 }
+INFO  01:02:22,448 - #4 }
+INFO  01:02:22,455 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_e(
+    ) [ConstVarDeclList_e]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+       main
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  01:02:22,463 - =========================================================================
+INFO  01:02:22,474 - =========================================================================
+INFO  01:02:22,475 - Parsiranje uspesno zavrseno!

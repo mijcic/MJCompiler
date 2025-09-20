@@ -1,0 +1,297 @@
+INFO  21:38:05,953 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  21:38:05,992 - #2 program
+INFO  21:38:05,992 - #44 Proba
+INFO  21:38:05,992 - #5 const
+INFO  21:38:05,993 - #44 int
+INFO  21:38:05,993 - #44 a
+INFO  21:38:05,993 - #6 =
+INFO  21:38:05,993 - #45 5
+INFO  21:38:05,993 - #8 ;
+INFO  21:38:05,993 - #5 const
+INFO  21:38:05,994 - #44 bool
+INFO  21:38:05,994 - #44 b
+INFO  21:38:05,994 - #6 =
+INFO  21:38:05,994 - #46 1
+INFO  21:38:05,994 - #8 ;
+INFO  21:38:05,994 - #5 const
+INFO  21:38:05,994 - #44 char
+INFO  21:38:05,994 - #44 c
+INFO  21:38:05,994 - #6 =
+INFO  21:38:05,994 - #47 c
+INFO  21:38:05,994 - #8 ;
+INFO  21:38:05,994 - #5 const
+INFO  21:38:05,994 - #44 int
+INFO  21:38:05,996 - #44 gConst
+INFO  21:38:05,996 - #6 =
+INFO  21:38:05,996 - #45 4
+INFO  21:38:05,996 - #8 ;
+INFO  21:38:05,996 - #44 int
+INFO  21:38:05,996 - #44 d
+INFO  21:38:05,996 - #6 =
+ERROR 21:38:05,996 - 
+Sintaksna greska na liniji 9
+INFO  21:38:05,997 - #45 5
+INFO  21:38:05,997 - #7 ,
+INFO  21:38:05,997 - #44 e
+INFO  21:38:05,997 - #9 [
+INFO  21:38:05,997 - #10 ]
+ERROR 21:38:05,997 - Oporavak od greske kod definicije globalne promenljive. Linija: 9
+INFO  21:38:05,997 - #8 ;
+INFO  21:38:05,998 - #44 bool
+INFO  21:38:05,998 - #44 f
+INFO  21:38:05,998 - #7 ,
+INFO  21:38:05,998 - #44 g
+INFO  21:38:05,998 - #9 [
+INFO  21:38:05,999 - #10 ]
+INFO  21:38:05,999 - #8 ;
+INFO  21:38:05,999 - #44 char
+INFO  21:38:05,999 - #44 h
+INFO  21:38:05,999 - #7 ,
+INFO  21:38:05,999 - #44 i
+INFO  21:38:05,999 - #9 [
+INFO  21:38:05,999 - #10 ]
+INFO  21:38:05,999 - #8 ;
+INFO  21:38:05,999 - #43 set
+INFO  21:38:05,999 - #44 set_j
+INFO  21:38:05,999 - #8 ;
+INFO  21:38:06,000 - #43 set
+INFO  21:38:06,000 - #44 set_k
+INFO  21:38:06,000 - #8 ;
+INFO  21:38:06,000 - #43 set
+INFO  21:38:06,000 - #44 set_l
+INFO  21:38:06,000 - #8 ;
+INFO  21:38:06,000 - #5 const
+INFO  21:38:06,000 - #44 char
+INFO  21:38:06,000 - #44 m
+INFO  21:38:06,000 - #6 =
+INFO  21:38:06,000 - #47 m
+INFO  21:38:06,000 - #8 ;
+INFO  21:38:06,000 - #3 {
+INFO  21:38:06,001 - #11 void
+INFO  21:38:06,001 - #44 main
+INFO  21:38:06,003 - #12 (
+INFO  21:38:06,004 - #13 )
+INFO  21:38:06,004 - #43 set
+INFO  21:38:06,004 - #44 s1
+INFO  21:38:06,004 - #8 ;
+INFO  21:38:06,005 - #3 {
+INFO  21:38:06,006 - #20 print
+INFO  21:38:06,006 - #12 (
+INFO  21:38:06,006 - #44 d
+INFO  21:38:06,006 - #13 )
+INFO  21:38:06,009 - #8 ;
+INFO  21:38:06,009 - #4 }
+INFO  21:38:06,010 - #4 }
+INFO  21:38:06,011 - Program(
+  ProgramName(
+   Proba
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       a
+       5
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type_type(
+         bool
+        ) [Type_type]
+        ConstDeclElem_bool(
+         b
+         1
+        ) [ConstDeclElem_bool]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type_type(
+           char
+          ) [Type_type]
+          ConstDeclElem_character(
+           c
+           c
+          ) [ConstDeclElem_character]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_const_list(
+          ConstDeclList(
+            Type_type(
+             int
+            ) [Type_type]
+            ConstDeclElem_number(
+             gConst
+             4
+            ) [ConstDeclElem_number]
+            ConstDeclListMore_e(
+            ) [ConstDeclListMore_e]
+          ) [ConstDeclList]
+          ConstVarDeclList_var_list(
+            GlobalVarDeclList(
+              Type_type(
+               int
+              ) [Type_type]
+              GlobalVarDeclElem_ERROR(
+              ) [GlobalVarDeclElem_ERROR]
+              GlobalVarDeclListMore_more(
+                GlobalVarDeclElem_array(
+                 e
+                ) [GlobalVarDeclElem_array]
+                GlobalVarDeclListMore_e(
+                ) [GlobalVarDeclListMore_e]
+              ) [GlobalVarDeclListMore_more]
+            ) [GlobalVarDeclList]
+            ConstVarDeclList_var_list(
+              GlobalVarDeclList(
+                Type_type(
+                 bool
+                ) [Type_type]
+                GlobalVarDeclElem_var(
+                 f
+                ) [GlobalVarDeclElem_var]
+                GlobalVarDeclListMore_more(
+                  GlobalVarDeclElem_array(
+                   g
+                  ) [GlobalVarDeclElem_array]
+                  GlobalVarDeclListMore_e(
+                  ) [GlobalVarDeclListMore_e]
+                ) [GlobalVarDeclListMore_more]
+              ) [GlobalVarDeclList]
+              ConstVarDeclList_var_list(
+                GlobalVarDeclList(
+                  Type_type(
+                   char
+                  ) [Type_type]
+                  GlobalVarDeclElem_var(
+                   h
+                  ) [GlobalVarDeclElem_var]
+                  GlobalVarDeclListMore_more(
+                    GlobalVarDeclElem_array(
+                     i
+                    ) [GlobalVarDeclElem_array]
+                    GlobalVarDeclListMore_e(
+                    ) [GlobalVarDeclListMore_e]
+                  ) [GlobalVarDeclListMore_more]
+                ) [GlobalVarDeclList]
+                ConstVarDeclList_var_list(
+                  GlobalVarDeclList(
+                    Type_set(
+                    ) [Type_set]
+                    GlobalVarDeclElem_var(
+                     set_j
+                    ) [GlobalVarDeclElem_var]
+                    GlobalVarDeclListMore_e(
+                    ) [GlobalVarDeclListMore_e]
+                  ) [GlobalVarDeclList]
+                  ConstVarDeclList_var_list(
+                    GlobalVarDeclList(
+                      Type_set(
+                      ) [Type_set]
+                      GlobalVarDeclElem_var(
+                       set_k
+                      ) [GlobalVarDeclElem_var]
+                      GlobalVarDeclListMore_e(
+                      ) [GlobalVarDeclListMore_e]
+                    ) [GlobalVarDeclList]
+                    ConstVarDeclList_var_list(
+                      GlobalVarDeclList(
+                        Type_set(
+                        ) [Type_set]
+                        GlobalVarDeclElem_var(
+                         set_l
+                        ) [GlobalVarDeclElem_var]
+                        GlobalVarDeclListMore_e(
+                        ) [GlobalVarDeclListMore_e]
+                      ) [GlobalVarDeclList]
+                      ConstVarDeclList_const_list(
+                        ConstDeclList(
+                          Type_type(
+                           char
+                          ) [Type_type]
+                          ConstDeclElem_character(
+                           m
+                           m
+                          ) [ConstDeclElem_character]
+                          ConstDeclListMore_e(
+                          ) [ConstDeclListMore_e]
+                        ) [ConstDeclList]
+                        ConstVarDeclList_e(
+                        ) [ConstVarDeclList_e]
+                      ) [ConstVarDeclList_const_list]
+                    ) [ConstVarDeclList_var_list]
+                  ) [ConstVarDeclList_var_list]
+                ) [ConstVarDeclList_var_list]
+              ) [ConstVarDeclList_var_list]
+            ) [ConstVarDeclList_var_list]
+          ) [ConstVarDeclList_var_list]
+        ) [ConstVarDeclList_const_list]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_set(
+          ) [Type_set]
+          LocalVarDeclElem_var(
+           s1
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_e(
+          ) [LocalVarDeclListMore_e]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_e(
+        ) [MethodsVarDeclList_e]
+      ) [MethodsVarDeclList_list]
+      MethodDeclElemLeftBrace(
+      ) [MethodDeclElemLeftBrace]
+      MethodsStatementList_list(
+        Statement_print_expr(
+          Expr_term(
+            Term(
+              Factor_designator(
+                DesignatorOption_designator(
+                  Designator(
+                    DesignatorName(
+                     d
+                    ) [DesignatorName]
+                  ) [Designator]
+                ) [DesignatorOption_designator]
+              ) [Factor_designator]
+              TermMore_e(
+              ) [TermMore_e]
+            ) [Term]
+            ExprMore_e(
+            ) [ExprMore_e]
+          ) [Expr_term]
+        ) [Statement_print_expr]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  21:38:06,011 - =========================================================================
+ERROR 21:38:06,018 - [DesignatorName] Pristup promenljivoj koja nije deklarisana: d na liniji 21
+ERROR 21:38:06,018 - Pokusaj operacije print nad promenljivom koja nije set niti int, char, bool tipa:  na liniji 21
+INFO  21:38:06,018 - =========================================================================
+INFO  21:38:06,019 - Parsiranje NIJE uspesno zavrseno!

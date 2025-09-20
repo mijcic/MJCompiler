@@ -1,0 +1,391 @@
+INFO  22:31:52,912 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  22:31:52,968 - #2 program
+INFO  22:31:52,968 - #44 TestIf
+INFO  22:31:52,968 - #3 {
+INFO  22:31:52,970 - #11 void
+INFO  22:31:52,970 - #44 main
+INFO  22:31:52,970 - #12 (
+INFO  22:31:52,971 - #13 )
+INFO  22:31:52,972 - #44 int
+INFO  22:31:52,972 - #44 i
+INFO  22:31:52,972 - #8 ;
+INFO  22:31:52,973 - #3 {
+INFO  22:31:52,974 - #44 i
+INFO  22:31:52,974 - #6 =
+INFO  22:31:52,976 - #45 3
+INFO  22:31:52,977 - #8 ;
+INFO  22:31:52,980 - #14 if
+INFO  22:31:52,980 - #12 (
+INFO  22:31:52,980 - #44 i
+INFO  22:31:52,980 - #27 ==
+INFO  22:31:52,980 - #45 2
+INFO  22:31:52,981 - #25 ||
+INFO  22:31:52,982 - #44 i
+INFO  22:31:52,983 - #32 <=
+INFO  22:31:52,984 - #45 2
+INFO  22:31:52,984 - #13 )
+INFO  22:31:52,985 - #3 {
+INFO  22:31:52,985 - #20 print
+INFO  22:31:52,985 - #12 (
+INFO  22:31:52,986 - #45 1
+INFO  22:31:52,986 - #13 )
+INFO  22:31:52,986 - #8 ;
+INFO  22:31:52,986 - #20 print
+INFO  22:31:52,986 - #12 (
+INFO  22:31:52,986 - #45 1
+INFO  22:31:52,986 - #13 )
+INFO  22:31:52,986 - #8 ;
+INFO  22:31:52,986 - #20 print
+INFO  22:31:52,986 - #12 (
+INFO  22:31:52,986 - #45 1
+INFO  22:31:52,986 - #13 )
+INFO  22:31:52,986 - #8 ;
+INFO  22:31:52,986 - #20 print
+INFO  22:31:52,986 - #12 (
+INFO  22:31:52,987 - #45 1
+INFO  22:31:52,988 - #13 )
+INFO  22:31:52,988 - #8 ;
+INFO  22:31:52,988 - #4 }
+INFO  22:31:52,988 - #15 else
+INFO  22:31:52,988 - #3 {
+INFO  22:31:52,988 - #14 if
+INFO  22:31:52,989 - #12 (
+INFO  22:31:52,989 - #44 i
+INFO  22:31:52,989 - #27 ==
+INFO  22:31:52,989 - #45 3
+INFO  22:31:52,989 - #13 )
+INFO  22:31:52,989 - #3 {
+INFO  22:31:52,989 - #20 print
+INFO  22:31:52,989 - #12 (
+INFO  22:31:52,989 - #45 5
+INFO  22:31:52,989 - #13 )
+INFO  22:31:52,991 - #8 ;
+INFO  22:31:52,991 - #4 }
+INFO  22:31:52,991 - #15 else
+INFO  22:31:52,991 - #3 {
+INFO  22:31:52,991 - #20 print
+INFO  22:31:52,991 - #12 (
+INFO  22:31:52,991 - #45 6
+INFO  22:31:52,991 - #13 )
+INFO  22:31:52,991 - #8 ;
+INFO  22:31:52,991 - #4 }
+INFO  22:31:52,992 - #4 }
+INFO  22:31:52,992 - #4 }
+INFO  22:31:52,993 - #4 }
+INFO  22:31:53,000 - Program(
+  ProgramName(
+   TestIf
+  ) [ProgramName]
+  ConstVarDeclList_e(
+  ) [ConstVarDeclList_e]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_type(
+           int
+          ) [Type_type]
+          LocalVarDeclElem_var(
+           i
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_e(
+          ) [LocalVarDeclListMore_e]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_e(
+        ) [MethodsVarDeclList_e]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_expr(
+              DesignatorOption_designator(
+                Designator(
+                  DesignatorName(
+                   i
+                  ) [DesignatorName]
+                  DesignatorMore_e(
+                  ) [DesignatorMore_e]
+                ) [Designator]
+              ) [DesignatorOption_designator]
+              Assignop(
+              ) [Assignop]
+              Expr_term(
+                Term(
+                  Factor_number(
+                   3
+                  ) [Factor_number]
+                  TermMore_e(
+                  ) [TermMore_e]
+                ) [Term]
+                ExprMore_e(
+                ) [ExprMore_e]
+              ) [Expr_term]
+            ) [DesignatorStatementAssignop_expr]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_list(
+          Statement_if_else(
+            IfConditionList_if(
+              ConditionList(
+                CondTermList(
+                  CondFact_expr_relop_expr(
+                    Expr_term(
+                      Term(
+                        Factor_designator(
+                          DesignatorOption_designator(
+                            Designator(
+                              DesignatorName(
+                               i
+                              ) [DesignatorName]
+                              DesignatorMore_e(
+                              ) [DesignatorMore_e]
+                            ) [Designator]
+                          ) [DesignatorOption_designator]
+                        ) [Factor_designator]
+                        TermMore_e(
+                        ) [TermMore_e]
+                      ) [Term]
+                      ExprMore_e(
+                      ) [ExprMore_e]
+                    ) [Expr_term]
+                    Relop_is_equal(
+                    ) [Relop_is_equal]
+                    Expr_term(
+                      Term(
+                        Factor_number(
+                         2
+                        ) [Factor_number]
+                        TermMore_e(
+                        ) [TermMore_e]
+                      ) [Term]
+                      ExprMore_e(
+                      ) [ExprMore_e]
+                    ) [Expr_term]
+                  ) [CondFact_expr_relop_expr]
+                  CondTermListMore_e(
+                  ) [CondTermListMore_e]
+                ) [CondTermList]
+                ConditionListMore_more(
+                  CondTermList(
+                    CondFact_expr_relop_expr(
+                      Expr_term(
+                        Term(
+                          Factor_designator(
+                            DesignatorOption_designator(
+                              Designator(
+                                DesignatorName(
+                                 i
+                                ) [DesignatorName]
+                                DesignatorMore_e(
+                                ) [DesignatorMore_e]
+                              ) [Designator]
+                            ) [DesignatorOption_designator]
+                          ) [Factor_designator]
+                          TermMore_e(
+                          ) [TermMore_e]
+                        ) [Term]
+                        ExprMore_e(
+                        ) [ExprMore_e]
+                      ) [Expr_term]
+                      Relop_less_or_equal(
+                      ) [Relop_less_or_equal]
+                      Expr_term(
+                        Term(
+                          Factor_number(
+                           2
+                          ) [Factor_number]
+                          TermMore_e(
+                          ) [TermMore_e]
+                        ) [Term]
+                        ExprMore_e(
+                        ) [ExprMore_e]
+                      ) [Expr_term]
+                    ) [CondFact_expr_relop_expr]
+                    CondTermListMore_e(
+                    ) [CondTermListMore_e]
+                  ) [CondTermList]
+                  ConditionListMore_e(
+                  ) [ConditionListMore_e]
+                ) [ConditionListMore_more]
+              ) [ConditionList]
+            ) [IfConditionList_if]
+            Statement_statementList(
+              StatementList_list(
+                Statement_print_expr(
+                  Expr_term(
+                    Term(
+                      Factor_number(
+                       1
+                      ) [Factor_number]
+                      TermMore_e(
+                      ) [TermMore_e]
+                    ) [Term]
+                    ExprMore_e(
+                    ) [ExprMore_e]
+                  ) [Expr_term]
+                ) [Statement_print_expr]
+                StatementList_list(
+                  Statement_print_expr(
+                    Expr_term(
+                      Term(
+                        Factor_number(
+                         1
+                        ) [Factor_number]
+                        TermMore_e(
+                        ) [TermMore_e]
+                      ) [Term]
+                      ExprMore_e(
+                      ) [ExprMore_e]
+                    ) [Expr_term]
+                  ) [Statement_print_expr]
+                  StatementList_list(
+                    Statement_print_expr(
+                      Expr_term(
+                        Term(
+                          Factor_number(
+                           1
+                          ) [Factor_number]
+                          TermMore_e(
+                          ) [TermMore_e]
+                        ) [Term]
+                        ExprMore_e(
+                        ) [ExprMore_e]
+                      ) [Expr_term]
+                    ) [Statement_print_expr]
+                    StatementList_list(
+                      Statement_print_expr(
+                        Expr_term(
+                          Term(
+                            Factor_number(
+                             1
+                            ) [Factor_number]
+                            TermMore_e(
+                            ) [TermMore_e]
+                          ) [Term]
+                          ExprMore_e(
+                          ) [ExprMore_e]
+                        ) [Expr_term]
+                      ) [Statement_print_expr]
+                      StatementList_e(
+                      ) [StatementList_e]
+                    ) [StatementList_list]
+                  ) [StatementList_list]
+                ) [StatementList_list]
+              ) [StatementList_list]
+            ) [Statement_statementList]
+            Else(
+            ) [Else]
+            Statement_statementList(
+              StatementList_list(
+                Statement_if_else(
+                  IfConditionList_if(
+                    ConditionList(
+                      CondTermList(
+                        CondFact_expr_relop_expr(
+                          Expr_term(
+                            Term(
+                              Factor_designator(
+                                DesignatorOption_designator(
+                                  Designator(
+                                    DesignatorName(
+                                     i
+                                    ) [DesignatorName]
+                                    DesignatorMore_e(
+                                    ) [DesignatorMore_e]
+                                  ) [Designator]
+                                ) [DesignatorOption_designator]
+                              ) [Factor_designator]
+                              TermMore_e(
+                              ) [TermMore_e]
+                            ) [Term]
+                            ExprMore_e(
+                            ) [ExprMore_e]
+                          ) [Expr_term]
+                          Relop_is_equal(
+                          ) [Relop_is_equal]
+                          Expr_term(
+                            Term(
+                              Factor_number(
+                               3
+                              ) [Factor_number]
+                              TermMore_e(
+                              ) [TermMore_e]
+                            ) [Term]
+                            ExprMore_e(
+                            ) [ExprMore_e]
+                          ) [Expr_term]
+                        ) [CondFact_expr_relop_expr]
+                        CondTermListMore_e(
+                        ) [CondTermListMore_e]
+                      ) [CondTermList]
+                      ConditionListMore_e(
+                      ) [ConditionListMore_e]
+                    ) [ConditionList]
+                  ) [IfConditionList_if]
+                  Statement_statementList(
+                    StatementList_list(
+                      Statement_print_expr(
+                        Expr_term(
+                          Term(
+                            Factor_number(
+                             5
+                            ) [Factor_number]
+                            TermMore_e(
+                            ) [TermMore_e]
+                          ) [Term]
+                          ExprMore_e(
+                          ) [ExprMore_e]
+                        ) [Expr_term]
+                      ) [Statement_print_expr]
+                      StatementList_e(
+                      ) [StatementList_e]
+                    ) [StatementList_list]
+                  ) [Statement_statementList]
+                  Else(
+                  ) [Else]
+                  Statement_statementList(
+                    StatementList_list(
+                      Statement_print_expr(
+                        Expr_term(
+                          Term(
+                            Factor_number(
+                             6
+                            ) [Factor_number]
+                            TermMore_e(
+                            ) [TermMore_e]
+                          ) [Term]
+                          ExprMore_e(
+                          ) [ExprMore_e]
+                        ) [Expr_term]
+                      ) [Statement_print_expr]
+                      StatementList_e(
+                      ) [StatementList_e]
+                    ) [StatementList_list]
+                  ) [Statement_statementList]
+                ) [Statement_if_else]
+                StatementList_e(
+                ) [StatementList_e]
+              ) [StatementList_list]
+            ) [Statement_statementList]
+          ) [Statement_if_else]
+          MethodsStatementList_e(
+          ) [MethodsStatementList_e]
+        ) [MethodsStatementList_list]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  22:31:53,000 - =========================================================================
+INFO  22:31:53,008 - =========================================================================
+INFO  22:31:53,016 - Generisanje koda uspesno zavrseno!

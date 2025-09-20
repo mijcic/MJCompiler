@@ -1,0 +1,80 @@
+INFO  01:10:20,708 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  01:10:20,801 - #2 program
+INFO  01:10:20,801 - #44 Keske
+INFO  01:10:20,801 - #5 const
+INFO  01:10:20,802 - #44 int
+INFO  01:10:20,802 - #44 pi
+INFO  01:10:20,802 - #6 =
+INFO  01:10:20,802 - #45 3
+INFO  01:10:20,802 - #8 ;
+INFO  01:10:20,804 - #3 {
+INFO  01:10:20,806 - #11 void
+INFO  01:10:20,806 - #44 main
+INFO  01:10:20,808 - #12 (
+INFO  01:10:20,809 - #13 )
+INFO  01:10:20,810 - #3 {
+INFO  01:10:20,812 - #20 print
+INFO  01:10:20,812 - #12 (
+INFO  01:10:20,812 - #45 1
+INFO  01:10:20,812 - #13 )
+INFO  01:10:20,816 - #8 ;
+INFO  01:10:20,816 - #4 }
+INFO  01:10:20,817 - #4 }
+INFO  01:10:20,823 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_e(
+    ) [ConstVarDeclList_e]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_list(
+        Statement_print_expr(
+          Expr_term(
+            Term(
+              Factor_number(
+               1
+              ) [Factor_number]
+              TermMore_e(
+              ) [TermMore_e]
+            ) [Term]
+            ExprMore_e(
+            ) [ExprMore_e]
+          ) [Expr_term]
+        ) [Statement_print_expr]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  01:10:20,825 - =========================================================================
+INFO  01:10:20,835 - =========================================================================
+INFO  01:10:20,840 - Generisanje koda uspesno zavrseno!
+INFO  01:10:20,840 - Parsiranje uspesno zavrseno!

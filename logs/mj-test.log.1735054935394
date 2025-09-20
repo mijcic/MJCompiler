@@ -1,0 +1,108 @@
+INFO  16:16:39,692 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:16:39,751 - #2 program
+INFO  16:16:39,751 - #44 Keske
+INFO  16:16:39,751 - #5 const
+INFO  16:16:39,751 - #44 int
+INFO  16:16:39,751 - #44 pi
+INFO  16:16:39,752 - #6 =
+INFO  16:16:39,752 - #45 3
+INFO  16:16:39,752 - #8 ;
+INFO  16:16:39,753 - #44 char
+INFO  16:16:39,754 - #44 carr
+INFO  16:16:39,754 - #9 [
+INFO  16:16:39,754 - #10 ]
+INFO  16:16:39,754 - #8 ;
+INFO  16:16:39,755 - #3 {
+INFO  16:16:39,756 - #11 void
+INFO  16:16:39,756 - #44 main
+INFO  16:16:39,757 - #12 (
+INFO  16:16:39,757 - #13 )
+INFO  16:16:39,758 - #3 {
+INFO  16:16:39,760 - #44 a
+INFO  16:16:39,760 - #6 =
+INFO  16:16:39,761 - #44 b
+INFO  16:16:39,770 - #8 ;
+INFO  16:16:39,772 - #4 }
+INFO  16:16:39,773 - #4 }
+INFO  16:16:39,778 - Program(
+ Keske
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type(
+         char
+        ) [Type]
+        GlobalVarDeclElem_array(
+         carr
+        ) [GlobalVarDeclElem_array]
+        GlobalVarDeclListMore_e(
+        ) [GlobalVarDeclListMore_e]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_e(
+      ) [ConstVarDeclList_e]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+       main
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_rest(
+            Designator(
+             a
+              DesignatorMore_e(
+              ) [DesignatorMore_e]
+            ) [Designator]
+            DesignatorStatementRest_assignop_expr(
+              DesignatorStatementRestAssignopExpr_assignop_expr(
+                Assignop(
+                ) [Assignop]
+                Expr_term(
+                  Term(
+                    Factor_designator(
+                      Designator(
+                       b
+                        DesignatorMore_e(
+                        ) [DesignatorMore_e]
+                      ) [Designator]
+                    ) [Factor_designator]
+                    TermMore_e(
+                    ) [TermMore_e]
+                  ) [Term]
+                  ExprMore_e(
+                  ) [ExprMore_e]
+                ) [Expr_term]
+              ) [DesignatorStatementRestAssignopExpr_assignop_expr]
+            ) [DesignatorStatementRest_assignop_expr]
+          ) [DesignatorStatement_rest]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  16:16:39,779 - =========================================================================
+INFO  16:16:39,782 - =========================================================================
+INFO  16:16:39,782 - Parsiranje uspesno zavrseno!

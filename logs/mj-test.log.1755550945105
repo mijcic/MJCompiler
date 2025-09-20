@@ -1,0 +1,136 @@
+INFO  23:02:09,942 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\neispravanTest1.mj
+INFO  23:02:09,966 - #2 program
+INFO  23:02:09,966 - #44 neispravanTestSemantickeGreske
+INFO  23:02:09,966 - #3 {
+INFO  23:02:09,966 - #11 void
+INFO  23:02:09,966 - #44 method1
+INFO  23:02:09,967 - #12 (
+INFO  23:02:09,967 - #13 )
+INFO  23:02:09,967 - #44 int
+INFO  23:02:09,968 - #44 a
+INFO  23:02:09,968 - #8 ;
+INFO  23:02:09,968 - #44 char
+INFO  23:02:09,968 - #44 b
+INFO  23:02:09,969 - #8 ;
+INFO  23:02:09,969 - #44 int
+INFO  23:02:09,969 - #44 array
+INFO  23:02:09,969 - #9 [
+INFO  23:02:09,969 - #10 ]
+INFO  23:02:09,969 - #8 ;
+INFO  23:02:09,969 - #3 {
+INFO  23:02:09,969 - #44 ord
+INFO  23:02:09,970 - #12 (
+INFO  23:02:09,970 - #44 b
+INFO  23:02:09,971 - #13 )
+INFO  23:02:09,972 - #8 ;
+INFO  23:02:09,972 - #4 }
+INFO  23:02:09,973 - #4 }
+INFO  23:02:09,974 - Program(
+  ProgramName(
+   neispravanTestSemantickeGreske
+  ) [ProgramName]
+  ConstVarDeclList_e(
+  ) [ConstVarDeclList_e]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         method1
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_type(
+           int
+          ) [Type_type]
+          LocalVarDeclElem_var(
+           a
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_e(
+          ) [LocalVarDeclListMore_e]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type_type(
+             char
+            ) [Type_type]
+            LocalVarDeclElem_var(
+             b
+            ) [LocalVarDeclElem_var]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_list(
+            LocalVarDeclList(
+              Type_type(
+               int
+              ) [Type_type]
+              LocalVarDeclElem_array(
+               array
+              ) [LocalVarDeclElem_array]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclList]
+            MethodsVarDeclList_e(
+            ) [MethodsVarDeclList_e]
+          ) [MethodsVarDeclList_list]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodDeclElemLeftBrace(
+      ) [MethodDeclElemLeftBrace]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_params(
+            DesignatorOption_designator(
+              Designator(
+                DesignatorName(
+                 ord
+                ) [DesignatorName]
+              ) [Designator]
+            ) [DesignatorOption_designator]
+            ActParsList(
+              StartOfActParsList(
+              ) [StartOfActParsList]
+              ActPar(
+                Expr_term(
+                  Term(
+                    Factor_designator(
+                      DesignatorOption_designator(
+                        Designator(
+                          DesignatorName(
+                           b
+                          ) [DesignatorName]
+                        ) [Designator]
+                      ) [DesignatorOption_designator]
+                    ) [Factor_designator]
+                    TermMore_e(
+                    ) [TermMore_e]
+                  ) [Term]
+                  ExprMore_e(
+                  ) [ExprMore_e]
+                ) [Expr_term]
+              ) [ActPar]
+              ActParsListMore_e(
+              ) [ActParsListMore_e]
+            ) [ActParsList]
+          ) [DesignatorStatement_params]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  23:02:09,974 - =========================================================================
+INFO  23:02:09,979 - Poziv globalne funkcije: ord - [Obj] Kind: 3, Type: 1, Level: 1, Size of locals: 1 na liniji 5
+INFO  23:02:09,979 - Koriscenje lokalne promenljive: b funkcije: method1 - [Obj] Kind: 1, Type: 2, Adr: 1, Level: 1, FpPos: 0 na liniji 5
+INFO  23:02:09,979 - Poziv globalne funkcije: ord - [Obj] Kind: 3, Type: 1, Level: 1, Size of locals: 1 na liniji 5
+ERROR 23:02:09,979 - U programu ne postoji odgovarajuca main metoda na liniji 1
+INFO  23:02:09,979 - =========================================================================
+INFO  23:02:09,980 - Semanticka analiza NIJE uspesno zavrsena!

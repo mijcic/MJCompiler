@@ -1,0 +1,92 @@
+INFO  11:59:59,923 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  11:59:59,978 - #2 program
+INFO  11:59:59,978 - #44 Keske
+INFO  11:59:59,978 - #5 const
+INFO  11:59:59,978 - #44 int
+INFO  11:59:59,978 - #44 pi
+INFO  11:59:59,979 - #6 =
+INFO  11:59:59,979 - #45 3
+INFO  11:59:59,979 - #8 ;
+INFO  11:59:59,980 - #5 const
+INFO  11:59:59,981 - #44 char
+INFO  11:59:59,981 - #44 c
+INFO  11:59:59,981 - #6 =
+INFO  11:59:59,981 - #47 c
+INFO  11:59:59,981 - #8 ;
+INFO  11:59:59,982 - #5 const
+INFO  11:59:59,982 - #44 bool
+INFO  11:59:59,982 - #44 b
+INFO  11:59:59,982 - #6 =
+INFO  11:59:59,982 - #46 1
+INFO  11:59:59,982 - #8 ;
+INFO  11:59:59,982 - #3 {
+INFO  11:59:59,983 - #11 void
+INFO  11:59:59,983 - #44 main
+INFO  11:59:59,984 - #12 (
+INFO  11:59:59,984 - #13 )
+INFO  11:59:59,985 - #3 {
+INFO  11:59:59,986 - #4 }
+INFO  11:59:59,987 - #4 }
+INFO  11:59:59,992 - Program(
+ Keske
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type(
+         char
+        ) [Type]
+        ConstDeclElem_character(
+         c
+         c
+        ) [ConstDeclElem_character]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type(
+           bool
+          ) [Type]
+          ConstDeclElem_bool(
+           b
+           1
+          ) [ConstDeclElem_bool]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_e(
+        ) [ConstVarDeclList_e]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+       main
+        MethodsSignatureFormPars_e(
+        ) [MethodsSignatureFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  11:59:59,992 - =========================================================================
+INFO  11:59:59,993 - Parsiranje uspesno zavrseno!

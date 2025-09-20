@@ -1,0 +1,68 @@
+INFO  03:21:30,169 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  03:21:30,220 - #2 program
+INFO  03:21:30,220 - #44 Keske
+INFO  03:21:30,220 - #5 const
+INFO  03:21:30,221 - #44 int
+INFO  03:21:30,221 - #44 pi
+INFO  03:21:30,221 - #6 =
+INFO  03:21:30,222 - #46 0
+INFO  03:21:30,222 - #7 ,
+INFO  03:21:30,222 - #44 g
+INFO  03:21:30,222 - #6 =
+INFO  03:21:30,222 - #45 11
+INFO  03:21:30,222 - #8 ;
+INFO  03:21:30,223 - #3 {
+INFO  03:21:30,224 - #11 void
+INFO  03:21:30,224 - #44 main
+INFO  03:21:30,225 - #12 (
+INFO  03:21:30,225 - #13 )
+INFO  03:21:30,225 - #3 {
+INFO  03:21:30,227 - #4 }
+INFO  03:21:30,227 - #4 }
+INFO  03:21:30,231 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_bool(
+       pi
+       0
+      ) [ConstDeclElem_bool]
+      ConstDeclListMore_more(
+        ConstDeclElem_number(
+         g
+         11
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclListMore_more]
+    ) [ConstDeclList]
+    ConstVarDeclList_e(
+    ) [ConstVarDeclList_e]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+       main
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  03:21:30,234 - =========================================================================
+ERROR 03:21:30,239 - Neadekvatna dodela konstanti: pi na liniji 3
+INFO  03:21:30,239 - =========================================================================
+INFO  03:21:30,239 - Parsiranje NIJE uspesno zavrseno!

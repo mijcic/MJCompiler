@@ -1,0 +1,88 @@
+INFO  22:20:11,648 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  22:20:11,732 - #2 program
+INFO  22:20:11,732 - #44 Keske
+INFO  22:20:11,732 - #5 const
+INFO  22:20:11,733 - #44 int
+INFO  22:20:11,733 - #44 pi
+INFO  22:20:11,734 - #6 =
+INFO  22:20:11,734 - #45 3
+INFO  22:20:11,734 - #8 ;
+INFO  22:20:11,735 - #44 char
+INFO  22:20:11,737 - #44 carr
+INFO  22:20:11,737 - #9 [
+INFO  22:20:11,737 - #10 ]
+INFO  22:20:11,737 - #8 ;
+INFO  22:20:11,738 - #3 {
+INFO  22:20:11,741 - #11 void
+INFO  22:20:11,741 - #44 main
+INFO  22:20:11,742 - #12 (
+INFO  22:20:11,742 - #13 )
+INFO  22:20:11,742 - #3 {
+INFO  22:20:11,744 - #19 read
+INFO  22:20:11,744 - #12 (
+INFO  22:20:11,744 - #44 a
+INFO  22:20:11,751 - #13 )
+INFO  22:20:11,754 - #8 ;
+INFO  22:20:11,754 - #4 }
+INFO  22:20:11,755 - #4 }
+INFO  22:20:11,761 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type(
+         char
+        ) [Type]
+        GlobalVarDeclElem_array(
+         carr
+        ) [GlobalVarDeclElem_array]
+        GlobalVarDeclListMore_e(
+        ) [GlobalVarDeclListMore_e]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_e(
+      ) [ConstVarDeclList_e]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+       main
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_list(
+        Statement_read(
+          Designator(
+           a
+            DesignatorMore_e(
+            ) [DesignatorMore_e]
+          ) [Designator]
+        ) [Statement_read]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  22:20:11,762 - =========================================================================
+INFO  22:20:11,770 - =========================================================================
+INFO  22:20:11,771 - Parsiranje uspesno zavrseno!

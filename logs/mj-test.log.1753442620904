@@ -1,0 +1,98 @@
+INFO  13:23:23,406 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:23:23,512 - #2 program
+INFO  13:23:23,512 - #44 Keske
+INFO  13:23:23,512 - #5 const
+INFO  13:23:23,514 - #44 int
+INFO  13:23:23,514 - #44 pi
+INFO  13:23:23,514 - #6 =
+INFO  13:23:23,514 - #45 3
+INFO  13:23:23,514 - #8 ;
+INFO  13:23:23,516 - #44 char
+INFO  13:23:23,517 - #44 carr
+INFO  13:23:23,517 - #9 [
+INFO  13:23:23,517 - #10 ]
+INFO  13:23:23,517 - #8 ;
+INFO  13:23:23,519 - #3 {
+INFO  13:23:23,522 - #44 int
+INFO  13:23:23,522 - #44 f
+INFO  13:23:23,522 - #12 (
+INFO  13:23:23,523 - #13 )
+INFO  13:23:23,524 - #3 {
+INFO  13:23:23,525 - #18 return
+INFO  13:23:23,526 - #45 5
+INFO  13:23:23,526 - #8 ;
+INFO  13:23:23,538 - #4 }
+INFO  13:23:23,539 - #4 }
+INFO  13:23:23,546 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type_type(
+         char
+        ) [Type_type]
+        GlobalVarDeclElem_array(
+         carr
+        ) [GlobalVarDeclElem_array]
+        GlobalVarDeclListMore_e(
+        ) [GlobalVarDeclListMore_e]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_e(
+      ) [ConstVarDeclList_e]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_type(
+          Type_type(
+           int
+          ) [Type_type]
+        ) [MethodsType_type]
+        MethodName(
+         f
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_list(
+        Statement_return_expr(
+          Expr_term(
+            Term(
+              Factor_number(
+               5
+              ) [Factor_number]
+              TermMore_e(
+              ) [TermMore_e]
+            ) [Term]
+            ExprMore_e(
+            ) [ExprMore_e]
+          ) [Expr_term]
+        ) [Statement_return_expr]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  13:23:23,547 - =========================================================================
+ERROR 13:23:23,556 - Program nema adekvatnu main metodu. na liniji 1
+INFO  13:23:23,557 - =========================================================================
+INFO  13:23:23,557 - Parsiranje NIJE uspesno zavrseno!

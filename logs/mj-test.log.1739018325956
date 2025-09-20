@@ -1,0 +1,424 @@
+INFO  13:38:06,307 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:38:06,399 - #2 program
+INFO  13:38:06,399 - #44 Keske
+INFO  13:38:06,399 - #3 {
+INFO  13:38:06,401 - #11 void
+INFO  13:38:06,401 - #44 main
+INFO  13:38:06,402 - #12 (
+INFO  13:38:06,403 - #13 )
+INFO  13:38:06,405 - #44 int
+INFO  13:38:06,406 - #44 i
+INFO  13:38:06,406 - #8 ;
+INFO  13:38:06,407 - #44 int
+INFO  13:38:06,408 - #44 j
+INFO  13:38:06,409 - #8 ;
+INFO  13:38:06,409 - #3 {
+INFO  13:38:06,410 - #44 i
+INFO  13:38:06,410 - #6 =
+INFO  13:38:06,413 - #45 10
+INFO  13:38:06,414 - #8 ;
+INFO  13:38:06,417 - #21 do
+INFO  13:38:06,418 - #3 {
+INFO  13:38:06,418 - #20 print
+INFO  13:38:06,418 - #12 (
+INFO  13:38:06,425 - #44 i
+INFO  13:38:06,425 - #13 )
+INFO  13:38:06,426 - #8 ;
+INFO  13:38:06,426 - #14 if
+INFO  13:38:06,426 - #12 (
+INFO  13:38:06,426 - #44 i
+INFO  13:38:06,426 - #27 ==
+INFO  13:38:06,426 - #45 3
+INFO  13:38:06,428 - #13 )
+INFO  13:38:06,433 - #3 {
+INFO  13:38:06,433 - #16 break
+INFO  13:38:06,433 - #8 ;
+INFO  13:38:06,433 - #4 }
+INFO  13:38:06,435 - #44 i
+INFO  13:38:06,435 - #24 --
+INFO  13:38:06,435 - #8 ;
+INFO  13:38:06,435 - #44 j
+INFO  13:38:06,436 - #6 =
+INFO  13:38:06,436 - #45 0
+INFO  13:38:06,436 - #8 ;
+INFO  13:38:06,436 - #21 do
+INFO  13:38:06,436 - #3 {
+INFO  13:38:06,436 - #20 print
+INFO  13:38:06,436 - #12 (
+INFO  13:38:06,436 - #44 j
+INFO  13:38:06,437 - #13 )
+INFO  13:38:06,437 - #8 ;
+INFO  13:38:06,437 - #44 j
+INFO  13:38:06,437 - #23 ++
+INFO  13:38:06,437 - #8 ;
+INFO  13:38:06,437 - #4 }
+INFO  13:38:06,437 - #22 while
+INFO  13:38:06,437 - #12 (
+INFO  13:38:06,438 - #44 j
+INFO  13:38:06,438 - #31 <
+INFO  13:38:06,438 - #45 2
+INFO  13:38:06,439 - #13 )
+INFO  13:38:06,439 - #8 ;
+INFO  13:38:06,439 - #4 }
+INFO  13:38:06,440 - #22 while
+INFO  13:38:06,440 - #12 (
+INFO  13:38:06,441 - #44 i
+INFO  13:38:06,441 - #29 >
+INFO  13:38:06,441 - #45 0
+INFO  13:38:06,442 - #13 )
+INFO  13:38:06,442 - #8 ;
+INFO  13:38:06,442 - #4 }
+INFO  13:38:06,444 - #4 }
+INFO  13:38:06,453 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_e(
+  ) [ConstVarDeclList_e]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_type(
+           int
+          ) [Type_type]
+          LocalVarDeclElem_var(
+           i
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_e(
+          ) [LocalVarDeclListMore_e]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type_type(
+             int
+            ) [Type_type]
+            LocalVarDeclElem_var(
+             j
+            ) [LocalVarDeclElem_var]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_e(
+          ) [MethodsVarDeclList_e]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_expr(
+              DesignatorOption_designator(
+                Designator(
+                  DesignatorName(
+                   i
+                  ) [DesignatorName]
+                  DesignatorMore_e(
+                  ) [DesignatorMore_e]
+                ) [Designator]
+              ) [DesignatorOption_designator]
+              Assignop(
+              ) [Assignop]
+              Expr_term(
+                Term(
+                  Factor_number(
+                   10
+                  ) [Factor_number]
+                  TermMore_e(
+                  ) [TermMore_e]
+                ) [Term]
+                ExprMore_e(
+                ) [ExprMore_e]
+              ) [Expr_term]
+            ) [DesignatorStatementAssignop_expr]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_list(
+          Statement_do_while_condition(
+            StartOfDoWhileLoop(
+            ) [StartOfDoWhileLoop]
+            Statement_statementList(
+              StatementList_list(
+                Statement_print_expr(
+                  Expr_term(
+                    Term(
+                      Factor_designator(
+                        DesignatorOption_designator(
+                          Designator(
+                            DesignatorName(
+                             i
+                            ) [DesignatorName]
+                            DesignatorMore_e(
+                            ) [DesignatorMore_e]
+                          ) [Designator]
+                        ) [DesignatorOption_designator]
+                      ) [Factor_designator]
+                      TermMore_e(
+                      ) [TermMore_e]
+                    ) [Term]
+                    ExprMore_e(
+                    ) [ExprMore_e]
+                  ) [Expr_term]
+                ) [Statement_print_expr]
+                StatementList_list(
+                  Statement_if(
+                    IfConditionList_if(
+                      ConditionList(
+                        CondTermList(
+                          CondFact_expr_relop_expr(
+                            Expr_term(
+                              Term(
+                                Factor_designator(
+                                  DesignatorOption_designator(
+                                    Designator(
+                                      DesignatorName(
+                                       i
+                                      ) [DesignatorName]
+                                      DesignatorMore_e(
+                                      ) [DesignatorMore_e]
+                                    ) [Designator]
+                                  ) [DesignatorOption_designator]
+                                ) [Factor_designator]
+                                TermMore_e(
+                                ) [TermMore_e]
+                              ) [Term]
+                              ExprMore_e(
+                              ) [ExprMore_e]
+                            ) [Expr_term]
+                            Relop_is_equal(
+                            ) [Relop_is_equal]
+                            Expr_term(
+                              Term(
+                                Factor_number(
+                                 3
+                                ) [Factor_number]
+                                TermMore_e(
+                                ) [TermMore_e]
+                              ) [Term]
+                              ExprMore_e(
+                              ) [ExprMore_e]
+                            ) [Expr_term]
+                          ) [CondFact_expr_relop_expr]
+                          CondTermListMore_e(
+                          ) [CondTermListMore_e]
+                        ) [CondTermList]
+                        ConditionListMore_e(
+                        ) [ConditionListMore_e]
+                      ) [ConditionList]
+                    ) [IfConditionList_if]
+                    Statement_statementList(
+                      StatementList_list(
+                        Statement_break(
+                        ) [Statement_break]
+                        StatementList_e(
+                        ) [StatementList_e]
+                      ) [StatementList_list]
+                    ) [Statement_statementList]
+                  ) [Statement_if]
+                  StatementList_list(
+                    Statement_designatorStatement(
+                      DesignatorStatement_dec(
+                        DesignatorOption_designator(
+                          Designator(
+                            DesignatorName(
+                             i
+                            ) [DesignatorName]
+                            DesignatorMore_e(
+                            ) [DesignatorMore_e]
+                          ) [Designator]
+                        ) [DesignatorOption_designator]
+                      ) [DesignatorStatement_dec]
+                    ) [Statement_designatorStatement]
+                    StatementList_list(
+                      Statement_designatorStatement(
+                        DesignatorStatement_assignop(
+                          DesignatorStatementAssignop_expr(
+                            DesignatorOption_designator(
+                              Designator(
+                                DesignatorName(
+                                 j
+                                ) [DesignatorName]
+                                DesignatorMore_e(
+                                ) [DesignatorMore_e]
+                              ) [Designator]
+                            ) [DesignatorOption_designator]
+                            Assignop(
+                            ) [Assignop]
+                            Expr_term(
+                              Term(
+                                Factor_number(
+                                 0
+                                ) [Factor_number]
+                                TermMore_e(
+                                ) [TermMore_e]
+                              ) [Term]
+                              ExprMore_e(
+                              ) [ExprMore_e]
+                            ) [Expr_term]
+                          ) [DesignatorStatementAssignop_expr]
+                        ) [DesignatorStatement_assignop]
+                      ) [Statement_designatorStatement]
+                      StatementList_list(
+                        Statement_do_while_condition(
+                          StartOfDoWhileLoop(
+                          ) [StartOfDoWhileLoop]
+                          Statement_statementList(
+                            StatementList_list(
+                              Statement_print_expr(
+                                Expr_term(
+                                  Term(
+                                    Factor_designator(
+                                      DesignatorOption_designator(
+                                        Designator(
+                                          DesignatorName(
+                                           j
+                                          ) [DesignatorName]
+                                          DesignatorMore_e(
+                                          ) [DesignatorMore_e]
+                                        ) [Designator]
+                                      ) [DesignatorOption_designator]
+                                    ) [Factor_designator]
+                                    TermMore_e(
+                                    ) [TermMore_e]
+                                  ) [Term]
+                                  ExprMore_e(
+                                  ) [ExprMore_e]
+                                ) [Expr_term]
+                              ) [Statement_print_expr]
+                              StatementList_list(
+                                Statement_designatorStatement(
+                                  DesignatorStatement_inc(
+                                    DesignatorOption_designator(
+                                      Designator(
+                                        DesignatorName(
+                                         j
+                                        ) [DesignatorName]
+                                        DesignatorMore_e(
+                                        ) [DesignatorMore_e]
+                                      ) [Designator]
+                                    ) [DesignatorOption_designator]
+                                  ) [DesignatorStatement_inc]
+                                ) [Statement_designatorStatement]
+                                StatementList_e(
+                                ) [StatementList_e]
+                              ) [StatementList_list]
+                            ) [StatementList_list]
+                          ) [Statement_statementList]
+                          ConditionList(
+                            CondTermList(
+                              CondFact_expr_relop_expr(
+                                Expr_term(
+                                  Term(
+                                    Factor_designator(
+                                      DesignatorOption_designator(
+                                        Designator(
+                                          DesignatorName(
+                                           j
+                                          ) [DesignatorName]
+                                          DesignatorMore_e(
+                                          ) [DesignatorMore_e]
+                                        ) [Designator]
+                                      ) [DesignatorOption_designator]
+                                    ) [Factor_designator]
+                                    TermMore_e(
+                                    ) [TermMore_e]
+                                  ) [Term]
+                                  ExprMore_e(
+                                  ) [ExprMore_e]
+                                ) [Expr_term]
+                                Relop_less(
+                                ) [Relop_less]
+                                Expr_term(
+                                  Term(
+                                    Factor_number(
+                                     2
+                                    ) [Factor_number]
+                                    TermMore_e(
+                                    ) [TermMore_e]
+                                  ) [Term]
+                                  ExprMore_e(
+                                  ) [ExprMore_e]
+                                ) [Expr_term]
+                              ) [CondFact_expr_relop_expr]
+                              CondTermListMore_e(
+                              ) [CondTermListMore_e]
+                            ) [CondTermList]
+                            ConditionListMore_e(
+                            ) [ConditionListMore_e]
+                          ) [ConditionList]
+                          EndOfDoWhileLoop(
+                          ) [EndOfDoWhileLoop]
+                        ) [Statement_do_while_condition]
+                        StatementList_e(
+                        ) [StatementList_e]
+                      ) [StatementList_list]
+                    ) [StatementList_list]
+                  ) [StatementList_list]
+                ) [StatementList_list]
+              ) [StatementList_list]
+            ) [Statement_statementList]
+            ConditionList(
+              CondTermList(
+                CondFact_expr_relop_expr(
+                  Expr_term(
+                    Term(
+                      Factor_designator(
+                        DesignatorOption_designator(
+                          Designator(
+                            DesignatorName(
+                             i
+                            ) [DesignatorName]
+                            DesignatorMore_e(
+                            ) [DesignatorMore_e]
+                          ) [Designator]
+                        ) [DesignatorOption_designator]
+                      ) [Factor_designator]
+                      TermMore_e(
+                      ) [TermMore_e]
+                    ) [Term]
+                    ExprMore_e(
+                    ) [ExprMore_e]
+                  ) [Expr_term]
+                  Relop_greater(
+                  ) [Relop_greater]
+                  Expr_term(
+                    Term(
+                      Factor_number(
+                       0
+                      ) [Factor_number]
+                      TermMore_e(
+                      ) [TermMore_e]
+                    ) [Term]
+                    ExprMore_e(
+                    ) [ExprMore_e]
+                  ) [Expr_term]
+                ) [CondFact_expr_relop_expr]
+                CondTermListMore_e(
+                ) [CondTermListMore_e]
+              ) [CondTermList]
+              ConditionListMore_e(
+              ) [ConditionListMore_e]
+            ) [ConditionList]
+            EndOfDoWhileLoop(
+            ) [EndOfDoWhileLoop]
+          ) [Statement_do_while_condition]
+          MethodsStatementList_e(
+          ) [MethodsStatementList_e]
+        ) [MethodsStatementList_list]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  13:38:06,454 - =========================================================================
+INFO  13:38:06,464 - =========================================================================
+INFO  13:38:06,472 - Generisanje koda uspesno zavrseno!

@@ -1,0 +1,214 @@
+INFO  14:50:42,672 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:50:42,716 - #2 program
+INFO  14:50:42,717 - #44 Keske
+INFO  14:50:42,717 - #5 const
+INFO  14:50:42,717 - #44 bool
+INFO  14:50:42,717 - #44 pi
+INFO  14:50:42,717 - #6 =
+INFO  14:50:42,717 - #46 0
+INFO  14:50:42,719 - #8 ;
+INFO  14:50:42,719 - #5 const
+INFO  14:50:42,720 - #44 int
+INFO  14:50:42,720 - #44 g
+INFO  14:50:42,720 - #6 =
+INFO  14:50:42,720 - #45 11
+INFO  14:50:42,720 - #8 ;
+INFO  14:50:42,720 - #44 char
+INFO  14:50:42,720 - #44 x
+INFO  14:50:42,720 - #7 ,
+INFO  14:50:42,720 - #44 y
+INFO  14:50:42,721 - #9 [
+INFO  14:50:42,721 - #10 ]
+INFO  14:50:42,721 - #8 ;
+INFO  14:50:42,721 - #5 const
+INFO  14:50:42,724 - #44 bool
+INFO  14:50:42,724 - #44 t
+INFO  14:50:42,724 - #6 =
+INFO  14:50:42,724 - #46 1
+INFO  14:50:42,724 - #8 ;
+INFO  14:50:42,724 - #3 {
+INFO  14:50:42,725 - #44 int
+INFO  14:50:42,725 - #44 main
+INFO  14:50:42,725 - #12 (
+INFO  14:50:42,725 - #13 )
+INFO  14:50:42,726 - #44 int
+INFO  14:50:42,726 - #44 a
+INFO  14:50:42,726 - #7 ,
+INFO  14:50:42,727 - #44 b
+INFO  14:50:42,727 - #9 [
+INFO  14:50:42,727 - #10 ]
+INFO  14:50:42,727 - #8 ;
+INFO  14:50:42,727 - #44 int
+INFO  14:50:42,728 - #44 x
+INFO  14:50:42,728 - #9 [
+INFO  14:50:42,728 - #10 ]
+INFO  14:50:42,728 - #7 ,
+INFO  14:50:42,728 - #44 y
+INFO  14:50:42,728 - #8 ;
+INFO  14:50:42,728 - #44 char
+INFO  14:50:42,728 - #44 eol
+INFO  14:50:42,728 - #8 ;
+INFO  14:50:42,728 - #3 {
+INFO  14:50:42,730 - #20 print
+INFO  14:50:42,730 - #12 (
+INFO  14:50:42,730 - #34 -
+INFO  14:50:42,730 - #47 a
+INFO  14:50:42,730 - #13 )
+INFO  14:50:42,732 - #8 ;
+INFO  14:50:42,733 - #4 }
+INFO  14:50:42,733 - #4 }
+INFO  14:50:42,739 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       bool
+      ) [Type_type]
+      ConstDeclElem_bool(
+       pi
+       0
+      ) [ConstDeclElem_bool]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type_type(
+         int
+        ) [Type_type]
+        ConstDeclElem_number(
+         g
+         11
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_var_list(
+        GlobalVarDeclList(
+          Type_type(
+           char
+          ) [Type_type]
+          GlobalVarDeclElem_var(
+           x
+          ) [GlobalVarDeclElem_var]
+          GlobalVarDeclListMore_more(
+            GlobalVarDeclElem_array(
+             y
+            ) [GlobalVarDeclElem_array]
+            GlobalVarDeclListMore_e(
+            ) [GlobalVarDeclListMore_e]
+          ) [GlobalVarDeclListMore_more]
+        ) [GlobalVarDeclList]
+        ConstVarDeclList_const_list(
+          ConstDeclList(
+            Type_type(
+             bool
+            ) [Type_type]
+            ConstDeclElem_bool(
+             t
+             1
+            ) [ConstDeclElem_bool]
+            ConstDeclListMore_e(
+            ) [ConstDeclListMore_e]
+          ) [ConstDeclList]
+          ConstVarDeclList_e(
+          ) [ConstVarDeclList_e]
+        ) [ConstVarDeclList_const_list]
+      ) [ConstVarDeclList_var_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_type(
+          Type_type(
+           int
+          ) [Type_type]
+        ) [MethodsType_type]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_type(
+           int
+          ) [Type_type]
+          LocalVarDeclElem_var(
+           a
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_more(
+            LocalVarDeclElem_array(
+             b
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclListMore_more]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type_type(
+             int
+            ) [Type_type]
+            LocalVarDeclElem_array(
+             x
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_more(
+              LocalVarDeclElem_var(
+               y
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclListMore_more]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_list(
+            LocalVarDeclList(
+              Type_type(
+               char
+              ) [Type_type]
+              LocalVarDeclElem_var(
+               eol
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclList]
+            MethodsVarDeclList_e(
+            ) [MethodsVarDeclList_e]
+          ) [MethodsVarDeclList_list]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_print_expr(
+          Expr_minus(
+            MinusTerm(
+              Term(
+                Factor_character(
+                 a
+                ) [Factor_character]
+                TermMore_e(
+                ) [TermMore_e]
+              ) [Term]
+            ) [MinusTerm]
+            ExprMore_e(
+            ) [ExprMore_e]
+          ) [Expr_minus]
+        ) [Statement_print_expr]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  14:50:42,739 - =========================================================================
+ERROR 14:50:42,745 - Negacija ne int vrednosti. na liniji 12
+ERROR 14:50:42,745 - Print ne int/char/bool izraza na liniji 12
+ERROR 14:50:42,745 - Ne postoji iskaz return unutar metode: main na liniji 11
+ERROR 14:50:42,745 - Ne postoji odgovarajuca main metoda na liniji 1
+INFO  14:50:42,745 - =========================================================================
+INFO  14:50:42,745 - Parsiranje NIJE uspesno zavrseno!

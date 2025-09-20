@@ -1,0 +1,61 @@
+INFO  00:31:04,954 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  00:31:05,051 - #2 program
+INFO  00:31:05,051 - #44 Keske
+INFO  00:31:05,051 - #5 const
+INFO  00:31:05,053 - #44 Keske
+INFO  00:31:05,053 - #44 pi
+INFO  00:31:05,053 - #6 =
+INFO  00:31:05,053 - #45 3
+INFO  00:31:05,054 - #8 ;
+INFO  00:31:05,055 - #3 {
+INFO  00:31:05,057 - #11 void
+INFO  00:31:05,057 - #44 main
+INFO  00:31:05,058 - #12 (
+INFO  00:31:05,059 - #13 )
+INFO  00:31:05,059 - #3 {
+INFO  00:31:05,061 - #4 }
+INFO  00:31:05,063 - #4 }
+INFO  00:31:05,069 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       Keske
+      ) [Type_type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_e(
+    ) [ConstVarDeclList_e]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  00:31:05,076 - =========================================================================
+ERROR 00:31:05,085 - Cvor postoji, ali njegov kind nije deklarisan kao Type: Keske na liniji 3
+ERROR 00:31:05,085 - Neadekvatna dodela konstanti: pi na liniji 3
+INFO  00:31:05,085 - =========================================================================
+INFO  00:31:05,087 - Parsiranje NIJE uspesno zavrseno!

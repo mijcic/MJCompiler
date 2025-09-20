@@ -1,0 +1,127 @@
+INFO  16:31:15,229 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:31:15,315 - #2 program
+INFO  16:31:15,315 - #44 test
+INFO  16:31:15,315 - #5 const
+INFO  16:31:15,316 - #44 int
+INFO  16:31:15,316 - #44 g
+INFO  16:31:15,316 - #6 =
+INFO  16:31:15,316 - #45 5
+INFO  16:31:15,317 - #8 ;
+INFO  16:31:15,318 - #5 const
+INFO  16:31:15,320 - #44 char
+INFO  16:31:15,320 - #44 c
+INFO  16:31:15,320 - #6 =
+INFO  16:31:15,320 - #47 a
+INFO  16:31:15,321 - #7 ,
+INFO  16:31:15,321 - #44 a
+INFO  16:31:15,321 - #6 =
+INFO  16:31:15,321 - #47 a
+INFO  16:31:15,321 - #8 ;
+INFO  16:31:15,321 - #5 const
+INFO  16:31:15,321 - #44 bool
+INFO  16:31:15,322 - #44 v
+INFO  16:31:15,322 - #6 =
+INFO  16:31:15,328 - #46 1
+INFO  16:31:15,328 - #8 ;
+INFO  16:31:15,330 - #5 const
+INFO  16:31:15,330 - #44 bool
+INFO  16:31:15,330 - #44 g
+INFO  16:31:15,330 - #6 =
+INFO  16:31:15,330 - #46 0
+INFO  16:31:15,330 - #8 ;
+INFO  16:31:15,330 - #3 {
+INFO  16:31:15,332 - #11 void
+INFO  16:31:15,332 - #44 main
+INFO  16:31:15,333 - #12 (
+INFO  16:31:15,333 - #13 )
+INFO  16:31:15,335 - #3 {
+INFO  16:31:15,336 - #4 }
+INFO  16:31:15,338 - #4 }
+INFO  16:31:15,344 - Program(
+  ProgramName(
+   test
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       g
+       5
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type_type(
+         char
+        ) [Type_type]
+        ConstDeclElem_character(
+         c
+         a
+        ) [ConstDeclElem_character]
+        ConstDeclListMore_more(
+          ConstDeclElem_character(
+           a
+           a
+          ) [ConstDeclElem_character]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclListMore_more]
+      ) [ConstDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type_type(
+           bool
+          ) [Type_type]
+          ConstDeclElem_bool(
+           v
+           1
+          ) [ConstDeclElem_bool]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_const_list(
+          ConstDeclList(
+            Type_type(
+             bool
+            ) [Type_type]
+            ConstDeclElem_bool(
+             g
+             0
+            ) [ConstDeclElem_bool]
+            ConstDeclListMore_e(
+            ) [ConstDeclListMore_e]
+          ) [ConstDeclList]
+          ConstVarDeclList_e(
+          ) [ConstVarDeclList_e]
+        ) [ConstVarDeclList_const_list]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  16:31:15,344 - =========================================================================
+ERROR 16:31:15,355 - [ConstDeclElem_bool] Ime konstante je vec deklarisano unutar istog opsega: g na liniji 7
+INFO  16:31:15,357 - =========================================================================
+INFO  16:31:15,358 - Parsiranje NIJE uspesno zavrseno!

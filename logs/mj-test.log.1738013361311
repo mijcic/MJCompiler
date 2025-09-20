@@ -1,0 +1,169 @@
+INFO  22:29:07,572 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  22:29:07,618 - #2 program
+INFO  22:29:07,618 - #44 Keske
+INFO  22:29:07,618 - #5 const
+INFO  22:29:07,619 - #44 int
+INFO  22:29:07,619 - #44 pi
+INFO  22:29:07,619 - #6 =
+INFO  22:29:07,619 - #45 3
+INFO  22:29:07,620 - #8 ;
+INFO  22:29:07,620 - #44 int
+INFO  22:29:07,621 - #44 x
+INFO  22:29:07,621 - #7 ,
+INFO  22:29:07,621 - #44 y
+INFO  22:29:07,621 - #9 [
+INFO  22:29:07,621 - #10 ]
+INFO  22:29:07,622 - #8 ;
+INFO  22:29:07,622 - #3 {
+INFO  22:29:07,624 - #11 void
+INFO  22:29:07,624 - #44 main
+INFO  22:29:07,624 - #12 (
+INFO  22:29:07,625 - #13 )
+INFO  22:29:07,626 - #44 int
+INFO  22:29:07,626 - #44 a
+INFO  22:29:07,627 - #7 ,
+INFO  22:29:07,627 - #44 b
+INFO  22:29:07,627 - #8 ;
+INFO  22:29:07,627 - #44 char
+INFO  22:29:07,628 - #44 carr
+INFO  22:29:07,628 - #9 [
+INFO  22:29:07,628 - #10 ]
+INFO  22:29:07,628 - #8 ;
+INFO  22:29:07,628 - #3 {
+INFO  22:29:07,629 - #44 a
+INFO  22:29:07,629 - #6 =
+INFO  22:29:07,630 - #34 -
+INFO  22:29:07,631 - #45 2
+INFO  22:29:07,631 - #35 *
+INFO  22:29:07,631 - #34 -
+ERROR 22:29:07,632 - 
+Sintaksna greska na liniji 9
+INFO  22:29:07,632 - #45 12
+INFO  22:29:07,632 - #8 ;
+INFO  22:29:07,632 - #20 print
+INFO  22:29:07,632 - #12 (
+INFO  22:29:07,632 - #44 a
+ERROR 22:29:07,635 - Oporavak od greske kod DesignatorStatement-a kod iskaza dodele. Linija: 7
+INFO  22:29:07,636 - #13 )
+INFO  22:29:07,637 - #8 ;
+INFO  22:29:07,637 - #4 }
+INFO  22:29:07,638 - #4 }
+INFO  22:29:07,643 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type(
+         int
+        ) [Type]
+        GlobalVarDeclElem_var(
+         x
+        ) [GlobalVarDeclElem_var]
+        GlobalVarDeclListMore_more(
+          GlobalVarDeclElem_array(
+           y
+          ) [GlobalVarDeclElem_array]
+          GlobalVarDeclListMore_e(
+          ) [GlobalVarDeclListMore_e]
+        ) [GlobalVarDeclListMore_more]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_e(
+      ) [ConstVarDeclList_e]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type(
+           int
+          ) [Type]
+          LocalVarDeclElem_var(
+           a
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_more(
+            LocalVarDeclElem_var(
+             b
+            ) [LocalVarDeclElem_var]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclListMore_more]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type(
+             char
+            ) [Type]
+            LocalVarDeclElem_array(
+             carr
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_e(
+          ) [MethodsVarDeclList_e]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_ERROR(
+            ) [DesignatorStatementAssignop_ERROR]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_list(
+          Statement_print_expr(
+            Expr_term(
+              Term(
+                Factor_designator(
+                  DesignatorOption_designator(
+                    Designator(
+                      DesignatorName(
+                       a
+                      ) [DesignatorName]
+                      DesignatorMore_e(
+                      ) [DesignatorMore_e]
+                    ) [Designator]
+                  ) [DesignatorOption_designator]
+                ) [Factor_designator]
+                TermMore_e(
+                ) [TermMore_e]
+              ) [Term]
+              ExprMore_e(
+              ) [ExprMore_e]
+            ) [Expr_term]
+          ) [Statement_print_expr]
+          MethodsStatementList_e(
+          ) [MethodsStatementList_e]
+        ) [MethodsStatementList_list]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  22:29:07,643 - =========================================================================
+INFO  22:29:07,649 - =========================================================================
+INFO  22:29:07,650 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,109 @@
+INFO  02:28:44,335 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  02:28:44,379 - #2 program
+INFO  02:28:44,379 - #44 Keske
+INFO  02:28:44,379 - #5 const
+INFO  02:28:44,379 - #44 int
+INFO  02:28:44,380 - #44 pi
+INFO  02:28:44,380 - #6 =
+INFO  02:28:44,380 - #45 3
+INFO  02:28:44,380 - #7 ,
+INFO  02:28:44,380 - #44 g
+INFO  02:28:44,380 - #6 =
+INFO  02:28:44,380 - #45 11
+INFO  02:28:44,380 - #8 ;
+INFO  02:28:44,381 - #5 const
+INFO  02:28:44,381 - #44 bool
+INFO  02:28:44,381 - #44 t
+INFO  02:28:44,381 - #6 =
+INFO  02:28:44,382 - #46 1
+INFO  02:28:44,382 - #8 ;
+INFO  02:28:44,382 - #5 const
+INFO  02:28:44,382 - #44 int
+INFO  02:28:44,382 - #44 x
+INFO  02:28:44,382 - #6 =
+INFO  02:28:44,382 - #45 3
+INFO  02:28:44,382 - #8 ;
+INFO  02:28:44,382 - #44 char
+INFO  02:28:44,382 - #44 a
+INFO  02:28:44,383 - #7 ,
+INFO  02:28:44,383 - #44 b
+INFO  02:28:44,383 - #9 [
+INFO  02:28:44,383 - #10 ]
+INFO  02:28:44,383 - #8 ;
+INFO  02:28:44,383 - #3 {
+INFO  02:28:44,385 - #4 }
+INFO  02:28:44,388 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_more(
+        ConstDeclElem_number(
+         g
+         11
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclListMore_more]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type_type(
+         bool
+        ) [Type_type]
+        ConstDeclElem_bool(
+         t
+         1
+        ) [ConstDeclElem_bool]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type_type(
+           int
+          ) [Type_type]
+          ConstDeclElem_number(
+           x
+           3
+          ) [ConstDeclElem_number]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_var_list(
+          GlobalVarDeclList(
+            Type_type(
+             char
+            ) [Type_type]
+            GlobalVarDeclElem_var(
+             a
+            ) [GlobalVarDeclElem_var]
+            GlobalVarDeclListMore_more(
+              GlobalVarDeclElem_array(
+               b
+              ) [GlobalVarDeclElem_array]
+              GlobalVarDeclListMore_e(
+              ) [GlobalVarDeclListMore_e]
+            ) [GlobalVarDeclListMore_more]
+          ) [GlobalVarDeclList]
+          ConstVarDeclList_e(
+          ) [ConstVarDeclList_e]
+        ) [ConstVarDeclList_var_list]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_e(
+  ) [MethodDeclList_e]
+) [Program]
+INFO  02:28:44,388 - =========================================================================
+ERROR 02:28:44,393 - U programu ne postoji odgovarajuca main metoda na liniji 1
+INFO  02:28:44,393 - =========================================================================
+INFO  02:28:44,393 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,267 @@
+INFO  10:12:05,224 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  10:12:05,313 - #2 program
+INFO  10:12:05,313 - #44 Keske
+INFO  10:12:05,313 - #5 const
+INFO  10:12:05,314 - #44 int
+INFO  10:12:05,314 - #44 pi
+INFO  10:12:05,315 - #6 =
+INFO  10:12:05,315 - #45 3
+INFO  10:12:05,316 - #7 ,
+INFO  10:12:05,316 - #44 g
+INFO  10:12:05,316 - #6 =
+INFO  10:12:05,316 - #45 11
+INFO  10:12:05,316 - #8 ;
+INFO  10:12:05,317 - #5 const
+INFO  10:12:05,318 - #44 bool
+INFO  10:12:05,319 - #44 t
+INFO  10:12:05,319 - #6 =
+INFO  10:12:05,319 - #46 1
+INFO  10:12:05,319 - #8 ;
+INFO  10:12:05,319 - #5 const
+INFO  10:12:05,319 - #44 int
+INFO  10:12:05,319 - #44 x
+INFO  10:12:05,320 - #6 =
+INFO  10:12:05,320 - #45 3
+INFO  10:12:05,320 - #8 ;
+INFO  10:12:05,320 - #44 char
+INFO  10:12:05,321 - #44 a
+INFO  10:12:05,321 - #7 ,
+INFO  10:12:05,321 - #44 b
+INFO  10:12:05,321 - #9 [
+INFO  10:12:05,321 - #10 ]
+INFO  10:12:05,321 - #8 ;
+INFO  10:12:05,322 - #3 {
+INFO  10:12:05,324 - #11 void
+INFO  10:12:05,324 - #44 main
+INFO  10:12:05,325 - #12 (
+INFO  10:12:05,326 - #13 )
+INFO  10:12:05,327 - #44 int
+INFO  10:12:05,328 - #44 a
+INFO  10:12:05,328 - #7 ,
+INFO  10:12:05,328 - #44 b
+INFO  10:12:05,329 - #9 [
+INFO  10:12:05,329 - #10 ]
+INFO  10:12:05,329 - #8 ;
+INFO  10:12:05,330 - #44 int
+INFO  10:12:05,331 - #44 x
+INFO  10:12:05,331 - #9 [
+INFO  10:12:05,331 - #10 ]
+INFO  10:12:05,331 - #7 ,
+INFO  10:12:05,331 - #44 y
+INFO  10:12:05,331 - #8 ;
+INFO  10:12:05,332 - #44 char
+INFO  10:12:05,332 - #44 e
+INFO  10:12:05,332 - #9 [
+INFO  10:12:05,332 - #10 ]
+INFO  10:12:05,332 - #8 ;
+INFO  10:12:05,332 - #44 char
+INFO  10:12:05,332 - #44 eol
+INFO  10:12:05,332 - #8 ;
+INFO  10:12:05,333 - #3 {
+INFO  10:12:05,334 - #44 a
+INFO  10:12:05,334 - #6 =
+INFO  10:12:05,336 - #45 3
+INFO  10:12:05,338 - #33 +
+INFO  10:12:05,341 - #44 b
+INFO  10:12:05,343 - #8 ;
+INFO  10:12:05,344 - #4 }
+INFO  10:12:05,345 - #4 }
+INFO  10:12:05,357 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_more(
+        ConstDeclElem_number(
+         g
+         11
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclListMore_more]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type(
+         bool
+        ) [Type]
+        ConstDeclElem_bool(
+         t
+         1
+        ) [ConstDeclElem_bool]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclElem_number(
+           x
+           3
+          ) [ConstDeclElem_number]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_var_list(
+          GlobalVarDeclList(
+            Type(
+             char
+            ) [Type]
+            GlobalVarDeclElem_var(
+             a
+            ) [GlobalVarDeclElem_var]
+            GlobalVarDeclListMore_more(
+              GlobalVarDeclElem_array(
+               b
+              ) [GlobalVarDeclElem_array]
+              GlobalVarDeclListMore_e(
+              ) [GlobalVarDeclListMore_e]
+            ) [GlobalVarDeclListMore_more]
+          ) [GlobalVarDeclList]
+          ConstVarDeclList_e(
+          ) [ConstVarDeclList_e]
+        ) [ConstVarDeclList_var_list]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type(
+           int
+          ) [Type]
+          LocalVarDeclElem_var(
+           a
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_more(
+            LocalVarDeclElem_array(
+             b
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclListMore_more]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type(
+             int
+            ) [Type]
+            LocalVarDeclElem_array(
+             x
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_more(
+              LocalVarDeclElem_var(
+               y
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclListMore_more]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_list(
+            LocalVarDeclList(
+              Type(
+               char
+              ) [Type]
+              LocalVarDeclElem_array(
+               e
+              ) [LocalVarDeclElem_array]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclList]
+            MethodsVarDeclList_list(
+              LocalVarDeclList(
+                Type(
+                 char
+                ) [Type]
+                LocalVarDeclElem_var(
+                 eol
+                ) [LocalVarDeclElem_var]
+                LocalVarDeclListMore_e(
+                ) [LocalVarDeclListMore_e]
+              ) [LocalVarDeclList]
+              MethodsVarDeclList_e(
+              ) [MethodsVarDeclList_e]
+            ) [MethodsVarDeclList_list]
+          ) [MethodsVarDeclList_list]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_assignop(
+            DesignatorAssignop(
+              Designator(
+                DesignatorName(
+                 a
+                ) [DesignatorName]
+                DesignatorMore_e(
+                ) [DesignatorMore_e]
+              ) [Designator]
+              Assignop(
+              ) [Assignop]
+            ) [DesignatorAssignop]
+            DesignatorStatementAssignopRest_expr(
+              Expr_term(
+                Term(
+                  Factor_number(
+                   3
+                  ) [Factor_number]
+                  TermMore_e(
+                  ) [TermMore_e]
+                ) [Term]
+                ExprMore_more(
+                  ExprMore_e(
+                  ) [ExprMore_e]
+                  Addop_plus(
+                  ) [Addop_plus]
+                  Term(
+                    Factor_designator(
+                      Designator(
+                        DesignatorName(
+                         b
+                        ) [DesignatorName]
+                        DesignatorMore_e(
+                        ) [DesignatorMore_e]
+                      ) [Designator]
+                    ) [Factor_designator]
+                    TermMore_e(
+                    ) [TermMore_e]
+                  ) [Term]
+                ) [ExprMore_more]
+              ) [Expr_term]
+            ) [DesignatorStatementAssignopRest_expr]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  10:12:05,357 - =========================================================================
+ERROR 10:12:05,366 - Addop operacija sa ne int vrednosti. na liniji 6
+ERROR 10:12:05,366 - Addop operacija sa ne int vrednosti. na liniji 23
+ERROR 10:12:05,367 - Neadekvatna dodela vrednosti u promenljivu: a na liniji 23
+INFO  10:12:05,367 - =========================================================================
+INFO  10:12:05,368 - Parsiranje NIJE uspesno zavrseno!

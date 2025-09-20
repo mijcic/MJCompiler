@@ -1,0 +1,69 @@
+program neispravanTestSemantickeGreske
+
+const int a = 'h';
+const char b = 2;
+const bool c = 5;
+const double d = 3;
+const char e = 'e';
+
+{
+	int f1(int x) {
+	
+	}
+	
+	char f2(set set_1, int k) {
+	
+	}
+	
+	bool f3(int x) {
+	
+	}
+	
+	void poziviMetoda() int a; char b; int array[]; set set_1; {
+		ord(a);
+		chr(b);
+		len(set_1);
+		add(array, 1, 3);
+		add(array, 1);
+		addAll(a, b);
+		f1();
+		f1(a, 5);
+		a = f2(set_1, 5);
+		f2(f3('x'), f1('a'));
+	}
+	
+	void metodeZaSetove() set set_1, set_2; int array[], i; char j; bool t; {
+		set_1 = array union i;
+		set_1 = set_2 union t;
+		i = f2 map t;
+		i = f1 map set_1;
+	}
+	
+	void dodela() int i; char j; int array[]; set set_1; {
+		e = 'a';
+		e++;
+		j++;
+		i = e;
+		array = new char['x'];
+		array[j] = 5;
+		pozivFunkcije();
+		i = j + array;
+		i = j * 5;
+		read(set_1);
+		read(e);
+		read(array);
+		print(array);
+	}
+	
+	void petlje() int i; char j; int array[]; set set_1; {
+		if (i < array || c >= 0) {
+			continue;
+		}
+		
+		do {
+			c++;
+		}
+		while(array > set_1);
+		break;
+	}
+}

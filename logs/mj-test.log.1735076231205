@@ -1,0 +1,88 @@
+INFO  22:29:09,612 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  22:29:09,697 - #2 program
+INFO  22:29:09,698 - #44 Keske
+INFO  22:29:09,698 - #5 const
+INFO  22:29:09,699 - #44 int
+INFO  22:29:09,699 - #44 pi
+INFO  22:29:09,700 - #6 =
+INFO  22:29:09,700 - #45 3
+INFO  22:29:09,700 - #8 ;
+INFO  22:29:09,702 - #44 char
+INFO  22:29:09,703 - #44 carr
+INFO  22:29:09,703 - #9 [
+INFO  22:29:09,703 - #10 ]
+INFO  22:29:09,703 - #8 ;
+INFO  22:29:09,705 - #3 {
+INFO  22:29:09,707 - #11 void
+INFO  22:29:09,707 - #44 main
+INFO  22:29:09,708 - #12 (
+INFO  22:29:09,709 - #13 )
+INFO  22:29:09,709 - #3 {
+INFO  22:29:09,711 - #19 read
+INFO  22:29:09,711 - #12 (
+INFO  22:29:09,711 - #8 ;
+ERROR 22:29:09,712 - 
+Sintaksna greska na liniji 9
+INFO  22:29:09,712 - #4 }
+INFO  22:29:09,712 - #4 }
+ERROR 22:29:09,718 - Oporavak od greske kod DesignatorStatement-a kod iskaza dodele sa Setop (Union). Linija: 7
+INFO  22:29:09,727 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type(
+         char
+        ) [Type]
+        GlobalVarDeclElem_array(
+         carr
+        ) [GlobalVarDeclElem_array]
+        GlobalVarDeclListMore_e(
+        ) [GlobalVarDeclListMore_e]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_e(
+      ) [ConstVarDeclList_e]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+       main
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_setop_union(
+            DesignatorStatementSetopUnion_ERROR(
+            ) [DesignatorStatementSetopUnion_ERROR]
+          ) [DesignatorStatement_setop_union]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  22:29:09,727 - =========================================================================
+INFO  22:29:09,737 - =========================================================================
+INFO  22:29:09,738 - Parsiranje NIJE uspesno zavrseno!

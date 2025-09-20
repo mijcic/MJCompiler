@@ -1,0 +1,48 @@
+program Test
+
+const int pet = 5;
+const int jedan = 1;
+const char s = 's';
+
+int nizInt[], a; 
+
+{
+	int method1(int formPar1, char formPar2, bool formPar3) set set_1, set_2, set_3; int d; int nizz[]; {
+		if (a >= 0 || formPar2 == 't') formPar1 = 5;
+		else formPar1 = 3;
+		nizInt[4] = formPar1;
+		print(nizInt[4]); print(eol);	// 5
+		
+		a = nizInt[2];
+		print(a); print(eol);			// 6	
+		
+		if (a == 7 || formPar1 > 7) a = 15;
+		print(a); print(eol);			// 6		
+		
+		print('a'); print(eol);			// a	
+		do {
+			if (a == 9) continue;
+			print(a); print(eol);		// 6 7 8 10 11 12
+			if (a == 12) break;
+		}
+		while(a < 15, a++);				
+		
+		print('f'); print('o'); print('r'); print('m'); print('P'); print('a'); print('r'); print(1); print(eol);	// formPar1
+		do {
+			print(formPar1); print(eol);	// 5 4 3 2 1
+			formPar1--;
+		}
+		while (formPar1 > 0);
+		
+		return formPar1;
+	}
+	
+	void main() {
+		nizInt = new int[5];
+		nizInt[0] = 3; nizInt[2] = 6; nizInt[4] = 9;
+		
+		method1(5, 'a', true);
+		
+		print(-nizInt[4] + 2 * nizInt[0] * nizInt[2] - 11);		// 20
+	}
+}

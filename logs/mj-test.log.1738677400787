@@ -1,0 +1,108 @@
+INFO  14:56:18,357 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:56:18,448 - #2 program
+INFO  14:56:18,448 - #44 TestIf
+INFO  14:56:18,448 - #3 {
+INFO  14:56:18,450 - #11 void
+INFO  14:56:18,451 - #44 main
+INFO  14:56:18,452 - #12 (
+INFO  14:56:18,453 - #13 )
+INFO  14:56:18,454 - #43 set
+INFO  14:56:18,455 - #44 niz
+INFO  14:56:18,456 - #8 ;
+INFO  14:56:18,457 - #3 {
+INFO  14:56:18,460 - #44 niz
+INFO  14:56:18,460 - #6 =
+INFO  14:56:18,463 - #41 new
+INFO  14:56:18,465 - #44 int
+INFO  14:56:18,465 - #9 [
+INFO  14:56:18,465 - #45 5
+INFO  14:56:18,465 - #10 ]
+INFO  14:56:18,471 - #8 ;
+INFO  14:56:18,472 - #4 }
+INFO  14:56:18,474 - #4 }
+INFO  14:56:18,483 - Program(
+  ProgramName(
+   TestIf
+  ) [ProgramName]
+  ConstVarDeclList_e(
+  ) [ConstVarDeclList_e]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_set(
+          ) [Type_set]
+          LocalVarDeclElem_var(
+           niz
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_e(
+          ) [LocalVarDeclListMore_e]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_e(
+        ) [MethodsVarDeclList_e]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_expr(
+              DesignatorOption_designator(
+                Designator(
+                  DesignatorName(
+                   niz
+                  ) [DesignatorName]
+                  DesignatorMore_e(
+                  ) [DesignatorMore_e]
+                ) [Designator]
+              ) [DesignatorOption_designator]
+              Assignop(
+              ) [Assignop]
+              Expr_term(
+                Term(
+                  Factor_new(
+                    Type_type(
+                     int
+                    ) [Type_type]
+                    FactorNewMore_array(
+                      Expr_term(
+                        Term(
+                          Factor_number(
+                           5
+                          ) [Factor_number]
+                          TermMore_e(
+                          ) [TermMore_e]
+                        ) [Term]
+                        ExprMore_e(
+                        ) [ExprMore_e]
+                      ) [Expr_term]
+                    ) [FactorNewMore_array]
+                  ) [Factor_new]
+                  TermMore_e(
+                  ) [TermMore_e]
+                ) [Term]
+                ExprMore_e(
+                ) [ExprMore_e]
+              ) [Expr_term]
+            ) [DesignatorStatementAssignop_expr]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  14:56:18,490 - =========================================================================
+ERROR 14:56:18,500 - Neadekvatna dodela vrednosti u promenljivu: niz na liniji 4
+INFO  14:56:18,501 - =========================================================================
+INFO  14:56:18,501 - Parsiranje NIJE uspesno zavrseno!

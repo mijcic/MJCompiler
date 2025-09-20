@@ -1,0 +1,406 @@
+INFO  17:55:10,080 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  17:55:10,106 - #2 program
+INFO  17:55:10,106 - #44 test302
+INFO  17:55:10,106 - #44 int
+INFO  17:55:10,106 - #44 i
+INFO  17:55:10,106 - #8 ;
+INFO  17:55:10,107 - #44 bool
+INFO  17:55:10,107 - #44 ibool
+INFO  17:55:10,107 - #8 ;
+INFO  17:55:10,107 - #44 int
+INFO  17:55:10,107 - #44 niz2
+INFO  17:55:10,107 - #8 ;
+INFO  17:55:10,107 - #44 int
+INFO  17:55:10,107 - #44 niz
+INFO  17:55:10,107 - #9 [
+INFO  17:55:10,108 - #10 ]
+INFO  17:55:10,108 - #8 ;
+INFO  17:55:10,108 - #44 int
+INFO  17:55:10,108 - #44 a
+INFO  17:55:10,108 - #8 ;
+INFO  17:55:10,108 - #3 {
+INFO  17:55:10,108 - #44 bool
+INFO  17:55:10,110 - #44 provera
+INFO  17:55:10,110 - #12 (
+INFO  17:55:10,110 - #13 )
+INFO  17:55:10,110 - #3 {
+INFO  17:55:10,111 - #18 return
+INFO  17:55:10,111 - #46 1
+INFO  17:55:10,111 - #8 ;
+INFO  17:55:10,112 - #4 }
+INFO  17:55:10,113 - #11 void
+INFO  17:55:10,113 - #44 main
+INFO  17:55:10,114 - #12 (
+INFO  17:55:10,114 - #13 )
+INFO  17:55:10,114 - #3 {
+INFO  17:55:10,114 - #44 a
+INFO  17:55:10,114 - #6 =
+INFO  17:55:10,114 - #45 0
+INFO  17:55:10,115 - #8 ;
+INFO  17:55:10,115 - #21 do
+INFO  17:55:10,115 - #3 {
+INFO  17:55:10,115 - #20 print
+INFO  17:55:10,115 - #12 (
+INFO  17:55:10,115 - #44 a
+INFO  17:55:10,115 - #13 )
+INFO  17:55:10,115 - #8 ;
+INFO  17:55:10,116 - #44 a
+INFO  17:55:10,116 - #23 ++
+INFO  17:55:10,116 - #8 ;
+INFO  17:55:10,116 - #4 }
+INFO  17:55:10,116 - #22 while
+INFO  17:55:10,116 - #12 (
+INFO  17:55:10,116 - #44 a
+INFO  17:55:10,117 - #31 <
+INFO  17:55:10,117 - #45 10
+INFO  17:55:10,117 - #26 &&
+INFO  17:55:10,117 - #44 provera
+INFO  17:55:10,117 - #12 (
+INFO  17:55:10,117 - #13 )
+INFO  17:55:10,118 - #26 &&
+INFO  17:55:10,118 - #45 5
+INFO  17:55:10,118 - #28 !=
+INFO  17:55:10,118 - #45 5
+INFO  17:55:10,118 - #25 ||
+INFO  17:55:10,119 - #45 7
+INFO  17:55:10,119 - #27 ==
+INFO  17:55:10,119 - #45 7
+INFO  17:55:10,120 - #13 )
+INFO  17:55:10,120 - #8 ;
+INFO  17:55:10,120 - #4 }
+INFO  17:55:10,122 - #4 }
+INFO  17:55:10,124 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  ConstVarDeclList_var_list(
+    GlobalVarDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      GlobalVarDeclElem_var(
+       i
+      ) [GlobalVarDeclElem_var]
+      GlobalVarDeclListMore_e(
+      ) [GlobalVarDeclListMore_e]
+    ) [GlobalVarDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type_type(
+         bool
+        ) [Type_type]
+        GlobalVarDeclElem_var(
+         ibool
+        ) [GlobalVarDeclElem_var]
+        GlobalVarDeclListMore_e(
+        ) [GlobalVarDeclListMore_e]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_var_list(
+        GlobalVarDeclList(
+          Type_type(
+           int
+          ) [Type_type]
+          GlobalVarDeclElem_var(
+           niz2
+          ) [GlobalVarDeclElem_var]
+          GlobalVarDeclListMore_e(
+          ) [GlobalVarDeclListMore_e]
+        ) [GlobalVarDeclList]
+        ConstVarDeclList_var_list(
+          GlobalVarDeclList(
+            Type_type(
+             int
+            ) [Type_type]
+            GlobalVarDeclElem_array(
+             niz
+            ) [GlobalVarDeclElem_array]
+            GlobalVarDeclListMore_e(
+            ) [GlobalVarDeclListMore_e]
+          ) [GlobalVarDeclList]
+          ConstVarDeclList_var_list(
+            GlobalVarDeclList(
+              Type_type(
+               int
+              ) [Type_type]
+              GlobalVarDeclElem_var(
+               a
+              ) [GlobalVarDeclElem_var]
+              GlobalVarDeclListMore_e(
+              ) [GlobalVarDeclListMore_e]
+            ) [GlobalVarDeclList]
+            ConstVarDeclList_e(
+            ) [ConstVarDeclList_e]
+          ) [ConstVarDeclList_var_list]
+        ) [ConstVarDeclList_var_list]
+      ) [ConstVarDeclList_var_list]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_var_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_type(
+          Type_type(
+           bool
+          ) [Type_type]
+        ) [MethodsType_type]
+        MethodName(
+         provera
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodDeclElemLeftBrace(
+      ) [MethodDeclElemLeftBrace]
+      MethodsStatementList_list(
+        Statement_return_expr(
+          Expr_term(
+            Term(
+              Factor_bool(
+               1
+              ) [Factor_bool]
+              TermMore_e(
+              ) [TermMore_e]
+            ) [Term]
+            ExprMore_e(
+            ) [ExprMore_e]
+          ) [Expr_term]
+        ) [Statement_return_expr]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_more(
+      MethodDeclElem(
+        MethodSignature(
+          MethodsType_void(
+          ) [MethodsType_void]
+          MethodName(
+           main
+          ) [MethodName]
+          MethodSignaturesFormPars_e(
+          ) [MethodSignaturesFormPars_e]
+        ) [MethodSignature]
+        MethodsVarDeclList_e(
+        ) [MethodsVarDeclList_e]
+        MethodDeclElemLeftBrace(
+        ) [MethodDeclElemLeftBrace]
+        MethodsStatementList_list(
+          Statement_designatorStatement(
+            DesignatorStatement_assignop(
+              DesignatorStatementAssignop_expr(
+                DesignatorOption_designator(
+                  Designator(
+                    DesignatorName(
+                     a
+                    ) [DesignatorName]
+                  ) [Designator]
+                ) [DesignatorOption_designator]
+                Assignop(
+                ) [Assignop]
+                Expr_term(
+                  Term(
+                    Factor_number(
+                     0
+                    ) [Factor_number]
+                    TermMore_e(
+                    ) [TermMore_e]
+                  ) [Term]
+                  ExprMore_e(
+                  ) [ExprMore_e]
+                ) [Expr_term]
+              ) [DesignatorStatementAssignop_expr]
+            ) [DesignatorStatement_assignop]
+          ) [Statement_designatorStatement]
+          MethodsStatementList_list(
+            Statement_do_while_condition(
+              StartOfDoWhileLoop(
+              ) [StartOfDoWhileLoop]
+              Statement_statementList(
+                StatementList_list(
+                  Statement_print_expr(
+                    Expr_term(
+                      Term(
+                        Factor_designator(
+                          DesignatorOption_designator(
+                            Designator(
+                              DesignatorName(
+                               a
+                              ) [DesignatorName]
+                            ) [Designator]
+                          ) [DesignatorOption_designator]
+                        ) [Factor_designator]
+                        TermMore_e(
+                        ) [TermMore_e]
+                      ) [Term]
+                      ExprMore_e(
+                      ) [ExprMore_e]
+                    ) [Expr_term]
+                  ) [Statement_print_expr]
+                  StatementList_list(
+                    Statement_designatorStatement(
+                      DesignatorStatement_inc(
+                        DesignatorOption_designator(
+                          Designator(
+                            DesignatorName(
+                             a
+                            ) [DesignatorName]
+                          ) [Designator]
+                        ) [DesignatorOption_designator]
+                      ) [DesignatorStatement_inc]
+                    ) [Statement_designatorStatement]
+                    StatementList_e(
+                    ) [StatementList_e]
+                  ) [StatementList_list]
+                ) [StatementList_list]
+              ) [Statement_statementList]
+              StartOfCondition(
+              ) [StartOfCondition]
+              ConditionList(
+                CondTermList(
+                  CondFact_expr_relop_expr(
+                    Expr_term(
+                      Term(
+                        Factor_designator(
+                          DesignatorOption_designator(
+                            Designator(
+                              DesignatorName(
+                               a
+                              ) [DesignatorName]
+                            ) [Designator]
+                          ) [DesignatorOption_designator]
+                        ) [Factor_designator]
+                        TermMore_e(
+                        ) [TermMore_e]
+                      ) [Term]
+                      ExprMore_e(
+                      ) [ExprMore_e]
+                    ) [Expr_term]
+                    Relop_less(
+                    ) [Relop_less]
+                    Expr_term(
+                      Term(
+                        Factor_number(
+                         10
+                        ) [Factor_number]
+                        TermMore_e(
+                        ) [TermMore_e]
+                      ) [Term]
+                      ExprMore_e(
+                      ) [ExprMore_e]
+                    ) [Expr_term]
+                  ) [CondFact_expr_relop_expr]
+                  CondTermListMore_more(
+                    CondFact_expr(
+                      Expr_term(
+                        Term(
+                          Factor_designator_fun_no_params(
+                            DesignatorOption_designator(
+                              Designator(
+                                DesignatorName(
+                                 provera
+                                ) [DesignatorName]
+                              ) [Designator]
+                            ) [DesignatorOption_designator]
+                            NoActParsList(
+                              StartOfActParsList(
+                              ) [StartOfActParsList]
+                            ) [NoActParsList]
+                          ) [Factor_designator_fun_no_params]
+                          TermMore_e(
+                          ) [TermMore_e]
+                        ) [Term]
+                        ExprMore_e(
+                        ) [ExprMore_e]
+                      ) [Expr_term]
+                    ) [CondFact_expr]
+                    CondTermListMore_more(
+                      CondFact_expr_relop_expr(
+                        Expr_term(
+                          Term(
+                            Factor_number(
+                             5
+                            ) [Factor_number]
+                            TermMore_e(
+                            ) [TermMore_e]
+                          ) [Term]
+                          ExprMore_e(
+                          ) [ExprMore_e]
+                        ) [Expr_term]
+                        Relop_is_not_equal(
+                        ) [Relop_is_not_equal]
+                        Expr_term(
+                          Term(
+                            Factor_number(
+                             5
+                            ) [Factor_number]
+                            TermMore_e(
+                            ) [TermMore_e]
+                          ) [Term]
+                          ExprMore_e(
+                          ) [ExprMore_e]
+                        ) [Expr_term]
+                      ) [CondFact_expr_relop_expr]
+                      CondTermListMore_e(
+                      ) [CondTermListMore_e]
+                    ) [CondTermListMore_more]
+                  ) [CondTermListMore_more]
+                ) [CondTermList]
+                ConditionListMore_more(
+                  CondTermList(
+                    CondFact_expr_relop_expr(
+                      Expr_term(
+                        Term(
+                          Factor_number(
+                           7
+                          ) [Factor_number]
+                          TermMore_e(
+                          ) [TermMore_e]
+                        ) [Term]
+                        ExprMore_e(
+                        ) [ExprMore_e]
+                      ) [Expr_term]
+                      Relop_is_equal(
+                      ) [Relop_is_equal]
+                      Expr_term(
+                        Term(
+                          Factor_number(
+                           7
+                          ) [Factor_number]
+                          TermMore_e(
+                          ) [TermMore_e]
+                        ) [Term]
+                        ExprMore_e(
+                        ) [ExprMore_e]
+                      ) [Expr_term]
+                    ) [CondFact_expr_relop_expr]
+                    CondTermListMore_e(
+                    ) [CondTermListMore_e]
+                  ) [CondTermList]
+                  ConditionListMore_e(
+                  ) [ConditionListMore_e]
+                ) [ConditionListMore_more]
+              ) [ConditionList]
+              EndOfDoWhileLoop(
+              ) [EndOfDoWhileLoop]
+            ) [Statement_do_while_condition]
+            MethodsStatementList_e(
+            ) [MethodsStatementList_e]
+          ) [MethodsStatementList_list]
+        ) [MethodsStatementList_list]
+      ) [MethodDeclElem]
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+    ) [MethodDeclList_more]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  17:55:10,124 - =========================================================================
+INFO  17:55:10,129 - Koriscenje globalne promenljive: a - [Obj] Kind: 1, Type: 1, Adr: 4, Level: 0, FpPos: 0 na liniji 19
+INFO  17:55:10,129 - Koriscenje globalne promenljive: a - [Obj] Kind: 1, Type: 1, Adr: 4, Level: 0, FpPos: 0 na liniji 21
+INFO  17:55:10,129 - Koriscenje globalne promenljive: a - [Obj] Kind: 1, Type: 1, Adr: 4, Level: 0, FpPos: 0 na liniji 22
+INFO  17:55:10,129 - Koriscenje globalne promenljive: a - [Obj] Kind: 1, Type: 1, Adr: 4, Level: 0, FpPos: 0 na liniji 23
+INFO  17:55:10,129 - Poziv globalne funkcije: provera - [Obj] Kind: 3, Type: 5, Level: 0, Size of locals: 0 na liniji 23
+INFO  17:55:10,129 - Poziv globalne funkcije: provera - [Obj] Kind: 3, Type: 5, Level: 0, Size of locals: 0 na liniji 23
+INFO  17:55:10,130 - =========================================================================
+INFO  17:55:10,137 - Generisanje koda uspesno zavrseno!

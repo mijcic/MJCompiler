@@ -1,0 +1,52 @@
+INFO  22:43:21,833 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  22:43:21,918 - #2 program
+INFO  22:43:21,918 - #44 Keske
+INFO  22:43:21,918 - #3 {
+INFO  22:43:21,920 - #11 void
+INFO  22:43:21,921 - #44 main
+INFO  22:43:21,923 - #12 (
+INFO  22:43:21,923 - #13 )
+INFO  22:43:21,924 - #3 {
+INFO  22:43:21,926 - #19 read
+INFO  22:43:21,926 - #12 (
+INFO  22:43:21,926 - #8 ;
+ERROR 22:43:21,927 - 
+Sintaksna greska na liniji 6
+INFO  22:43:21,927 - #4 }
+INFO  22:43:21,927 - #4 }
+ERROR 22:43:21,932 - Oporavak od greske kod DesignatorStatement-a kod iskaza dodele sa Setop (Union). Linija: 4
+INFO  22:43:21,939 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_e(
+  ) [ConstVarDeclList_e]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+       main
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_setop_union(
+            DesignatorStatementSetopUnion_ERROR(
+            ) [DesignatorStatementSetopUnion_ERROR]
+          ) [DesignatorStatement_setop_union]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  22:43:21,946 - =========================================================================
+INFO  22:43:21,953 - =========================================================================
+INFO  22:43:21,954 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,214 @@
+INFO  14:35:26,221 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\oporavakOdGresakaIspravanTest2.mj
+INFO  14:35:26,258 - #2 program
+INFO  14:35:26,258 - #44 OporavakOdGresakaTest
+INFO  14:35:26,258 - #5 const
+INFO  14:35:26,259 - #44 int
+INFO  14:35:26,259 - #44 a
+INFO  14:35:26,259 - #6 =
+INFO  14:35:26,259 - #45 3
+INFO  14:35:26,260 - #8 ;
+INFO  14:35:26,260 - #5 const
+INFO  14:35:26,260 - #44 char
+INFO  14:35:26,260 - #44 b
+INFO  14:35:26,260 - #6 =
+INFO  14:35:26,260 - #47 b
+INFO  14:35:26,260 - #8 ;
+INFO  14:35:26,260 - #5 const
+INFO  14:35:26,261 - #44 bool
+INFO  14:35:26,261 - #44 c
+INFO  14:35:26,261 - #6 =
+INFO  14:35:26,261 - #46 0
+INFO  14:35:26,261 - #8 ;
+INFO  14:35:26,261 - #44 int
+INFO  14:35:26,261 - #44 niz
+INFO  14:35:26,261 - #9 [
+INFO  14:35:26,261 - #10 ]
+INFO  14:35:26,261 - #6 =
+ERROR 14:35:26,261 - 
+Sintaksna greska na liniji 7
+INFO  14:35:26,261 - #41 new
+INFO  14:35:26,261 - #44 int
+INFO  14:35:26,261 - #9 [
+INFO  14:35:26,262 - #45 10
+INFO  14:35:26,262 - #10 ]
+INFO  14:35:26,262 - #8 ;
+INFO  14:35:26,262 - #44 int
+INFO  14:35:26,262 - #44 globalna1
+INFO  14:35:26,262 - #8 ;
+ERROR 14:35:26,262 - [GlobalVarDeclElem] Oporavak od greske kod definicije globalne promenljive. Linija: 7
+INFO  14:35:26,264 - #44 bool
+INFO  14:35:26,264 - #44 globalna2
+INFO  14:35:26,264 - #6 =
+ERROR 14:35:26,264 - 
+Sintaksna greska na liniji 9
+INFO  14:35:26,264 - #46 1
+INFO  14:35:26,264 - #8 ;
+INFO  14:35:26,264 - #44 char
+INFO  14:35:26,264 - #44 globalna3
+INFO  14:35:26,264 - #8 ;
+ERROR 14:35:26,264 - [GlobalVarDeclElem] Oporavak od greske kod definicije globalne promenljive. Linija: 9
+INFO  14:35:26,264 - #3 {
+INFO  14:35:26,265 - #44 int
+INFO  14:35:26,265 - #44 method1
+INFO  14:35:26,265 - #12 (
+INFO  14:35:26,265 - #44 int
+INFO  14:35:26,265 - #44 array
+INFO  14:35:26,265 - #9 [
+INFO  14:35:26,265 - #10 ]
+INFO  14:35:26,265 - #7 ,
+INFO  14:35:26,265 - #44 int
+INFO  14:35:26,265 - #44 formPar1
+INFO  14:35:26,265 - #7 ,
+INFO  14:35:26,265 - #44 char
+INFO  14:35:26,265 - #44 formPar2
+INFO  14:35:26,266 - #6 =
+ERROR 14:35:26,266 - 
+Sintaksna greska na liniji 14
+INFO  14:35:26,266 - #47 h
+INFO  14:35:26,266 - #13 )
+INFO  14:35:26,266 - #44 int
+INFO  14:35:26,266 - #44 t
+INFO  14:35:26,266 - #8 ;
+ERROR 14:35:26,266 - [FormParsElem] Oporavak od greske kod definicije formalnog parametra funkcije. Linija: 13
+INFO  14:35:26,268 - #44 char
+INFO  14:35:26,270 - #44 r
+INFO  14:35:26,270 - #8 ;
+INFO  14:35:26,270 - #44 bool
+INFO  14:35:26,270 - #44 l
+INFO  14:35:26,270 - #8 ;
+INFO  14:35:26,270 - #3 {
+INFO  14:35:26,270 - #44 t
+INFO  14:35:26,271 - #6 =
+INFO  14:35:26,272 - #44 formPar1
+INFO  14:35:26,272 - #8 ;
+INFO  14:35:26,274 - #44 array
+INFO  14:35:26,274 - #9 [
+INFO  14:35:26,274 - #44 t
+INFO  14:35:26,274 - #10 ]
+INFO  14:35:26,274 - #6 =
+INFO  14:35:26,275 - #44 t
+INFO  14:35:26,275 - #25 ||
+ERROR 14:35:26,275 - 
+Sintaksna greska na liniji 18
+INFO  14:35:26,275 - #44 r
+INFO  14:35:26,275 - #8 ;
+INFO  14:35:26,275 - #20 print
+INFO  14:35:26,275 - #12 (
+INFO  14:35:26,275 - #44 array
+ERROR 14:35:26,275 - [DesignatorStatementAssignop] Oporavak od greske kod iskaza dodele. Linija: 17
+INFO  14:35:26,275 - #9 [
+INFO  14:35:26,275 - #44 t
+INFO  14:35:26,275 - #10 ]
+INFO  14:35:26,275 - #13 )
+INFO  14:35:26,275 - #8 ;
+INFO  14:35:26,275 - #20 print
+INFO  14:35:26,275 - #12 (
+INFO  14:35:26,275 - #44 eol
+INFO  14:35:26,275 - #13 )
+INFO  14:35:26,275 - #8 ;
+INFO  14:35:26,275 - #14 if
+INFO  14:35:26,277 - #12 (
+INFO  14:35:26,277 - #19 read
+ERROR 14:35:26,277 - 
+Sintaksna greska na liniji 21
+INFO  14:35:26,277 - #12 (
+INFO  14:35:26,277 - #44 formPar1
+INFO  14:35:26,277 - #13 )
+INFO  14:35:26,277 - #13 )
+INFO  14:35:26,277 - #3 {
+INFO  14:35:26,277 - #44 formPar1
+INFO  14:35:26,277 - #6 =
+ERROR 14:35:26,277 - [IfConditionList] Oporavak od greske kod if konstrukcije. Linija: 21
+INFO  14:35:26,277 - #44 formPar1
+INFO  14:35:26,277 - #35 *
+INFO  14:35:26,277 - #45 7
+INFO  14:35:26,278 - #8 ;
+INFO  14:35:26,278 - #20 print
+INFO  14:35:26,278 - #12 (
+INFO  14:35:26,278 - #44 formPar1
+INFO  14:35:26,278 - #13 )
+INFO  14:35:26,278 - #8 ;
+INFO  14:35:26,278 - #20 print
+INFO  14:35:26,278 - #12 (
+INFO  14:35:26,278 - #44 eol
+INFO  14:35:26,278 - #13 )
+INFO  14:35:26,278 - #8 ;
+INFO  14:35:26,278 - #4 }
+INFO  14:35:26,279 - #4 }
+INFO  14:35:26,280 - #11 void
+INFO  14:35:26,280 - #44 method2
+INFO  14:35:26,280 - #12 (
+INFO  14:35:26,280 - #44 char
+INFO  14:35:26,280 - #44 formPar1
+INFO  14:35:26,280 - #6 =
+ERROR 14:35:26,281 - 
+Sintaksna greska na liniji 28
+INFO  14:35:26,281 - #47 p
+INFO  14:35:26,281 - #7 ,
+INFO  14:35:26,281 - #44 int
+INFO  14:35:26,281 - #44 formPar2
+INFO  14:35:26,281 - #6 =
+ERROR 14:35:26,281 - [FormParsElem] Oporavak od greske kod definicije formalnog parametra funkcije. Linija: 27
+ERROR 14:35:26,281 - 
+Sintaksna greska na liniji 29
+INFO  14:35:26,281 - #45 14
+INFO  14:35:26,281 - #13 )
+INFO  14:35:26,281 - #3 {
+INFO  14:35:26,281 - #44 formPar2
+INFO  14:35:26,281 - #6 =
+ERROR 14:35:26,281 - [FormParsElem] Oporavak od greske kod definicije formalnog parametra funkcije. Linija: 28
+INFO  14:35:26,281 - #44 formpar1
+INFO  14:35:26,281 - #6 =
+ERROR 14:35:26,281 - 
+Sintaksna greska na liniji 32
+INFO  14:35:26,281 - #45 4
+INFO  14:35:26,281 - #8 ;
+INFO  14:35:26,281 - #14 if
+INFO  14:35:26,281 - #12 (
+INFO  14:35:26,281 - #44 formPar2
+ERROR 14:35:26,281 - [DesignatorStatementAssignop] Oporavak od greske kod iskaza dodele. Linija: 31
+INFO  14:35:26,281 - #23 ++
+ERROR 14:35:26,281 - 
+Sintaksna greska na liniji 33
+INFO  14:35:26,281 - #13 )
+INFO  14:35:26,281 - #3 {
+INFO  14:35:26,281 - #20 print
+INFO  14:35:26,281 - #12 (
+ERROR 14:35:26,281 - [IfConditionList] Oporavak od greske kod if konstrukcije. Linija: 33
+INFO  14:35:26,281 - #44 formPar2
+INFO  14:35:26,281 - #13 )
+INFO  14:35:26,281 - #8 ;
+INFO  14:35:26,281 - #4 }
+INFO  14:35:26,281 - #15 else
+INFO  14:35:26,281 - #3 {
+INFO  14:35:26,282 - #20 print
+INFO  14:35:26,282 - #12 (
+INFO  14:35:26,282 - #44 formPar1
+INFO  14:35:26,282 - #13 )
+INFO  14:35:26,282 - #8 ;
+INFO  14:35:26,282 - #4 }
+INFO  14:35:26,282 - #4 }
+INFO  14:35:26,282 - #11 void
+INFO  14:35:26,282 - #44 main
+INFO  14:35:26,282 - #12 (
+INFO  14:35:26,282 - #13 )
+INFO  14:35:26,282 - #3 {
+INFO  14:35:26,282 - #44 method1
+INFO  14:35:26,282 - #12 (
+INFO  14:35:26,282 - #44 niz
+INFO  14:35:26,283 - #7 ,
+INFO  14:35:26,283 - #45 4
+INFO  14:35:26,283 - #7 ,
+INFO  14:35:26,283 - #47 m
+INFO  14:35:26,283 - #13 )
+INFO  14:35:26,284 - #8 ;
+INFO  14:35:26,284 - #44 method2
+INFO  14:35:26,284 - #12 (
+INFO  14:35:26,284 - #47 i
+INFO  14:35:26,284 - #7 ,
+INFO  14:35:26,284 - #45 5
+INFO  14:35:26,284 - #13 )
+INFO  14:35:26,284 - #8 ;
+INFO  14:35:26,284 - #4 }
+INFO  14:35:26,284 - #4 }
+INFO  14:35:26,285 - Parsiranje NIJE uspesno zavrseno!

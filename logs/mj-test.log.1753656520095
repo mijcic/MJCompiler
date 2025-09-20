@@ -1,0 +1,102 @@
+INFO  00:22:11,469 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  00:22:11,536 - #2 program
+INFO  00:22:11,537 - #44 Keske
+INFO  00:22:11,537 - #5 const
+INFO  00:22:11,537 - #44 bool
+INFO  00:22:11,537 - #44 pi
+INFO  00:22:11,537 - #6 =
+INFO  00:22:11,539 - #46 0
+INFO  00:22:11,539 - #8 ;
+INFO  00:22:11,540 - #5 const
+INFO  00:22:11,541 - #44 int
+INFO  00:22:11,541 - #44 g
+INFO  00:22:11,541 - #6 =
+INFO  00:22:11,541 - #45 11
+INFO  00:22:11,541 - #8 ;
+INFO  00:22:11,541 - #44 char
+INFO  00:22:11,541 - #44 x
+INFO  00:22:11,541 - #7 ,
+INFO  00:22:11,542 - #44 y
+INFO  00:22:11,542 - #9 [
+INFO  00:22:11,542 - #10 ]
+INFO  00:22:11,542 - #8 ;
+INFO  00:22:11,543 - #3 {
+INFO  00:22:11,545 - #11 void
+INFO  00:22:11,545 - #44 main
+INFO  00:22:11,545 - #12 (
+INFO  00:22:11,546 - #13 )
+INFO  00:22:11,548 - #3 {
+INFO  00:22:11,549 - #4 }
+INFO  00:22:11,549 - #4 }
+INFO  00:22:11,554 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       bool
+      ) [Type_type]
+      ConstDeclElem_bool(
+       pi
+       0
+      ) [ConstDeclElem_bool]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type_type(
+         int
+        ) [Type_type]
+        ConstDeclElem_number(
+         g
+         11
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_var_list(
+        GlobalVarDeclList(
+          Type_type(
+           char
+          ) [Type_type]
+          GlobalVarDeclElem_var(
+           x
+          ) [GlobalVarDeclElem_var]
+          GlobalVarDeclListMore_more(
+            GlobalVarDeclElem_array(
+             y
+            ) [GlobalVarDeclElem_array]
+            GlobalVarDeclListMore_e(
+            ) [GlobalVarDeclListMore_e]
+          ) [GlobalVarDeclListMore_more]
+        ) [GlobalVarDeclList]
+        ConstVarDeclList_e(
+        ) [ConstVarDeclList_e]
+      ) [ConstVarDeclList_var_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  00:22:11,556 - =========================================================================
+INFO  00:22:11,564 - =========================================================================
+INFO  00:22:11,565 - Parsiranje uspesno zavrseno!

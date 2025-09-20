@@ -1,0 +1,149 @@
+INFO  14:29:13,039 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:29:13,122 - #2 program
+INFO  14:29:13,122 - #44 Keske
+INFO  14:29:13,122 - #5 const
+INFO  14:29:13,124 - #44 int
+INFO  14:29:13,124 - #44 pi
+INFO  14:29:13,125 - #6 =
+INFO  14:29:13,125 - #45 13
+INFO  14:29:13,125 - #7 ,
+INFO  14:29:13,125 - #44 g
+INFO  14:29:13,126 - #6 =
+INFO  14:29:13,126 - #45 11
+INFO  14:29:13,126 - #8 ;
+INFO  14:29:13,127 - #44 char
+INFO  14:29:13,128 - #44 x
+INFO  14:29:13,128 - #7 ,
+INFO  14:29:13,128 - #44 y
+INFO  14:29:13,129 - #9 [
+INFO  14:29:13,129 - #10 ]
+INFO  14:29:13,129 - #8 ;
+INFO  14:29:13,130 - #44 int
+INFO  14:29:13,131 - #44 eol
+INFO  14:29:13,131 - #8 ;
+INFO  14:29:13,132 - #3 {
+INFO  14:29:13,133 - #11 void
+INFO  14:29:13,133 - #44 mainnnnn
+INFO  14:29:13,134 - #12 (
+INFO  14:29:13,135 - #13 )
+INFO  14:29:13,136 - #44 int
+INFO  14:29:13,137 - #44 a
+INFO  14:29:13,138 - #7 ,
+INFO  14:29:13,138 - #44 b
+INFO  14:29:13,138 - #9 [
+INFO  14:29:13,138 - #10 ]
+INFO  14:29:13,138 - #8 ;
+INFO  14:29:13,139 - #44 int
+INFO  14:29:13,140 - #44 x
+INFO  14:29:13,140 - #8 ;
+INFO  14:29:13,141 - #3 {
+INFO  14:29:13,142 - #4 }
+INFO  14:29:13,142 - #4 }
+INFO  14:29:13,150 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       pi
+       13
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_more(
+        ConstDeclElem_number(
+         g
+         11
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclListMore_more]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type(
+         char
+        ) [Type]
+        GlobalVarDeclElem_var(
+         x
+        ) [GlobalVarDeclElem_var]
+        GlobalVarDeclListMore_more(
+          GlobalVarDeclElem_array(
+           y
+          ) [GlobalVarDeclElem_array]
+          GlobalVarDeclListMore_e(
+          ) [GlobalVarDeclListMore_e]
+        ) [GlobalVarDeclListMore_more]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_var_list(
+        GlobalVarDeclList(
+          Type(
+           int
+          ) [Type]
+          GlobalVarDeclElem_var(
+           eol
+          ) [GlobalVarDeclElem_var]
+          GlobalVarDeclListMore_e(
+          ) [GlobalVarDeclListMore_e]
+        ) [GlobalVarDeclList]
+        ConstVarDeclList_e(
+        ) [ConstVarDeclList_e]
+      ) [ConstVarDeclList_var_list]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         mainnnnn
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type(
+           int
+          ) [Type]
+          LocalVarDeclElem_var(
+           a
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_more(
+            LocalVarDeclElem_array(
+             b
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclListMore_more]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type(
+             int
+            ) [Type]
+            LocalVarDeclElem_var(
+             x
+            ) [LocalVarDeclElem_var]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_e(
+          ) [MethodsVarDeclList_e]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  14:29:13,150 - =========================================================================
+ERROR 14:29:13,161 - Dvostruka definicija promenljive: eol na liniji 6
+ERROR 14:29:13,161 - Program nema main metodu. na liniji 1
+INFO  14:29:13,161 - =========================================================================
+INFO  14:29:13,162 - Parsiranje NIJE uspesno zavrseno!

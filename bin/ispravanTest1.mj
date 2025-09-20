@@ -1,0 +1,67 @@
+program Test
+
+const int pet = 5;
+const int jedan = 1;
+const char s = 's';
+
+int nizInt[], a; 
+char nizChar[], b;
+bool nizBool[], c;
+
+{
+	int mapFunction1(int x) {
+		return x * x;
+	}
+	
+	int method1(int formPar1, char formPar2, bool formPar3) set set_1, set_2, set_3; int d; int nizz[]; {
+		formPar1 = 5;
+		nizInt[4] = formPar1;
+		d = nizInt[2];
+		a = d;
+		print(d); print(eol);	// 6
+		
+		formPar2 = nizChar[3];
+		print(formPar2); print(eol);	// b
+		
+		set_1 = new set[3];
+		add(set_1, 1);
+		add(set_1, 2);
+		print('s'); print('e'); print('t'); print(1); print(' '); print(set_1); print(eol);
+		// set1 1 2
+		
+		set_2 = new set[3];
+		nizInt = new int[5];
+		nizInt[0] = 1; nizInt[1] = 7; nizInt[2] = 7; nizInt[3] = 12; nizInt[4] = 5;
+		addAll(set_2, nizInt);
+		print('s'); print('e'); print('t'); print(2); print(' '); print(set_2); print(eol);
+		// set2 1 7 12
+		
+		set_3 = new set[4];
+		set_3 = set_1 union set_2;
+		print('s'); print('e'); print('t'); print(3); print(' '); print(set_3); print(eol);
+		// set3 1 2 7 12
+		
+		return formPar1;
+	}
+	
+	int mapFunction2(int x) {
+		return x + a;
+	}
+	
+	void main() {
+		nizInt = new int[5];
+		nizInt[0] = 3; nizInt[2] = 6; nizInt[4] = 9;
+		
+		nizChar = new char[5];
+		nizChar[0] = 'p'; nizChar[1] = 'r'; nizChar[2] = 'o'; nizChar[3] = 'b'; nizChar[4] = 'a';
+		method1(5, 'a', true);
+		
+		a = mapFunction1 map nizInt;
+		print(a); print(eol);	// 268
+		
+		print(mapFunction2 map nizInt); print(eol);		// 1372
+
+		a++;
+		print(a); print(eol);	// 269
+	}
+}

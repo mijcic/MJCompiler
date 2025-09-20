@@ -1,0 +1,61 @@
+INFO  00:30:27,828 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  00:30:27,923 - #2 program
+INFO  00:30:27,923 - #44 Keske
+INFO  00:30:27,924 - #5 const
+INFO  00:30:27,925 - #44 byte
+INFO  00:30:27,925 - #44 pi
+INFO  00:30:27,925 - #6 =
+INFO  00:30:27,925 - #45 3
+INFO  00:30:27,926 - #8 ;
+INFO  00:30:27,927 - #3 {
+INFO  00:30:27,930 - #11 void
+INFO  00:30:27,930 - #44 main
+INFO  00:30:27,931 - #12 (
+INFO  00:30:27,931 - #13 )
+INFO  00:30:27,932 - #3 {
+INFO  00:30:27,933 - #4 }
+INFO  00:30:27,935 - #4 }
+INFO  00:30:27,940 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       byte
+      ) [Type_type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_e(
+    ) [ConstVarDeclList_e]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  00:30:27,942 - =========================================================================
+ERROR 00:30:27,952 - Tip podatka ne postoji: byte na liniji 3
+ERROR 00:30:27,952 - Neadekvatna dodela konstanti: pi na liniji 3
+INFO  00:30:27,952 - =========================================================================
+INFO  00:30:27,953 - Parsiranje NIJE uspesno zavrseno!

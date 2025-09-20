@@ -1,0 +1,95 @@
+INFO  01:57:00,365 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  01:57:00,408 - #2 program
+INFO  01:57:00,408 - #44 test302
+INFO  01:57:00,408 - #44 int
+INFO  01:57:00,408 - #44 i
+INFO  01:57:00,408 - #8 ;
+INFO  01:57:00,408 - #44 bool
+INFO  01:57:00,408 - #44 ibool
+INFO  01:57:00,410 - #8 ;
+INFO  01:57:00,410 - #44 int
+INFO  01:57:00,410 - #44 niz2
+INFO  01:57:00,410 - #8 ;
+INFO  01:57:00,410 - #44 int
+INFO  01:57:00,410 - #44 niz
+INFO  01:57:00,410 - #9 [
+INFO  01:57:00,410 - #10 ]
+INFO  01:57:00,410 - #8 ;
+INFO  01:57:00,410 - #44 int
+INFO  01:57:00,410 - #44 a
+INFO  01:57:00,410 - #8 ;
+INFO  01:57:00,410 - #3 {
+INFO  01:57:00,411 - #4 }
+INFO  01:57:00,413 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  ConstVarDeclList_var_list(
+    GlobalVarDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      GlobalVarDeclElem_var(
+       i
+      ) [GlobalVarDeclElem_var]
+      GlobalVarDeclListMore_e(
+      ) [GlobalVarDeclListMore_e]
+    ) [GlobalVarDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type_type(
+         bool
+        ) [Type_type]
+        GlobalVarDeclElem_var(
+         ibool
+        ) [GlobalVarDeclElem_var]
+        GlobalVarDeclListMore_e(
+        ) [GlobalVarDeclListMore_e]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_var_list(
+        GlobalVarDeclList(
+          Type_type(
+           int
+          ) [Type_type]
+          GlobalVarDeclElem_var(
+           niz2
+          ) [GlobalVarDeclElem_var]
+          GlobalVarDeclListMore_e(
+          ) [GlobalVarDeclListMore_e]
+        ) [GlobalVarDeclList]
+        ConstVarDeclList_var_list(
+          GlobalVarDeclList(
+            Type_type(
+             int
+            ) [Type_type]
+            GlobalVarDeclElem_array(
+             niz
+            ) [GlobalVarDeclElem_array]
+            GlobalVarDeclListMore_e(
+            ) [GlobalVarDeclListMore_e]
+          ) [GlobalVarDeclList]
+          ConstVarDeclList_var_list(
+            GlobalVarDeclList(
+              Type_type(
+               int
+              ) [Type_type]
+              GlobalVarDeclElem_var(
+               a
+              ) [GlobalVarDeclElem_var]
+              GlobalVarDeclListMore_e(
+              ) [GlobalVarDeclListMore_e]
+            ) [GlobalVarDeclList]
+            ConstVarDeclList_e(
+            ) [ConstVarDeclList_e]
+          ) [ConstVarDeclList_var_list]
+        ) [ConstVarDeclList_var_list]
+      ) [ConstVarDeclList_var_list]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_var_list]
+  MethodDeclList_e(
+  ) [MethodDeclList_e]
+) [Program]
+INFO  01:57:00,415 - =========================================================================
+ERROR 01:57:00,421 - Ne postoji odgovarajuca main metoda na liniji 3
+INFO  01:57:00,421 - =========================================================================
+INFO  01:57:00,421 - Parsiranje NIJE uspesno zavrseno!

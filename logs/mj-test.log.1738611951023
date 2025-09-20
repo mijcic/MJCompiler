@@ -1,0 +1,143 @@
+INFO  20:44:26,670 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:44:26,713 - #2 program
+INFO  20:44:26,713 - #44 TestIf
+INFO  20:44:26,714 - #3 {
+INFO  20:44:26,715 - #11 void
+INFO  20:44:26,715 - #44 main
+INFO  20:44:26,715 - #12 (
+INFO  20:44:26,716 - #13 )
+INFO  20:44:26,716 - #43 set
+INFO  20:44:26,717 - #44 i
+INFO  20:44:26,718 - #7 ,
+INFO  20:44:26,718 - #44 j
+INFO  20:44:26,718 - #7 ,
+INFO  20:44:26,718 - #44 k
+INFO  20:44:26,718 - #8 ;
+INFO  20:44:26,718 - #44 char
+INFO  20:44:26,719 - #44 a
+INFO  20:44:26,719 - #7 ,
+INFO  20:44:26,719 - #44 b
+INFO  20:44:26,719 - #7 ,
+INFO  20:44:26,719 - #44 c
+INFO  20:44:26,719 - #8 ;
+INFO  20:44:26,719 - #3 {
+INFO  20:44:26,720 - #44 i
+INFO  20:44:26,720 - #6 =
+INFO  20:44:26,722 - #44 j
+INFO  20:44:26,722 - #38 union
+INFO  20:44:26,722 - #44 a
+INFO  20:44:26,723 - #8 ;
+INFO  20:44:26,723 - #4 }
+INFO  20:44:26,724 - #4 }
+INFO  20:44:26,727 - Program(
+  ProgramName(
+   TestIf
+  ) [ProgramName]
+  ConstVarDeclList_e(
+  ) [ConstVarDeclList_e]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_set(
+          ) [Type_set]
+          LocalVarDeclElem_var(
+           i
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_more(
+            LocalVarDeclElem_var(
+             j
+            ) [LocalVarDeclElem_var]
+            LocalVarDeclListMore_more(
+              LocalVarDeclElem_var(
+               k
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclListMore_more]
+          ) [LocalVarDeclListMore_more]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type_type(
+             char
+            ) [Type_type]
+            LocalVarDeclElem_var(
+             a
+            ) [LocalVarDeclElem_var]
+            LocalVarDeclListMore_more(
+              LocalVarDeclElem_var(
+               b
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_more(
+                LocalVarDeclElem_var(
+                 c
+                ) [LocalVarDeclElem_var]
+                LocalVarDeclListMore_e(
+                ) [LocalVarDeclListMore_e]
+              ) [LocalVarDeclListMore_more]
+            ) [LocalVarDeclListMore_more]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_e(
+          ) [MethodsVarDeclList_e]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_setop_union(
+              DesignatorOption_designator(
+                Designator(
+                  DesignatorName(
+                   i
+                  ) [DesignatorName]
+                  DesignatorMore_e(
+                  ) [DesignatorMore_e]
+                ) [Designator]
+              ) [DesignatorOption_designator]
+              Assignop(
+              ) [Assignop]
+              DesignatorOption_designator(
+                Designator(
+                  DesignatorName(
+                   j
+                  ) [DesignatorName]
+                  DesignatorMore_e(
+                  ) [DesignatorMore_e]
+                ) [Designator]
+              ) [DesignatorOption_designator]
+              Setop(
+              ) [Setop]
+              DesignatorOption_designator(
+                Designator(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                  DesignatorMore_e(
+                  ) [DesignatorMore_e]
+                ) [Designator]
+              ) [DesignatorOption_designator]
+            ) [DesignatorStatementAssignop_setop_union]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  20:44:26,728 - =========================================================================
+ERROR 20:44:26,735 - Neadekvatna dodela vrednosti u promenljivu: i. Ne podudaraju se tipovi pri dodeli. na liniji 4
+INFO  20:44:26,736 - =========================================================================
+INFO  20:44:26,736 - Parsiranje NIJE uspesno zavrseno!

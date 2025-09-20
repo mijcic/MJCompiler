@@ -1,0 +1,175 @@
+INFO  21:36:37,528 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  21:36:37,578 - #2 program
+INFO  21:36:37,578 - #44 test301
+INFO  21:36:37,578 - #5 const
+INFO  21:36:37,578 - #44 int
+INFO  21:36:37,578 - #44 nula
+INFO  21:36:37,579 - #6 =
+INFO  21:36:37,579 - #45 0
+INFO  21:36:37,580 - #8 ;
+INFO  21:36:37,580 - #5 const
+INFO  21:36:37,581 - #44 int
+INFO  21:36:37,581 - #44 jedan
+INFO  21:36:37,581 - #6 =
+INFO  21:36:37,581 - #45 1
+INFO  21:36:37,581 - #8 ;
+INFO  21:36:37,581 - #5 const
+INFO  21:36:37,582 - #44 int
+INFO  21:36:37,582 - #44 pet
+INFO  21:36:37,582 - #6 =
+INFO  21:36:37,582 - #45 5
+INFO  21:36:37,582 - #8 ;
+INFO  21:36:37,582 - #44 int
+INFO  21:36:37,589 - #44 niz
+INFO  21:36:37,589 - #9 [
+INFO  21:36:37,589 - #10 ]
+INFO  21:36:37,590 - #8 ;
+INFO  21:36:37,590 - #44 char
+INFO  21:36:37,591 - #44 nizch
+INFO  21:36:37,591 - #9 [
+INFO  21:36:37,591 - #10 ]
+INFO  21:36:37,591 - #8 ;
+INFO  21:36:37,591 - #44 int
+INFO  21:36:37,591 - #44 a
+INFO  21:36:37,591 - #6 =
+ERROR 21:36:37,591 - 
+Sintaksna greska na liniji 12
+INFO  21:36:37,591 - #45 7
+INFO  21:36:37,592 - #8 ;
+INFO  21:36:37,592 - #3 {
+INFO  21:36:37,592 - #11 void
+INFO  21:36:37,592 - #44 main
+ERROR 21:36:37,596 - Oporavak od greske kod definicije globalne promenljive. Linija: 12
+INFO  21:36:37,598 - #12 (
+INFO  21:36:37,598 - #13 )
+INFO  21:36:37,599 - #44 int
+INFO  21:36:37,599 - #44 bodovi
+INFO  21:36:37,599 - #8 ;
+INFO  21:36:37,599 - #44 int
+INFO  21:36:37,600 - #44 temp
+INFO  21:36:37,600 - #8 ;
+INFO  21:36:37,600 - #3 {
+INFO  21:36:37,601 - #4 }
+INFO  21:36:37,601 - #4 }
+INFO  21:36:37,607 - Program(
+ test301
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       nula
+       0
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclElem_number(
+         jedan
+         1
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclElem_number(
+           pet
+           5
+          ) [ConstDeclElem_number]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_var_list(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDeclElem_array(
+             niz
+            ) [VarDeclElem_array]
+            VarDeclListMore_e(
+            ) [VarDeclListMore_e]
+          ) [VarDeclList]
+          ConstVarDeclList_var_list(
+            VarDeclList(
+              Type(
+               char
+              ) [Type]
+              VarDeclElem_array(
+               nizch
+              ) [VarDeclElem_array]
+              VarDeclListMore_e(
+              ) [VarDeclListMore_e]
+            ) [VarDeclList]
+            ConstVarDeclList_var_list(
+              VarDeclList(
+                Type(
+                 int
+                ) [Type]
+                VarDeclElem_ERROR(
+                ) [VarDeclElem_ERROR]
+                VarDeclListMore_e(
+                ) [VarDeclListMore_e]
+              ) [VarDeclList]
+              ConstVarDeclList_e(
+              ) [ConstVarDeclList_e]
+            ) [ConstVarDeclList_var_list]
+          ) [ConstVarDeclList_var_list]
+        ) [ConstVarDeclList_var_list]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+       main
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDeclElem_simple_var(
+           bodovi
+          ) [VarDeclElem_simple_var]
+          VarDeclListMore_e(
+          ) [VarDeclListMore_e]
+        ) [VarDeclList]
+        MethodsVarDeclList_list(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDeclElem_simple_var(
+             temp
+            ) [VarDeclElem_simple_var]
+            VarDeclListMore_e(
+            ) [VarDeclListMore_e]
+          ) [VarDeclList]
+          MethodsVarDeclList_e(
+          ) [MethodsVarDeclList_e]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  21:36:37,607 - =========================================================================
+INFO  21:36:37,607 - Parsiranje NIJE uspesno zavrseno!

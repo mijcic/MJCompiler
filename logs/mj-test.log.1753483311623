@@ -1,0 +1,70 @@
+INFO  00:40:43,722 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  00:40:43,818 - #2 program
+INFO  00:40:43,818 - #44 Keske
+INFO  00:40:43,818 - #5 const
+INFO  00:40:43,819 - #44 int
+INFO  00:40:43,819 - #44 pi
+INFO  00:40:43,820 - #6 =
+INFO  00:40:43,820 - #45 3
+INFO  00:40:43,820 - #7 ,
+INFO  00:40:43,820 - #44 pi
+INFO  00:40:43,820 - #6 =
+INFO  00:40:43,821 - #45 33
+INFO  00:40:43,821 - #8 ;
+INFO  00:40:43,822 - #3 {
+INFO  00:40:43,824 - #11 void
+INFO  00:40:43,824 - #44 main
+INFO  00:40:43,825 - #12 (
+INFO  00:40:43,826 - #13 )
+INFO  00:40:43,827 - #3 {
+INFO  00:40:43,829 - #4 }
+INFO  00:40:43,829 - #4 }
+INFO  00:40:43,835 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_more(
+        ConstDeclElem_number(
+         pi
+         33
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclListMore_more]
+    ) [ConstDeclList]
+    ConstVarDeclList_e(
+    ) [ConstVarDeclList_e]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  00:40:43,843 - =========================================================================
+ERROR 00:40:43,853 - Visestruka definicija konstante unutar istog opsega: pi na liniji 3
+INFO  00:40:43,854 - =========================================================================
+INFO  00:40:43,855 - Parsiranje NIJE uspesno zavrseno!

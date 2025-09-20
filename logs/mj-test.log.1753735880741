@@ -1,0 +1,202 @@
+INFO  22:51:07,373 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  22:51:07,459 - #2 program
+INFO  22:51:07,459 - #44 Keske
+INFO  22:51:07,459 - #5 const
+INFO  22:51:07,461 - #44 bool
+INFO  22:51:07,462 - #44 pi
+INFO  22:51:07,462 - #6 =
+INFO  22:51:07,462 - #46 0
+INFO  22:51:07,462 - #8 ;
+INFO  22:51:07,463 - #5 const
+INFO  22:51:07,465 - #44 int
+INFO  22:51:07,465 - #44 g
+INFO  22:51:07,465 - #6 =
+INFO  22:51:07,465 - #45 11
+INFO  22:51:07,465 - #8 ;
+INFO  22:51:07,465 - #44 char
+INFO  22:51:07,465 - #44 x
+INFO  22:51:07,465 - #7 ,
+INFO  22:51:07,465 - #44 y
+INFO  22:51:07,466 - #9 [
+INFO  22:51:07,466 - #10 ]
+INFO  22:51:07,466 - #8 ;
+INFO  22:51:07,467 - #5 const
+INFO  22:51:07,468 - #44 bool
+INFO  22:51:07,469 - #44 t
+INFO  22:51:07,469 - #6 =
+INFO  22:51:07,469 - #46 1
+INFO  22:51:07,469 - #8 ;
+INFO  22:51:07,469 - #3 {
+INFO  22:51:07,470 - #11 void
+INFO  22:51:07,470 - #44 main
+INFO  22:51:07,471 - #12 (
+INFO  22:51:07,473 - #13 )
+INFO  22:51:07,474 - #44 int
+INFO  22:51:07,475 - #44 a
+INFO  22:51:07,475 - #7 ,
+INFO  22:51:07,475 - #44 b
+INFO  22:51:07,475 - #9 [
+INFO  22:51:07,475 - #10 ]
+INFO  22:51:07,475 - #8 ;
+INFO  22:51:07,476 - #44 int
+INFO  22:51:07,477 - #44 x
+INFO  22:51:07,477 - #9 [
+INFO  22:51:07,478 - #10 ]
+INFO  22:51:07,478 - #7 ,
+INFO  22:51:07,478 - #44 y
+INFO  22:51:07,478 - #8 ;
+INFO  22:51:07,478 - #44 char
+INFO  22:51:07,478 - #44 eol
+INFO  22:51:07,478 - #8 ;
+INFO  22:51:07,478 - #3 {
+INFO  22:51:07,481 - #44 a
+INFO  22:51:07,481 - #23 ++
+INFO  22:51:07,484 - #8 ;
+INFO  22:51:07,484 - #4 }
+INFO  22:51:07,485 - #4 }
+INFO  22:51:07,493 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       bool
+      ) [Type_type]
+      ConstDeclElem_bool(
+       pi
+       0
+      ) [ConstDeclElem_bool]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type_type(
+         int
+        ) [Type_type]
+        ConstDeclElem_number(
+         g
+         11
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_var_list(
+        GlobalVarDeclList(
+          Type_type(
+           char
+          ) [Type_type]
+          GlobalVarDeclElem_var(
+           x
+          ) [GlobalVarDeclElem_var]
+          GlobalVarDeclListMore_more(
+            GlobalVarDeclElem_array(
+             y
+            ) [GlobalVarDeclElem_array]
+            GlobalVarDeclListMore_e(
+            ) [GlobalVarDeclListMore_e]
+          ) [GlobalVarDeclListMore_more]
+        ) [GlobalVarDeclList]
+        ConstVarDeclList_const_list(
+          ConstDeclList(
+            Type_type(
+             bool
+            ) [Type_type]
+            ConstDeclElem_bool(
+             t
+             1
+            ) [ConstDeclElem_bool]
+            ConstDeclListMore_e(
+            ) [ConstDeclListMore_e]
+          ) [ConstDeclList]
+          ConstVarDeclList_e(
+          ) [ConstVarDeclList_e]
+        ) [ConstVarDeclList_const_list]
+      ) [ConstVarDeclList_var_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_type(
+           int
+          ) [Type_type]
+          LocalVarDeclElem_var(
+           a
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_more(
+            LocalVarDeclElem_array(
+             b
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclListMore_more]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type_type(
+             int
+            ) [Type_type]
+            LocalVarDeclElem_array(
+             x
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_more(
+              LocalVarDeclElem_var(
+               y
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclListMore_more]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_list(
+            LocalVarDeclList(
+              Type_type(
+               char
+              ) [Type_type]
+              LocalVarDeclElem_var(
+               eol
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclList]
+            MethodsVarDeclList_e(
+            ) [MethodsVarDeclList_e]
+          ) [MethodsVarDeclList_list]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_inc(
+            DesignatorOption_designator(
+              Designator(
+                DesignatorName(
+                 a
+                ) [DesignatorName]
+                DesignatorMore_e(
+                ) [DesignatorMore_e]
+              ) [Designator]
+            ) [DesignatorOption_designator]
+          ) [DesignatorStatement_inc]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  22:51:07,493 - =========================================================================
+INFO  22:51:07,504 - =========================================================================
+INFO  22:51:07,504 - Parsiranje uspesno zavrseno!

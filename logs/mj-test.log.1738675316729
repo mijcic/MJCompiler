@@ -1,0 +1,57 @@
+INFO  14:21:47,771 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:21:47,867 - #2 program
+INFO  14:21:47,867 - #44 TestIf
+INFO  14:21:47,867 - #3 {
+INFO  14:21:47,869 - #11 void
+INFO  14:21:47,869 - #44 main
+INFO  14:21:47,870 - #12 (
+INFO  14:21:47,871 - #13 )
+INFO  14:21:47,872 - #44 int
+INFO  14:21:47,873 - #44 niz
+INFO  14:21:47,873 - #9 [
+INFO  14:21:47,873 - #10 ]
+INFO  14:21:47,874 - #8 ;
+INFO  14:21:47,875 - #3 {
+INFO  14:21:47,877 - #4 }
+INFO  14:21:47,877 - #4 }
+INFO  14:21:47,883 - Program(
+  ProgramName(
+   TestIf
+  ) [ProgramName]
+  ConstVarDeclList_e(
+  ) [ConstVarDeclList_e]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_type(
+           int
+          ) [Type_type]
+          LocalVarDeclElem_array(
+           niz
+          ) [LocalVarDeclElem_array]
+          LocalVarDeclListMore_e(
+          ) [LocalVarDeclListMore_e]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_e(
+        ) [MethodsVarDeclList_e]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  14:21:47,890 - =========================================================================
+INFO  14:21:47,899 - =========================================================================
+INFO  14:21:47,905 - Generisanje koda uspesno zavrseno!

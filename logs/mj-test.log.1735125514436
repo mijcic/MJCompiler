@@ -1,0 +1,91 @@
+INFO  12:18:14,087 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  12:18:14,170 - #2 program
+INFO  12:18:14,171 - #44 Keske
+INFO  12:18:14,171 - #5 const
+INFO  12:18:14,172 - #44 int
+INFO  12:18:14,172 - #44 pi
+INFO  12:18:14,173 - #6 =
+INFO  12:18:14,174 - #45 13
+INFO  12:18:14,174 - #7 ,
+INFO  12:18:14,174 - #44 g
+INFO  12:18:14,175 - #6 =
+INFO  12:18:14,175 - #45 11
+INFO  12:18:14,175 - #8 ;
+INFO  12:18:14,175 - #44 char
+INFO  12:18:14,176 - #44 x
+INFO  12:18:14,177 - #7 ,
+INFO  12:18:14,177 - #44 y
+INFO  12:18:14,177 - #9 [
+INFO  12:18:14,177 - #10 ]
+INFO  12:18:14,177 - #8 ;
+INFO  12:18:14,178 - #3 {
+INFO  12:18:14,180 - #11 void
+INFO  12:18:14,180 - #44 main
+INFO  12:18:14,189 - #12 (
+INFO  12:18:14,189 - #13 )
+INFO  12:18:14,190 - #3 {
+INFO  12:18:14,192 - #4 }
+INFO  12:18:14,193 - #4 }
+INFO  12:18:14,199 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       pi
+       13
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_more(
+        ConstDeclElem_number(
+         g
+         11
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclListMore_more]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type(
+         char
+        ) [Type]
+        GlobalVarDeclElem_var(
+         x
+        ) [GlobalVarDeclElem_var]
+        GlobalVarDeclListMore_more(
+          GlobalVarDeclElem_array(
+           y
+          ) [GlobalVarDeclElem_array]
+          GlobalVarDeclListMore_e(
+          ) [GlobalVarDeclListMore_e]
+        ) [GlobalVarDeclListMore_more]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_e(
+      ) [ConstVarDeclList_e]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+       main
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  12:18:14,199 - =========================================================================
+INFO  12:18:14,207 - =========================================================================
+INFO  12:18:14,208 - Parsiranje uspesno zavrseno!

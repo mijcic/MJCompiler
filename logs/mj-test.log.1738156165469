@@ -1,0 +1,129 @@
+INFO  14:09:03,388 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:09:03,429 - #2 program
+INFO  14:09:03,429 - #44 test301
+INFO  14:09:03,429 - #5 const
+INFO  14:09:03,430 - #44 int
+INFO  14:09:03,430 - #44 nula
+INFO  14:09:03,430 - #6 =
+INFO  14:09:03,431 - #45 0
+INFO  14:09:03,431 - #8 ;
+INFO  14:09:03,431 - #5 const
+INFO  14:09:03,432 - #44 int
+INFO  14:09:03,432 - #44 jedan
+INFO  14:09:03,432 - #6 =
+INFO  14:09:03,432 - #45 1
+INFO  14:09:03,432 - #8 ;
+INFO  14:09:03,432 - #5 const
+INFO  14:09:03,432 - #44 int
+INFO  14:09:03,432 - #44 pet
+INFO  14:09:03,432 - #6 =
+INFO  14:09:03,432 - #45 5
+INFO  14:09:03,432 - #8 ;
+INFO  14:09:03,432 - #3 {
+INFO  14:09:03,433 - #11 void
+INFO  14:09:03,434 - #44 main
+INFO  14:09:03,434 - #12 (
+INFO  14:09:03,435 - #13 )
+INFO  14:09:03,435 - #44 int
+INFO  14:09:03,435 - #44 a
+INFO  14:09:03,436 - #8 ;
+INFO  14:09:03,436 - #3 {
+INFO  14:09:03,437 - #44 a
+INFO  14:09:03,437 - #6 =
+INFO  14:09:03,439 - #45 2
+INFO  14:09:03,439 - #44 UNION
+ERROR 14:09:03,439 - 
+Sintaksna greska na liniji 11
+INFO  14:09:03,439 - #45 2
+INFO  14:09:03,439 - #8 ;
+INFO  14:09:03,439 - #4 }
+INFO  14:09:03,440 - #4 }
+ERROR 14:09:03,442 - Oporavak od greske kod DesignatorStatement-a kod iskaza dodele. Linija: 9
+INFO  14:09:03,447 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       nula
+       0
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclElem_number(
+         jedan
+         1
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclElem_number(
+           pet
+           5
+          ) [ConstDeclElem_number]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_e(
+        ) [ConstVarDeclList_e]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type(
+           int
+          ) [Type]
+          LocalVarDeclElem_var(
+           a
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_e(
+          ) [LocalVarDeclListMore_e]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_e(
+        ) [MethodsVarDeclList_e]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_ERROR(
+            ) [DesignatorStatementAssignop_ERROR]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  14:09:03,447 - =========================================================================
+INFO  14:09:03,452 - =========================================================================
+INFO  14:09:03,453 - Parsiranje NIJE uspesno zavrseno!

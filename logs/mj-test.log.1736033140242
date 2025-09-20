@@ -1,0 +1,212 @@
+INFO  00:25:17,354 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  00:25:17,392 - #2 program
+INFO  00:25:17,392 - #44 Keske
+INFO  00:25:17,392 - #5 const
+INFO  00:25:17,392 - #44 int
+INFO  00:25:17,393 - #44 pi
+INFO  00:25:17,393 - #6 =
+INFO  00:25:17,393 - #45 3
+INFO  00:25:17,393 - #7 ,
+INFO  00:25:17,393 - #44 g
+INFO  00:25:17,393 - #6 =
+INFO  00:25:17,393 - #45 11
+INFO  00:25:17,394 - #8 ;
+INFO  00:25:17,394 - #44 char
+INFO  00:25:17,395 - #44 x
+INFO  00:25:17,395 - #7 ,
+INFO  00:25:17,395 - #44 y
+INFO  00:25:17,395 - #9 [
+INFO  00:25:17,395 - #10 ]
+INFO  00:25:17,395 - #8 ;
+INFO  00:25:17,396 - #5 const
+INFO  00:25:17,396 - #44 bool
+INFO  00:25:17,396 - #44 t
+INFO  00:25:17,398 - #6 =
+INFO  00:25:17,398 - #46 0
+INFO  00:25:17,398 - #8 ;
+INFO  00:25:17,398 - #5 const
+INFO  00:25:17,398 - #44 int
+INFO  00:25:17,399 - #44 a
+INFO  00:25:17,399 - #6 =
+INFO  00:25:17,399 - #47 c
+INFO  00:25:17,399 - #8 ;
+INFO  00:25:17,399 - #3 {
+INFO  00:25:17,399 - #11 void
+INFO  00:25:17,400 - #44 main
+INFO  00:25:17,400 - #12 (
+INFO  00:25:17,400 - #13 )
+INFO  00:25:17,401 - #44 int
+INFO  00:25:17,401 - #44 a
+INFO  00:25:17,401 - #7 ,
+INFO  00:25:17,402 - #44 b
+INFO  00:25:17,402 - #9 [
+INFO  00:25:17,402 - #10 ]
+INFO  00:25:17,402 - #8 ;
+INFO  00:25:17,402 - #44 int
+INFO  00:25:17,403 - #44 x
+INFO  00:25:17,403 - #9 [
+INFO  00:25:17,403 - #10 ]
+INFO  00:25:17,403 - #7 ,
+INFO  00:25:17,403 - #44 y
+INFO  00:25:17,403 - #8 ;
+INFO  00:25:17,403 - #44 char
+INFO  00:25:17,403 - #44 eol
+INFO  00:25:17,403 - #8 ;
+INFO  00:25:17,403 - #44 char
+INFO  00:25:17,403 - #44 e
+INFO  00:25:17,403 - #9 [
+INFO  00:25:17,403 - #10 ]
+INFO  00:25:17,403 - #8 ;
+INFO  00:25:17,404 - #3 {
+INFO  00:25:17,404 - #4 }
+INFO  00:25:17,404 - #4 }
+INFO  00:25:17,408 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_more(
+        ConstDeclElem_number(
+         g
+         11
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclListMore_more]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type(
+         char
+        ) [Type]
+        GlobalVarDeclElem_var(
+         x
+        ) [GlobalVarDeclElem_var]
+        GlobalVarDeclListMore_more(
+          GlobalVarDeclElem_array(
+           y
+          ) [GlobalVarDeclElem_array]
+          GlobalVarDeclListMore_e(
+          ) [GlobalVarDeclListMore_e]
+        ) [GlobalVarDeclListMore_more]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type(
+           bool
+          ) [Type]
+          ConstDeclElem_bool(
+           t
+           0
+          ) [ConstDeclElem_bool]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_const_list(
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclElem_character(
+             a
+             c
+            ) [ConstDeclElem_character]
+            ConstDeclListMore_e(
+            ) [ConstDeclListMore_e]
+          ) [ConstDeclList]
+          ConstVarDeclList_e(
+          ) [ConstVarDeclList_e]
+        ) [ConstVarDeclList_const_list]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type(
+           int
+          ) [Type]
+          LocalVarDeclElem_var(
+           a
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_more(
+            LocalVarDeclElem_array(
+             b
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclListMore_more]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type(
+             int
+            ) [Type]
+            LocalVarDeclElem_array(
+             x
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_more(
+              LocalVarDeclElem_var(
+               y
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclListMore_more]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_list(
+            LocalVarDeclList(
+              Type(
+               char
+              ) [Type]
+              LocalVarDeclElem_var(
+               eol
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclList]
+            MethodsVarDeclList_list(
+              LocalVarDeclList(
+                Type(
+                 char
+                ) [Type]
+                LocalVarDeclElem_array(
+                 e
+                ) [LocalVarDeclElem_array]
+                LocalVarDeclListMore_e(
+                ) [LocalVarDeclListMore_e]
+              ) [LocalVarDeclList]
+              MethodsVarDeclList_e(
+              ) [MethodsVarDeclList_e]
+            ) [MethodsVarDeclList_list]
+          ) [MethodsVarDeclList_list]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  00:25:17,409 - =========================================================================
+ERROR 00:25:17,414 - Neadekvatna dodela konstanti: a na liniji 9
+INFO  00:25:17,414 - =========================================================================
+INFO  00:25:17,415 - Parsiranje NIJE uspesno zavrseno!

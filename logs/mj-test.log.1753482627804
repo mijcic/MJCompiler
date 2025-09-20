@@ -1,0 +1,121 @@
+INFO  00:00:34,537 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  00:00:34,630 - #2 program
+INFO  00:00:34,631 - #44 Keske
+INFO  00:00:34,631 - #5 const
+INFO  00:00:34,631 - #44 int
+INFO  00:00:34,633 - #44 pi
+INFO  00:00:34,633 - #6 =
+INFO  00:00:34,633 - #45 3
+INFO  00:00:34,633 - #8 ;
+INFO  00:00:34,634 - #44 char
+INFO  00:00:34,635 - #44 carr
+INFO  00:00:34,635 - #9 [
+INFO  00:00:34,636 - #10 ]
+INFO  00:00:34,636 - #8 ;
+INFO  00:00:34,637 - #3 {
+INFO  00:00:34,639 - #11 void
+INFO  00:00:34,639 - #44 main
+INFO  00:00:34,640 - #12 (
+INFO  00:00:34,640 - #13 )
+INFO  00:00:34,641 - #3 {
+INFO  00:00:34,644 - #4 }
+INFO  00:00:34,645 - #44 int
+INFO  00:00:34,646 - #44 f
+INFO  00:00:34,655 - #12 (
+INFO  00:00:34,655 - #13 )
+INFO  00:00:34,655 - #3 {
+INFO  00:00:34,655 - #18 return
+INFO  00:00:34,655 - #46 1
+INFO  00:00:34,656 - #8 ;
+INFO  00:00:34,659 - #4 }
+INFO  00:00:34,659 - #4 }
+INFO  00:00:34,665 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type_type(
+         char
+        ) [Type_type]
+        GlobalVarDeclElem_array(
+         carr
+        ) [GlobalVarDeclElem_array]
+        GlobalVarDeclListMore_e(
+        ) [GlobalVarDeclListMore_e]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_e(
+      ) [ConstVarDeclList_e]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_more(
+      MethodDeclElem(
+        MethodSignature(
+          MethodsType_type(
+            Type_type(
+             int
+            ) [Type_type]
+          ) [MethodsType_type]
+          MethodName(
+           f
+          ) [MethodName]
+          MethodSignaturesFormPars_e(
+          ) [MethodSignaturesFormPars_e]
+        ) [MethodSignature]
+        MethodsVarDeclList_e(
+        ) [MethodsVarDeclList_e]
+        MethodsStatementList_list(
+          Statement_return_expr(
+            Expr_term(
+              Term(
+                Factor_bool(
+                 1
+                ) [Factor_bool]
+                TermMore_e(
+                ) [TermMore_e]
+              ) [Term]
+              ExprMore_e(
+              ) [ExprMore_e]
+            ) [Expr_term]
+          ) [Statement_return_expr]
+          MethodsStatementList_e(
+          ) [MethodsStatementList_e]
+        ) [MethodsStatementList_list]
+      ) [MethodDeclElem]
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+    ) [MethodDeclList_more]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  00:00:34,665 - =========================================================================
+ERROR 00:00:34,673 - Dogodio se nevalidan return iskaz unutar metode: f na liniji 13
+INFO  00:00:34,673 - =========================================================================
+INFO  00:00:34,674 - Parsiranje NIJE uspesno zavrseno!

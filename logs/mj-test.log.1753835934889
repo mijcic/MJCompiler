@@ -1,0 +1,120 @@
+INFO  16:57:29,039 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:57:29,134 - #2 program
+INFO  16:57:29,135 - #44 Proba
+INFO  16:57:29,135 - #5 const
+INFO  16:57:29,136 - #44 int
+INFO  16:57:29,136 - #44 g
+INFO  16:57:29,136 - #6 =
+INFO  16:57:29,136 - #45 5
+INFO  16:57:29,136 - #8 ;
+INFO  16:57:29,137 - #5 const
+INFO  16:57:29,138 - #44 char
+INFO  16:57:29,139 - #44 c
+INFO  16:57:29,139 - #6 =
+INFO  16:57:29,139 - #47 a
+INFO  16:57:29,139 - #7 ,
+INFO  16:57:29,139 - #44 a
+INFO  16:57:29,139 - #6 =
+INFO  16:57:29,139 - #47 a
+INFO  16:57:29,139 - #8 ;
+INFO  16:57:29,141 - #5 const
+INFO  16:57:29,141 - #44 bool
+INFO  16:57:29,141 - #44 v
+INFO  16:57:29,141 - #6 =
+INFO  16:57:29,147 - #46 1
+INFO  16:57:29,147 - #8 ;
+INFO  16:57:29,148 - #3 {
+INFO  16:57:29,150 - #11 void
+INFO  16:57:29,150 - #44 main
+INFO  16:57:29,151 - #12 (
+INFO  16:57:29,152 - #44 int
+INFO  16:57:29,152 - #44 a
+INFO  16:57:29,153 - #13 )
+INFO  16:57:29,155 - #3 {
+INFO  16:57:29,157 - #4 }
+INFO  16:57:29,158 - #4 }
+INFO  16:57:29,164 - Program(
+  ProgramName(
+   Proba
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       g
+       5
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type_type(
+         char
+        ) [Type_type]
+        ConstDeclElem_character(
+         c
+         a
+        ) [ConstDeclElem_character]
+        ConstDeclListMore_more(
+          ConstDeclElem_character(
+           a
+           a
+          ) [ConstDeclElem_character]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclListMore_more]
+      ) [ConstDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type_type(
+           bool
+          ) [Type_type]
+          ConstDeclElem_bool(
+           v
+           1
+          ) [ConstDeclElem_bool]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_e(
+        ) [ConstVarDeclList_e]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_list(
+          FormParsList(
+            FormParsElem_param(
+              Type_type(
+               int
+              ) [Type_type]
+             a
+            ) [FormParsElem_param]
+            FormParsListMore_e(
+            ) [FormParsListMore_e]
+          ) [FormParsList]
+        ) [MethodSignaturesFormPars_list]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  16:57:29,164 - =========================================================================
+ERROR 16:57:29,175 - Pokusaj deklaracije formalnog parametra unutar main metode: a na liniji 8
+INFO  16:57:29,175 - =========================================================================
+INFO  16:57:29,176 - Parsiranje NIJE uspesno zavrseno!

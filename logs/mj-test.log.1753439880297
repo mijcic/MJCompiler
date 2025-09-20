@@ -1,0 +1,76 @@
+INFO  12:37:10,766 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  12:37:10,862 - #2 program
+INFO  12:37:10,862 - #44 Keske
+INFO  12:37:10,862 - #5 const
+INFO  12:37:10,863 - #44 int
+INFO  12:37:10,863 - #44 pi
+INFO  12:37:10,864 - #6 =
+INFO  12:37:10,864 - #45 3
+INFO  12:37:10,864 - #8 ;
+INFO  12:37:10,866 - #44 char
+INFO  12:37:10,867 - #44 carr
+INFO  12:37:10,867 - #9 [
+INFO  12:37:10,867 - #10 ]
+INFO  12:37:10,867 - #8 ;
+INFO  12:37:10,868 - #3 {
+INFO  12:37:10,870 - #11 void
+INFO  12:37:10,870 - #44 main
+INFO  12:37:10,872 - #12 (
+INFO  12:37:10,873 - #13 )
+INFO  12:37:10,874 - #3 {
+INFO  12:37:10,875 - #4 }
+INFO  12:37:10,876 - #4 }
+INFO  12:37:10,883 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type_type(
+         char
+        ) [Type_type]
+        GlobalVarDeclElem_array(
+         carr
+        ) [GlobalVarDeclElem_array]
+        GlobalVarDeclListMore_e(
+        ) [GlobalVarDeclListMore_e]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_e(
+      ) [ConstVarDeclList_e]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  12:37:10,891 - =========================================================================
+INFO  12:37:10,900 - =========================================================================
+INFO  12:37:10,902 - Parsiranje uspesno zavrseno!

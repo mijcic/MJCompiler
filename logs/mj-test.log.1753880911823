@@ -1,0 +1,116 @@
+INFO  15:07:25,196 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  15:07:25,294 - #2 program
+INFO  15:07:25,294 - #44 Proba
+INFO  15:07:25,294 - #5 const
+INFO  15:07:25,297 - #44 int
+INFO  15:07:25,297 - #44 a
+INFO  15:07:25,297 - #6 =
+INFO  15:07:25,297 - #45 5
+INFO  15:07:25,297 - #8 ;
+INFO  15:07:25,306 - #5 const
+INFO  15:07:25,309 - #44 bool
+INFO  15:07:25,310 - #44 b
+INFO  15:07:25,310 - #6 =
+INFO  15:07:25,310 - #46 1
+INFO  15:07:25,310 - #8 ;
+INFO  15:07:25,310 - #5 const
+INFO  15:07:25,310 - #44 char
+INFO  15:07:25,310 - #44 c
+INFO  15:07:25,311 - #6 =
+INFO  15:07:25,311 - #47 c
+INFO  15:07:25,311 - #8 ;
+INFO  15:07:25,311 - #44 int
+INFO  15:07:25,311 - #44 d
+INFO  15:07:25,311 - #6 =
+ERROR 15:07:25,311 - 
+Sintaksna greska na liniji 8
+INFO  15:07:25,311 - #45 5
+INFO  15:07:25,312 - #8 ;
+INFO  15:07:25,312 - #3 {
+INFO  15:07:25,314 - #11 void
+INFO  15:07:25,314 - #44 main
+ERROR 15:07:25,319 - Oporavak od greske kod definicije globalne promenljive. Linija: 8
+INFO  15:07:25,323 - #12 (
+INFO  15:07:25,325 - #13 )
+INFO  15:07:25,326 - #3 {
+INFO  15:07:25,328 - #4 }
+INFO  15:07:25,329 - #4 }
+INFO  15:07:25,336 - Program(
+  ProgramName(
+   Proba
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       a
+       5
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type_type(
+         bool
+        ) [Type_type]
+        ConstDeclElem_bool(
+         b
+         1
+        ) [ConstDeclElem_bool]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type_type(
+           char
+          ) [Type_type]
+          ConstDeclElem_character(
+           c
+           c
+          ) [ConstDeclElem_character]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_var_list(
+          GlobalVarDeclList(
+            Type_type(
+             int
+            ) [Type_type]
+            GlobalVarDeclElem_ERROR(
+            ) [GlobalVarDeclElem_ERROR]
+            GlobalVarDeclListMore_e(
+            ) [GlobalVarDeclListMore_e]
+          ) [GlobalVarDeclList]
+          ConstVarDeclList_e(
+          ) [ConstVarDeclList_e]
+        ) [ConstVarDeclList_var_list]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  15:07:25,337 - =========================================================================
+INFO  15:07:25,347 - =========================================================================
+INFO  15:07:25,348 - Parsiranje NIJE uspesno zavrseno!

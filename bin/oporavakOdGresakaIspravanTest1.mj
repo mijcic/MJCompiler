@@ -1,0 +1,36 @@
+program OporavakOdGresakaTest 
+
+const int a = 3;
+const char b = 'b';
+const bool c = false;
+
+char d;	
+
+{
+	int method1(int e, char f, bool b) int t; {
+		print(e); print(eol);			// 5
+		f = 'f'; 
+		print(f); print(eol);			// 'f'
+		print(b); print(eol);			// 1
+		return a;
+	}
+	
+	void method2(int formPar1, int formPar2) 
+	{
+		if (a < 4) formPar1 = 2;		
+		print(formPar1); print(eol);	// 2
+	}
+	
+	char method3() set set1; {
+		if (a == 3) {	
+			print(3); print(eol);		// 3
+		}
+		return 's';
+	}
+
+	void main() {
+		method1(5, 'a', true);
+		method2(4, 5);
+		method3();
+	}
+}

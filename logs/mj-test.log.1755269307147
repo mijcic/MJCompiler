@@ -1,0 +1,140 @@
+INFO  16:47:51,753 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:47:51,812 - #2 program
+INFO  16:47:51,812 - #44 test302
+INFO  16:47:51,812 - #44 int
+INFO  16:47:51,813 - #44 i
+INFO  16:47:51,813 - #8 ;
+INFO  16:47:51,813 - #44 bool
+INFO  16:47:51,814 - #44 ibool
+INFO  16:47:51,814 - #8 ;
+INFO  16:47:51,814 - #44 int
+INFO  16:47:51,814 - #44 niz2
+INFO  16:47:51,814 - #8 ;
+INFO  16:47:51,815 - #44 int
+INFO  16:47:51,815 - #44 niz
+INFO  16:47:51,815 - #9 [
+INFO  16:47:51,815 - #10 ]
+INFO  16:47:51,815 - #8 ;
+INFO  16:47:51,815 - #44 int
+INFO  16:47:51,815 - #44 a
+INFO  16:47:51,815 - #8 ;
+INFO  16:47:51,815 - #3 {
+INFO  16:47:51,816 - #11 void
+INFO  16:47:51,816 - #44 main
+INFO  16:47:51,817 - #12 (
+INFO  16:47:51,818 - #13 )
+INFO  16:47:51,818 - #3 {
+INFO  16:47:51,820 - #21 do
+INFO  16:47:51,821 - #3 {
+INFO  16:47:51,821 - #4 }
+INFO  16:47:51,822 - #22 while
+INFO  16:47:51,822 - #12 (
+INFO  16:47:51,822 - #13 )
+INFO  16:47:51,822 - #8 ;
+INFO  16:47:51,822 - #4 }
+INFO  16:47:51,824 - #4 }
+INFO  16:47:51,826 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  ConstVarDeclList_var_list(
+    GlobalVarDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      GlobalVarDeclElem_var(
+       i
+      ) [GlobalVarDeclElem_var]
+      GlobalVarDeclListMore_e(
+      ) [GlobalVarDeclListMore_e]
+    ) [GlobalVarDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type_type(
+         bool
+        ) [Type_type]
+        GlobalVarDeclElem_var(
+         ibool
+        ) [GlobalVarDeclElem_var]
+        GlobalVarDeclListMore_e(
+        ) [GlobalVarDeclListMore_e]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_var_list(
+        GlobalVarDeclList(
+          Type_type(
+           int
+          ) [Type_type]
+          GlobalVarDeclElem_var(
+           niz2
+          ) [GlobalVarDeclElem_var]
+          GlobalVarDeclListMore_e(
+          ) [GlobalVarDeclListMore_e]
+        ) [GlobalVarDeclList]
+        ConstVarDeclList_var_list(
+          GlobalVarDeclList(
+            Type_type(
+             int
+            ) [Type_type]
+            GlobalVarDeclElem_array(
+             niz
+            ) [GlobalVarDeclElem_array]
+            GlobalVarDeclListMore_e(
+            ) [GlobalVarDeclListMore_e]
+          ) [GlobalVarDeclList]
+          ConstVarDeclList_var_list(
+            GlobalVarDeclList(
+              Type_type(
+               int
+              ) [Type_type]
+              GlobalVarDeclElem_var(
+               a
+              ) [GlobalVarDeclElem_var]
+              GlobalVarDeclListMore_e(
+              ) [GlobalVarDeclListMore_e]
+            ) [GlobalVarDeclList]
+            ConstVarDeclList_e(
+            ) [ConstVarDeclList_e]
+          ) [ConstVarDeclList_var_list]
+        ) [ConstVarDeclList_var_list]
+      ) [ConstVarDeclList_var_list]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_var_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodDeclElemLeftBrace(
+      ) [MethodDeclElemLeftBrace]
+      MethodsStatementList_list(
+        Statement_do_while(
+          StartOfDoWhileLoop(
+          ) [StartOfDoWhileLoop]
+          Statement_statementList(
+            StatementList_e(
+            ) [StatementList_e]
+          ) [Statement_statementList]
+          StartOfCondition(
+          ) [StartOfCondition]
+          EndOfDoWhileLoop(
+          ) [EndOfDoWhileLoop]
+        ) [Statement_do_while]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  16:47:51,827 - =========================================================================
+INFO  16:47:51,834 - =========================================================================
+INFO  16:47:51,844 - Generisanje koda uspesno zavrseno!

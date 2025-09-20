@@ -1,0 +1,58 @@
+INFO  00:18:55,114 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  00:18:55,180 - #2 program
+INFO  00:18:55,180 - #44 Keske
+INFO  00:18:55,180 - #5 const
+INFO  00:18:55,182 - #44 byte
+INFO  00:18:55,182 - #44 pi
+INFO  00:18:55,183 - #6 =
+INFO  00:18:55,183 - #45 3
+INFO  00:18:55,183 - #8 ;
+INFO  00:18:55,184 - #3 {
+INFO  00:18:55,186 - #11 void
+INFO  00:18:55,186 - #44 main
+INFO  00:18:55,187 - #12 (
+INFO  00:18:55,187 - #13 )
+INFO  00:18:55,188 - #3 {
+INFO  00:18:55,190 - #4 }
+INFO  00:18:55,190 - #4 }
+INFO  00:18:55,193 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       byte
+      ) [Type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_e(
+    ) [ConstVarDeclList_e]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+       main
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  00:18:55,201 - =========================================================================
+ERROR 00:18:55,207 - Nepostojeci tip podatka: byte na liniji 3
+INFO  00:18:55,208 - =========================================================================
+INFO  00:18:55,208 - Parsiranje NIJE uspesno zavrseno!

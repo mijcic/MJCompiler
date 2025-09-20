@@ -1,0 +1,185 @@
+INFO  12:38:34,776 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  12:38:34,851 - #2 program
+INFO  12:38:34,851 - #44 Test1
+INFO  12:38:34,851 - #3 {
+INFO  12:38:34,853 - #11 void
+INFO  12:38:34,853 - #44 ispis
+INFO  12:38:34,854 - #12 (
+INFO  12:38:34,854 - #13 )
+INFO  12:38:34,855 - #3 {
+INFO  12:38:34,857 - #20 print
+INFO  12:38:34,857 - #12 (
+INFO  12:38:34,857 - #45 1
+INFO  12:38:34,857 - #13 )
+INFO  12:38:34,860 - #8 ;
+INFO  12:38:34,860 - #4 }
+INFO  12:38:34,861 - #11 void
+INFO  12:38:34,862 - #44 main
+INFO  12:38:34,862 - #12 (
+INFO  12:38:34,862 - #13 )
+INFO  12:38:34,862 - #44 int
+INFO  12:38:34,863 - #44 a
+INFO  12:38:34,863 - #7 ,
+INFO  12:38:34,864 - #44 b
+INFO  12:38:34,864 - #7 ,
+INFO  12:38:34,864 - #44 c
+INFO  12:38:34,865 - #7 ,
+INFO  12:38:34,865 - #44 i
+INFO  12:38:34,865 - #8 ;
+INFO  12:38:34,866 - #44 int
+INFO  12:38:34,866 - #44 arr
+INFO  12:38:34,867 - #9 [
+INFO  12:38:34,867 - #10 ]
+INFO  12:38:34,867 - #8 ;
+INFO  12:38:34,867 - #3 {
+INFO  12:38:34,867 - #44 a
+INFO  12:38:34,867 - #6 =
+INFO  12:38:34,869 - #44 ispis
+INFO  12:38:34,871 - #12 (
+INFO  12:38:34,871 - #13 )
+INFO  12:38:34,873 - #8 ;
+INFO  12:38:34,874 - #4 }
+INFO  12:38:34,874 - #4 }
+INFO  12:38:34,881 - Program(
+  ProgramName(
+   Test1
+  ) [ProgramName]
+  ConstVarDeclList_e(
+  ) [ConstVarDeclList_e]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         ispis
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_list(
+        Statement_print_expr(
+          Expr_term(
+            Term(
+              Factor_number(
+               1
+              ) [Factor_number]
+              TermMore_e(
+              ) [TermMore_e]
+            ) [Term]
+            ExprMore_e(
+            ) [ExprMore_e]
+          ) [Expr_term]
+        ) [Statement_print_expr]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_more(
+      MethodDeclElem(
+        MethodSignature(
+          MethodsType_void(
+          ) [MethodsType_void]
+          MethodName(
+           main
+          ) [MethodName]
+          MethodSignaturesFormPars_e(
+          ) [MethodSignaturesFormPars_e]
+        ) [MethodSignature]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type(
+             int
+            ) [Type]
+            LocalVarDeclElem_var(
+             a
+            ) [LocalVarDeclElem_var]
+            LocalVarDeclListMore_more(
+              LocalVarDeclElem_var(
+               b
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_more(
+                LocalVarDeclElem_var(
+                 c
+                ) [LocalVarDeclElem_var]
+                LocalVarDeclListMore_more(
+                  LocalVarDeclElem_var(
+                   i
+                  ) [LocalVarDeclElem_var]
+                  LocalVarDeclListMore_e(
+                  ) [LocalVarDeclListMore_e]
+                ) [LocalVarDeclListMore_more]
+              ) [LocalVarDeclListMore_more]
+            ) [LocalVarDeclListMore_more]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_list(
+            LocalVarDeclList(
+              Type(
+               int
+              ) [Type]
+              LocalVarDeclElem_array(
+               arr
+              ) [LocalVarDeclElem_array]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclList]
+            MethodsVarDeclList_e(
+            ) [MethodsVarDeclList_e]
+          ) [MethodsVarDeclList_list]
+        ) [MethodsVarDeclList_list]
+        MethodsStatementList_list(
+          Statement_designatorStatement(
+            DesignatorStatement_assignop(
+              DesignatorStatementAssignop_expr(
+                DesignatorOption_designator(
+                  Designator(
+                    DesignatorName(
+                     a
+                    ) [DesignatorName]
+                    DesignatorMore_e(
+                    ) [DesignatorMore_e]
+                  ) [Designator]
+                ) [DesignatorOption_designator]
+                Assignop(
+                ) [Assignop]
+                Expr_term(
+                  Term(
+                    Factor_designator_fun_no_params(
+                      DesignatorOption_designator(
+                        Designator(
+                          DesignatorName(
+                           ispis
+                          ) [DesignatorName]
+                          DesignatorMore_e(
+                          ) [DesignatorMore_e]
+                        ) [Designator]
+                      ) [DesignatorOption_designator]
+                      NoActParsList(
+                        StartOfActParsList(
+                        ) [StartOfActParsList]
+                      ) [NoActParsList]
+                    ) [Factor_designator_fun_no_params]
+                    TermMore_e(
+                    ) [TermMore_e]
+                  ) [Term]
+                  ExprMore_e(
+                  ) [ExprMore_e]
+                ) [Expr_term]
+              ) [DesignatorStatementAssignop_expr]
+            ) [DesignatorStatement_assignop]
+          ) [Statement_designatorStatement]
+          MethodsStatementList_e(
+          ) [MethodsStatementList_e]
+        ) [MethodsStatementList_list]
+      ) [MethodDeclElem]
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+    ) [MethodDeclList_more]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  12:38:34,882 - =========================================================================
+ERROR 12:38:34,893 - Neadekvatna dodela vrednosti u promenljivu: a na liniji 7
+INFO  12:38:34,893 - =========================================================================
+INFO  12:38:34,894 - Parsiranje NIJE uspesno zavrseno!

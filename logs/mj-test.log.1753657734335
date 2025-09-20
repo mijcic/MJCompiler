@@ -1,0 +1,141 @@
+INFO  00:50:08,781 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  00:50:08,843 - #2 program
+INFO  00:50:08,843 - #44 Keske
+INFO  00:50:08,843 - #5 const
+INFO  00:50:08,844 - #44 bool
+INFO  00:50:08,844 - #44 pi
+INFO  00:50:08,844 - #6 =
+INFO  00:50:08,844 - #46 0
+INFO  00:50:08,844 - #8 ;
+INFO  00:50:08,845 - #5 const
+INFO  00:50:08,846 - #44 int
+INFO  00:50:08,846 - #44 g
+INFO  00:50:08,846 - #6 =
+INFO  00:50:08,846 - #45 11
+INFO  00:50:08,846 - #8 ;
+INFO  00:50:08,846 - #44 char
+INFO  00:50:08,846 - #44 x
+INFO  00:50:08,846 - #7 ,
+INFO  00:50:08,848 - #44 y
+INFO  00:50:08,848 - #9 [
+INFO  00:50:08,848 - #10 ]
+INFO  00:50:08,848 - #8 ;
+INFO  00:50:08,849 - #3 {
+INFO  00:50:08,852 - #11 void
+INFO  00:50:08,852 - #44 main
+INFO  00:50:08,853 - #12 (
+INFO  00:50:08,853 - #13 )
+INFO  00:50:08,854 - #44 int
+INFO  00:50:08,855 - #44 a
+INFO  00:50:08,855 - #7 ,
+INFO  00:50:08,855 - #44 b
+INFO  00:50:08,855 - #9 [
+INFO  00:50:08,855 - #10 ]
+INFO  00:50:08,855 - #8 ;
+INFO  00:50:08,856 - #44 int
+INFO  00:50:08,857 - #44 x
+INFO  00:50:08,857 - #8 ;
+INFO  00:50:08,857 - #3 {
+INFO  00:50:08,858 - #4 }
+INFO  00:50:08,858 - #4 }
+INFO  00:50:08,865 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       bool
+      ) [Type_type]
+      ConstDeclElem_bool(
+       pi
+       0
+      ) [ConstDeclElem_bool]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type_type(
+         int
+        ) [Type_type]
+        ConstDeclElem_number(
+         g
+         11
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_var_list(
+        GlobalVarDeclList(
+          Type_type(
+           char
+          ) [Type_type]
+          GlobalVarDeclElem_var(
+           x
+          ) [GlobalVarDeclElem_var]
+          GlobalVarDeclListMore_more(
+            GlobalVarDeclElem_array(
+             y
+            ) [GlobalVarDeclElem_array]
+            GlobalVarDeclListMore_e(
+            ) [GlobalVarDeclListMore_e]
+          ) [GlobalVarDeclListMore_more]
+        ) [GlobalVarDeclList]
+        ConstVarDeclList_e(
+        ) [ConstVarDeclList_e]
+      ) [ConstVarDeclList_var_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_type(
+           int
+          ) [Type_type]
+          LocalVarDeclElem_var(
+           a
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_more(
+            LocalVarDeclElem_array(
+             b
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclListMore_more]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type_type(
+             int
+            ) [Type_type]
+            LocalVarDeclElem_var(
+             x
+            ) [LocalVarDeclElem_var]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_e(
+          ) [MethodsVarDeclList_e]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  00:50:08,866 - =========================================================================
+INFO  00:50:08,874 - =========================================================================
+INFO  00:50:08,874 - Parsiranje uspesno zavrseno!

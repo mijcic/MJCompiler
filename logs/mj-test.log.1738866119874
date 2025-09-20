@@ -1,0 +1,82 @@
+INFO  19:21:42,808 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  19:21:42,864 - #2 program
+INFO  19:21:42,864 - #44 Keske
+INFO  19:21:42,864 - #3 {
+INFO  19:21:42,866 - #11 void
+INFO  19:21:42,866 - #44 main
+INFO  19:21:42,866 - #12 (
+INFO  19:21:42,867 - #13 )
+INFO  19:21:42,868 - #43 set
+INFO  19:21:42,869 - #44 c
+INFO  19:21:42,869 - #8 ;
+INFO  19:21:42,870 - #3 {
+INFO  19:21:42,872 - #20 print
+INFO  19:21:42,872 - #12 (
+INFO  19:21:42,872 - #44 c
+INFO  19:21:42,872 - #13 )
+INFO  19:21:42,876 - #8 ;
+INFO  19:21:42,876 - #4 }
+INFO  19:21:42,877 - #4 }
+INFO  19:21:42,882 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_e(
+  ) [ConstVarDeclList_e]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_set(
+          ) [Type_set]
+          LocalVarDeclElem_var(
+           c
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_e(
+          ) [LocalVarDeclListMore_e]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_e(
+        ) [MethodsVarDeclList_e]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_print_expr(
+          Expr_term(
+            Term(
+              Factor_designator(
+                DesignatorOption_designator(
+                  Designator(
+                    DesignatorName(
+                     c
+                    ) [DesignatorName]
+                    DesignatorMore_e(
+                    ) [DesignatorMore_e]
+                  ) [Designator]
+                ) [DesignatorOption_designator]
+              ) [Factor_designator]
+              TermMore_e(
+              ) [TermMore_e]
+            ) [Term]
+            ExprMore_e(
+            ) [ExprMore_e]
+          ) [Expr_term]
+        ) [Statement_print_expr]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  19:21:42,883 - =========================================================================
+INFO  19:21:42,896 - =========================================================================
+INFO  19:21:42,897 - Generisanje koda uspesno zavrseno!

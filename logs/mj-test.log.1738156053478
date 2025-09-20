@@ -1,0 +1,148 @@
+INFO  14:07:12,199 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:07:12,240 - #2 program
+INFO  14:07:12,240 - #44 test301
+INFO  14:07:12,240 - #5 const
+INFO  14:07:12,241 - #44 int
+INFO  14:07:12,241 - #44 nula
+INFO  14:07:12,241 - #6 =
+INFO  14:07:12,242 - #45 0
+INFO  14:07:12,242 - #8 ;
+INFO  14:07:12,242 - #5 const
+INFO  14:07:12,243 - #44 int
+INFO  14:07:12,243 - #44 jedan
+INFO  14:07:12,243 - #6 =
+INFO  14:07:12,243 - #45 1
+INFO  14:07:12,243 - #8 ;
+INFO  14:07:12,243 - #5 const
+INFO  14:07:12,243 - #44 int
+INFO  14:07:12,243 - #44 pet
+INFO  14:07:12,243 - #6 =
+INFO  14:07:12,243 - #45 5
+INFO  14:07:12,243 - #8 ;
+INFO  14:07:12,243 - #44 int
+INFO  14:07:12,244 - #44 niz
+INFO  14:07:12,244 - #9 [
+INFO  14:07:12,244 - #10 ]
+INFO  14:07:12,244 - #8 ;
+INFO  14:07:12,245 - #44 char
+INFO  14:07:12,245 - #44 nizch
+INFO  14:07:12,245 - #9 [
+INFO  14:07:12,245 - #10 ]
+INFO  14:07:12,245 - #8 ;
+INFO  14:07:12,245 - #3 {
+INFO  14:07:12,246 - #11 void
+INFO  14:07:12,246 - #44 main
+INFO  14:07:12,247 - #12 (
+INFO  14:07:12,247 - #13 )
+INFO  14:07:12,248 - #3 {
+INFO  14:07:12,248 - #44 nula
+INFO  14:07:12,249 - #6 =
+INFO  14:07:12,250 - #44 jedan
+INFO  14:07:12,250 - #38 union
+INFO  14:07:12,250 - #45 2
+ERROR 14:07:12,250 - 
+Sintaksna greska na liniji 13
+INFO  14:07:12,250 - #8 ;
+INFO  14:07:12,250 - #4 }
+INFO  14:07:12,250 - #4 }
+ERROR 14:07:12,253 - Oporavak od greske kod DesignatorStatement-a kod iskaza dodele. Linija: 12
+INFO  14:07:12,258 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       nula
+       0
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclElem_number(
+         jedan
+         1
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclElem_number(
+           pet
+           5
+          ) [ConstDeclElem_number]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_var_list(
+          GlobalVarDeclList(
+            Type(
+             int
+            ) [Type]
+            GlobalVarDeclElem_array(
+             niz
+            ) [GlobalVarDeclElem_array]
+            GlobalVarDeclListMore_e(
+            ) [GlobalVarDeclListMore_e]
+          ) [GlobalVarDeclList]
+          ConstVarDeclList_var_list(
+            GlobalVarDeclList(
+              Type(
+               char
+              ) [Type]
+              GlobalVarDeclElem_array(
+               nizch
+              ) [GlobalVarDeclElem_array]
+              GlobalVarDeclListMore_e(
+              ) [GlobalVarDeclListMore_e]
+            ) [GlobalVarDeclList]
+            ConstVarDeclList_e(
+            ) [ConstVarDeclList_e]
+          ) [ConstVarDeclList_var_list]
+        ) [ConstVarDeclList_var_list]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_ERROR(
+            ) [DesignatorStatementAssignop_ERROR]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  14:07:12,258 - =========================================================================
+INFO  14:07:12,263 - =========================================================================
+INFO  14:07:12,263 - Parsiranje NIJE uspesno zavrseno!

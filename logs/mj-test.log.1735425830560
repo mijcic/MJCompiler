@@ -1,0 +1,196 @@
+INFO  23:43:44,922 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:43:44,973 - #2 program
+INFO  23:43:44,973 - #44 Keske
+INFO  23:43:44,973 - #5 const
+INFO  23:43:44,974 - #44 int
+INFO  23:43:44,974 - #44 pi
+INFO  23:43:44,975 - #6 =
+INFO  23:43:44,975 - #45 13
+INFO  23:43:44,975 - #7 ,
+INFO  23:43:44,975 - #44 g
+INFO  23:43:44,976 - #6 =
+INFO  23:43:44,976 - #45 11
+INFO  23:43:44,976 - #8 ;
+INFO  23:43:44,976 - #44 char
+INFO  23:43:44,977 - #44 x
+INFO  23:43:44,977 - #7 ,
+INFO  23:43:44,978 - #44 y
+INFO  23:43:44,978 - #9 [
+INFO  23:43:44,978 - #10 ]
+INFO  23:43:44,978 - #8 ;
+INFO  23:43:44,979 - #5 const
+INFO  23:43:44,980 - #44 bool
+INFO  23:43:44,980 - #44 t
+INFO  23:43:44,986 - #6 =
+INFO  23:43:44,986 - #46 0
+INFO  23:43:44,986 - #8 ;
+INFO  23:43:44,986 - #3 {
+INFO  23:43:44,987 - #11 void
+INFO  23:43:44,988 - #44 main
+INFO  23:43:44,988 - #12 (
+INFO  23:43:44,989 - #13 )
+INFO  23:43:44,990 - #44 int
+INFO  23:43:44,990 - #44 a
+INFO  23:43:44,990 - #7 ,
+INFO  23:43:44,990 - #44 b
+INFO  23:43:44,990 - #9 [
+INFO  23:43:44,991 - #10 ]
+INFO  23:43:44,991 - #8 ;
+INFO  23:43:44,991 - #44 int
+INFO  23:43:44,992 - #44 x
+INFO  23:43:44,992 - #7 ,
+INFO  23:43:44,992 - #44 y
+INFO  23:43:44,992 - #8 ;
+INFO  23:43:44,992 - #44 char
+INFO  23:43:44,992 - #44 eol
+INFO  23:43:44,992 - #8 ;
+INFO  23:43:44,993 - #3 {
+INFO  23:43:44,993 - #20 print
+INFO  23:43:44,993 - #12 (
+INFO  23:43:44,993 - #44 Keske
+INFO  23:43:44,994 - #13 )
+INFO  23:43:44,996 - #8 ;
+INFO  23:43:44,996 - #4 }
+INFO  23:43:44,997 - #4 }
+INFO  23:43:45,004 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       pi
+       13
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_more(
+        ConstDeclElem_number(
+         g
+         11
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclListMore_more]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type(
+         char
+        ) [Type]
+        GlobalVarDeclElem_var(
+         x
+        ) [GlobalVarDeclElem_var]
+        GlobalVarDeclListMore_more(
+          GlobalVarDeclElem_array(
+           y
+          ) [GlobalVarDeclElem_array]
+          GlobalVarDeclListMore_e(
+          ) [GlobalVarDeclListMore_e]
+        ) [GlobalVarDeclListMore_more]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type(
+           bool
+          ) [Type]
+          ConstDeclElem_bool(
+           t
+           0
+          ) [ConstDeclElem_bool]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_e(
+        ) [ConstVarDeclList_e]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type(
+           int
+          ) [Type]
+          LocalVarDeclElem_var(
+           a
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_more(
+            LocalVarDeclElem_array(
+             b
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclListMore_more]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type(
+             int
+            ) [Type]
+            LocalVarDeclElem_var(
+             x
+            ) [LocalVarDeclElem_var]
+            LocalVarDeclListMore_more(
+              LocalVarDeclElem_var(
+               y
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclListMore_more]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_list(
+            LocalVarDeclList(
+              Type(
+               char
+              ) [Type]
+              LocalVarDeclElem_var(
+               eol
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclList]
+            MethodsVarDeclList_e(
+            ) [MethodsVarDeclList_e]
+          ) [MethodsVarDeclList_list]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_print_expr(
+          Expr_term(
+            Term(
+              Factor_designator(
+                Designator(
+                 Keske
+                  DesignatorMore_e(
+                  ) [DesignatorMore_e]
+                ) [Designator]
+              ) [Factor_designator]
+              TermMore_e(
+              ) [TermMore_e]
+            ) [Term]
+            ExprMore_e(
+            ) [ExprMore_e]
+          ) [Expr_term]
+        ) [Statement_print_expr]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  23:43:45,004 - =========================================================================
+ERROR 23:43:45,010 - Neadekvatna promenljiva: Keske na liniji 12

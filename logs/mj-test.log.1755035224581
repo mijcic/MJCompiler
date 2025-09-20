@@ -1,0 +1,484 @@
+INFO  23:46:50,842 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:46:50,869 - #2 program
+INFO  23:46:50,869 - #44 OporavakOdGresakaTest
+INFO  23:46:50,869 - #5 const
+INFO  23:46:50,869 - #44 int
+INFO  23:46:50,869 - #44 a
+INFO  23:46:50,869 - #6 =
+INFO  23:46:50,869 - #45 3
+INFO  23:46:50,869 - #8 ;
+INFO  23:46:50,869 - #5 const
+INFO  23:46:50,869 - #44 char
+INFO  23:46:50,869 - #44 b
+INFO  23:46:50,874 - #6 =
+INFO  23:46:50,874 - #47 b
+INFO  23:46:50,874 - #8 ;
+INFO  23:46:50,874 - #5 const
+INFO  23:46:50,874 - #44 bool
+INFO  23:46:50,874 - #44 c
+INFO  23:46:50,874 - #6 =
+INFO  23:46:50,874 - #46 0
+INFO  23:46:50,874 - #8 ;
+INFO  23:46:50,874 - #44 char
+INFO  23:46:50,882 - #44 d
+INFO  23:46:50,882 - #6 =
+ERROR 23:46:50,882 - 
+Sintaksna greska na liniji 7
+INFO  23:46:50,882 - #47 d
+INFO  23:46:50,882 - #8 ;
+INFO  23:46:50,882 - #3 {
+INFO  23:46:50,883 - #44 int
+INFO  23:46:50,883 - #44 method1
+ERROR 23:46:50,883 - [GlobalVarDeclElem] Oporavak od greske kod definicije globalne promenljive. Linija: 7
+INFO  23:46:50,884 - #12 (
+INFO  23:46:50,884 - #44 int
+INFO  23:46:50,884 - #44 e
+INFO  23:46:50,884 - #6 =
+ERROR 23:46:50,884 - 
+Sintaksna greska na liniji 11
+INFO  23:46:50,884 - #45 5
+INFO  23:46:50,884 - #7 ,
+INFO  23:46:50,884 - #44 char
+INFO  23:46:50,884 - #44 f
+INFO  23:46:50,884 - #6 =
+ERROR 23:46:50,884 - [FormParsElem] Oporavak od greske kod definicije formalnog parametra funkcije. Linija: 10
+ERROR 23:46:50,884 - 
+Sintaksna greska na liniji 12
+INFO  23:46:50,884 - #47 f
+INFO  23:46:50,884 - #7 ,
+INFO  23:46:50,884 - #44 bool
+INFO  23:46:50,884 - #44 b
+INFO  23:46:50,884 - #6 =
+ERROR 23:46:50,884 - [FormParsElem] Oporavak od greske kod definicije formalnog parametra funkcije. Linija: 11
+ERROR 23:46:50,884 - 
+Sintaksna greska na liniji 13
+INFO  23:46:50,884 - #46 1
+INFO  23:46:50,884 - #13 )
+INFO  23:46:50,884 - #44 int
+INFO  23:46:50,884 - #44 t
+INFO  23:46:50,884 - #8 ;
+ERROR 23:46:50,884 - [FormParsElem] Oporavak od greske kod definicije formalnog parametra funkcije. Linija: 12
+INFO  23:46:50,888 - #3 {
+INFO  23:46:50,888 - #20 print
+INFO  23:46:50,888 - #12 (
+INFO  23:46:50,888 - #44 b
+INFO  23:46:50,888 - #13 )
+INFO  23:46:50,890 - #8 ;
+INFO  23:46:50,892 - #18 return
+INFO  23:46:50,892 - #44 a
+INFO  23:46:50,892 - #8 ;
+INFO  23:46:50,892 - #4 }
+INFO  23:46:50,892 - #11 void
+INFO  23:46:50,892 - #44 method2
+INFO  23:46:50,892 - #12 (
+INFO  23:46:50,892 - #44 int
+INFO  23:46:50,895 - #44 formPar1
+INFO  23:46:50,895 - #7 ,
+INFO  23:46:50,895 - #44 int
+INFO  23:46:50,895 - #44 formPar2
+INFO  23:46:50,895 - #13 )
+INFO  23:46:50,895 - #3 {
+INFO  23:46:50,895 - #44 formPar1
+INFO  23:46:50,895 - #6 =
+INFO  23:46:50,895 - #14 if
+ERROR 23:46:50,895 - 
+Sintaksna greska na liniji 24
+INFO  23:46:50,895 - #12 (
+INFO  23:46:50,895 - #44 a
+INFO  23:46:50,895 - #31 <
+INFO  23:46:50,895 - #45 4
+INFO  23:46:50,895 - #13 )
+INFO  23:46:50,895 - #20 print
+INFO  23:46:50,895 - #12 (
+INFO  23:46:50,895 - #45 2
+INFO  23:46:50,895 - #13 )
+INFO  23:46:50,895 - #8 ;
+INFO  23:46:50,895 - #4 }
+INFO  23:46:50,895 - #44 char
+INFO  23:46:50,895 - #44 method3
+ERROR 23:46:50,895 - [DesignatorStatementAssignop] Oporavak od greske kod iskaza dodele. Linija: 23
+INFO  23:46:50,896 - #12 (
+INFO  23:46:50,896 - #13 )
+INFO  23:46:50,896 - #43 set
+INFO  23:46:50,896 - #44 set1
+INFO  23:46:50,896 - #8 ;
+INFO  23:46:50,896 - #3 {
+INFO  23:46:50,896 - #14 if
+INFO  23:46:50,896 - #12 (
+INFO  23:46:50,896 - #44 set1
+INFO  23:46:50,896 - #23 ++
+ERROR 23:46:50,896 - 
+Sintaksna greska na liniji 28
+INFO  23:46:50,896 - #13 )
+INFO  23:46:50,896 - #3 {
+INFO  23:46:50,896 - #20 print
+INFO  23:46:50,896 - #12 (
+ERROR 23:46:50,896 - [IfConditionList] Oporavak od greske kod if konstrukcije. Linija: 28
+INFO  23:46:50,896 - #45 3
+INFO  23:46:50,896 - #13 )
+INFO  23:46:50,896 - #8 ;
+INFO  23:46:50,896 - #4 }
+INFO  23:46:50,899 - #18 return
+INFO  23:46:50,899 - #47 s
+INFO  23:46:50,899 - #8 ;
+INFO  23:46:50,899 - #4 }
+INFO  23:46:50,899 - #11 void
+INFO  23:46:50,899 - #44 main
+INFO  23:46:50,899 - #12 (
+INFO  23:46:50,899 - #13 )
+INFO  23:46:50,899 - #3 {
+INFO  23:46:50,899 - #44 method1
+INFO  23:46:50,899 - #12 (
+INFO  23:46:50,899 - #13 )
+INFO  23:46:50,900 - #8 ;
+INFO  23:46:50,900 - #44 method2
+INFO  23:46:50,900 - #12 (
+INFO  23:46:50,900 - #13 )
+INFO  23:46:50,900 - #8 ;
+INFO  23:46:50,900 - #44 method3
+INFO  23:46:50,900 - #12 (
+INFO  23:46:50,900 - #13 )
+INFO  23:46:50,900 - #8 ;
+INFO  23:46:50,900 - #4 }
+INFO  23:46:50,900 - #4 }
+INFO  23:46:50,901 - Program(
+  ProgramName(
+   OporavakOdGresakaTest
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       a
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type_type(
+         char
+        ) [Type_type]
+        ConstDeclElem_character(
+         b
+         b
+        ) [ConstDeclElem_character]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type_type(
+           bool
+          ) [Type_type]
+          ConstDeclElem_bool(
+           c
+           0
+          ) [ConstDeclElem_bool]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_var_list(
+          GlobalVarDeclList(
+            Type_type(
+             char
+            ) [Type_type]
+            GlobalVarDeclElem_ERROR(
+            ) [GlobalVarDeclElem_ERROR]
+            GlobalVarDeclListMore_e(
+            ) [GlobalVarDeclListMore_e]
+          ) [GlobalVarDeclList]
+          ConstVarDeclList_e(
+          ) [ConstVarDeclList_e]
+        ) [ConstVarDeclList_var_list]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_type(
+          Type_type(
+           int
+          ) [Type_type]
+        ) [MethodsType_type]
+        MethodName(
+         method1
+        ) [MethodName]
+        MethodSignaturesFormPars_list(
+          FormParsList(
+            FormParsElem_ERROR(
+            ) [FormParsElem_ERROR]
+            FormParsListMore_more(
+              FormParsElem_ERROR(
+              ) [FormParsElem_ERROR]
+              FormParsListMore_more(
+                FormParsElem_ERROR(
+                ) [FormParsElem_ERROR]
+                FormParsListMore_e(
+                ) [FormParsListMore_e]
+              ) [FormParsListMore_more]
+            ) [FormParsListMore_more]
+          ) [FormParsList]
+        ) [MethodSignaturesFormPars_list]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_type(
+           int
+          ) [Type_type]
+          LocalVarDeclElem_var(
+           t
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_e(
+          ) [LocalVarDeclListMore_e]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_e(
+        ) [MethodsVarDeclList_e]
+      ) [MethodsVarDeclList_list]
+      MethodDeclElemLeftBrace(
+      ) [MethodDeclElemLeftBrace]
+      MethodsStatementList_list(
+        Statement_print_expr(
+          Expr_term(
+            Term(
+              Factor_designator(
+                DesignatorOption_designator(
+                  Designator(
+                    DesignatorName(
+                     b
+                    ) [DesignatorName]
+                  ) [Designator]
+                ) [DesignatorOption_designator]
+              ) [Factor_designator]
+              TermMore_e(
+              ) [TermMore_e]
+            ) [Term]
+            ExprMore_e(
+            ) [ExprMore_e]
+          ) [Expr_term]
+        ) [Statement_print_expr]
+        MethodsStatementList_list(
+          Statement_return_expr(
+            Expr_term(
+              Term(
+                Factor_designator(
+                  DesignatorOption_designator(
+                    Designator(
+                      DesignatorName(
+                       a
+                      ) [DesignatorName]
+                    ) [Designator]
+                  ) [DesignatorOption_designator]
+                ) [Factor_designator]
+                TermMore_e(
+                ) [TermMore_e]
+              ) [Term]
+              ExprMore_e(
+              ) [ExprMore_e]
+            ) [Expr_term]
+          ) [Statement_return_expr]
+          MethodsStatementList_e(
+          ) [MethodsStatementList_e]
+        ) [MethodsStatementList_list]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_more(
+      MethodDeclElem(
+        MethodSignature(
+          MethodsType_void(
+          ) [MethodsType_void]
+          MethodName(
+           method2
+          ) [MethodName]
+          MethodSignaturesFormPars_list(
+            FormParsList(
+              FormParsElem_param(
+                Type_type(
+                 int
+                ) [Type_type]
+               formPar1
+              ) [FormParsElem_param]
+              FormParsListMore_more(
+                FormParsElem_param(
+                  Type_type(
+                   int
+                  ) [Type_type]
+                 formPar2
+                ) [FormParsElem_param]
+                FormParsListMore_e(
+                ) [FormParsListMore_e]
+              ) [FormParsListMore_more]
+            ) [FormParsList]
+          ) [MethodSignaturesFormPars_list]
+        ) [MethodSignature]
+        MethodsVarDeclList_e(
+        ) [MethodsVarDeclList_e]
+        MethodDeclElemLeftBrace(
+        ) [MethodDeclElemLeftBrace]
+        MethodsStatementList_list(
+          Statement_designatorStatement(
+            DesignatorStatement_assignop(
+              DesignatorStatementAssignop_ERROR(
+              ) [DesignatorStatementAssignop_ERROR]
+            ) [DesignatorStatement_assignop]
+          ) [Statement_designatorStatement]
+          MethodsStatementList_e(
+          ) [MethodsStatementList_e]
+        ) [MethodsStatementList_list]
+      ) [MethodDeclElem]
+      MethodDeclList_more(
+        MethodDeclElem(
+          MethodSignature(
+            MethodsType_type(
+              Type_type(
+               char
+              ) [Type_type]
+            ) [MethodsType_type]
+            MethodName(
+             method3
+            ) [MethodName]
+            MethodSignaturesFormPars_e(
+            ) [MethodSignaturesFormPars_e]
+          ) [MethodSignature]
+          MethodsVarDeclList_list(
+            LocalVarDeclList(
+              Type_set(
+              ) [Type_set]
+              LocalVarDeclElem_var(
+               set1
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclList]
+            MethodsVarDeclList_e(
+            ) [MethodsVarDeclList_e]
+          ) [MethodsVarDeclList_list]
+          MethodDeclElemLeftBrace(
+          ) [MethodDeclElemLeftBrace]
+          MethodsStatementList_list(
+            Statement_if(
+              IfConditionList_ERROR(
+              ) [IfConditionList_ERROR]
+              Statement_statementList(
+                StatementList_list(
+                  Statement_print_expr(
+                    Expr_term(
+                      Term(
+                        Factor_number(
+                         3
+                        ) [Factor_number]
+                        TermMore_e(
+                        ) [TermMore_e]
+                      ) [Term]
+                      ExprMore_e(
+                      ) [ExprMore_e]
+                    ) [Expr_term]
+                  ) [Statement_print_expr]
+                  StatementList_e(
+                  ) [StatementList_e]
+                ) [StatementList_list]
+              ) [Statement_statementList]
+            ) [Statement_if]
+            MethodsStatementList_list(
+              Statement_return_expr(
+                Expr_term(
+                  Term(
+                    Factor_character(
+                     s
+                    ) [Factor_character]
+                    TermMore_e(
+                    ) [TermMore_e]
+                  ) [Term]
+                  ExprMore_e(
+                  ) [ExprMore_e]
+                ) [Expr_term]
+              ) [Statement_return_expr]
+              MethodsStatementList_e(
+              ) [MethodsStatementList_e]
+            ) [MethodsStatementList_list]
+          ) [MethodsStatementList_list]
+        ) [MethodDeclElem]
+        MethodDeclList_more(
+          MethodDeclElem(
+            MethodSignature(
+              MethodsType_void(
+              ) [MethodsType_void]
+              MethodName(
+               main
+              ) [MethodName]
+              MethodSignaturesFormPars_e(
+              ) [MethodSignaturesFormPars_e]
+            ) [MethodSignature]
+            MethodsVarDeclList_e(
+            ) [MethodsVarDeclList_e]
+            MethodDeclElemLeftBrace(
+            ) [MethodDeclElemLeftBrace]
+            MethodsStatementList_list(
+              Statement_designatorStatement(
+                DesignatorStatement_no_params(
+                  DesignatorOption_designator(
+                    Designator(
+                      DesignatorName(
+                       method1
+                      ) [DesignatorName]
+                    ) [Designator]
+                  ) [DesignatorOption_designator]
+                  NoActParsList(
+                    StartOfActParsList(
+                    ) [StartOfActParsList]
+                  ) [NoActParsList]
+                ) [DesignatorStatement_no_params]
+              ) [Statement_designatorStatement]
+              MethodsStatementList_list(
+                Statement_designatorStatement(
+                  DesignatorStatement_no_params(
+                    DesignatorOption_designator(
+                      Designator(
+                        DesignatorName(
+                         method2
+                        ) [DesignatorName]
+                      ) [Designator]
+                    ) [DesignatorOption_designator]
+                    NoActParsList(
+                      StartOfActParsList(
+                      ) [StartOfActParsList]
+                    ) [NoActParsList]
+                  ) [DesignatorStatement_no_params]
+                ) [Statement_designatorStatement]
+                MethodsStatementList_list(
+                  Statement_designatorStatement(
+                    DesignatorStatement_no_params(
+                      DesignatorOption_designator(
+                        Designator(
+                          DesignatorName(
+                           method3
+                          ) [DesignatorName]
+                        ) [Designator]
+                      ) [DesignatorOption_designator]
+                      NoActParsList(
+                        StartOfActParsList(
+                        ) [StartOfActParsList]
+                      ) [NoActParsList]
+                    ) [DesignatorStatement_no_params]
+                  ) [Statement_designatorStatement]
+                  MethodsStatementList_e(
+                  ) [MethodsStatementList_e]
+                ) [MethodsStatementList_list]
+              ) [MethodsStatementList_list]
+            ) [MethodsStatementList_list]
+          ) [MethodDeclElem]
+          MethodDeclList_e(
+          ) [MethodDeclList_e]
+        ) [MethodDeclList_more]
+      ) [MethodDeclList_more]
+    ) [MethodDeclList_more]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  23:46:50,901 - =========================================================================
+ERROR 23:46:50,911 - [DesignatorStatement_no_params] Nekompatibilnost parametara pri pozivu metode: method2 - [Greska u broju parametara] na liniji 36
+INFO  23:46:50,911 - =========================================================================
+INFO  23:46:50,911 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,71 @@
+INFO  14:03:44,659 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:03:44,746 - #2 program
+INFO  14:03:44,746 - #44 Keske
+INFO  14:03:44,746 - #5 const
+INFO  14:03:44,746 - #44 int
+INFO  14:03:44,746 - #44 pi
+INFO  14:03:44,747 - #6 =
+INFO  14:03:44,748 - #45 3
+INFO  14:03:44,748 - #8 ;
+INFO  14:03:44,749 - #44 char
+INFO  14:03:44,750 - #44 carr
+INFO  14:03:44,750 - #9 [
+INFO  14:03:44,750 - #10 ]
+INFO  14:03:44,750 - #8 ;
+INFO  14:03:44,751 - #3 {
+INFO  14:03:44,754 - #11 void
+INFO  14:03:44,754 - #44 main
+INFO  14:03:44,755 - #12 (
+INFO  14:03:44,755 - #13 )
+INFO  14:03:44,756 - #3 {
+INFO  14:03:44,758 - #4 }
+INFO  14:03:44,759 - #4 }
+INFO  14:03:44,764 - Program(
+ Keske
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type(
+         char
+        ) [Type]
+        GlobalVarDeclElem_array(
+         carr
+        ) [GlobalVarDeclElem_array]
+        GlobalVarDeclListMore_e(
+        ) [GlobalVarDeclListMore_e]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_e(
+      ) [ConstVarDeclList_e]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+       main
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  14:03:44,771 - =========================================================================
+INFO  14:03:44,772 - Parsiranje uspesno zavrseno!

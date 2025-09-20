@@ -1,0 +1,122 @@
+INFO  15:08:31,838 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  15:08:31,934 - #2 program
+INFO  15:08:31,935 - #44 Proba
+INFO  15:08:31,935 - #5 const
+INFO  15:08:31,936 - #44 int
+INFO  15:08:31,936 - #44 a
+INFO  15:08:31,936 - #6 =
+INFO  15:08:31,936 - #45 5
+INFO  15:08:31,936 - #8 ;
+INFO  15:08:31,938 - #5 const
+INFO  15:08:31,939 - #44 bool
+INFO  15:08:31,939 - #44 b
+INFO  15:08:31,940 - #6 =
+INFO  15:08:31,940 - #46 1
+INFO  15:08:31,940 - #8 ;
+INFO  15:08:31,940 - #5 const
+INFO  15:08:31,940 - #44 char
+INFO  15:08:31,940 - #44 c
+INFO  15:08:31,940 - #6 =
+INFO  15:08:31,940 - #47 c
+INFO  15:08:31,941 - #8 ;
+INFO  15:08:31,941 - #44 int
+INFO  15:08:31,941 - #44 d
+INFO  15:08:31,948 - #7 ,
+INFO  15:08:31,948 - #44 a
+INFO  15:08:31,948 - #9 [
+INFO  15:08:31,948 - #10 ]
+INFO  15:08:31,948 - #8 ;
+INFO  15:08:31,951 - #3 {
+INFO  15:08:31,953 - #11 void
+INFO  15:08:31,953 - #44 main
+INFO  15:08:31,954 - #12 (
+INFO  15:08:31,955 - #13 )
+INFO  15:08:31,956 - #3 {
+INFO  15:08:31,957 - #4 }
+INFO  15:08:31,958 - #4 }
+INFO  15:08:31,965 - Program(
+  ProgramName(
+   Proba
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       a
+       5
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type_type(
+         bool
+        ) [Type_type]
+        ConstDeclElem_bool(
+         b
+         1
+        ) [ConstDeclElem_bool]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type_type(
+           char
+          ) [Type_type]
+          ConstDeclElem_character(
+           c
+           c
+          ) [ConstDeclElem_character]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_var_list(
+          GlobalVarDeclList(
+            Type_type(
+             int
+            ) [Type_type]
+            GlobalVarDeclElem_var(
+             d
+            ) [GlobalVarDeclElem_var]
+            GlobalVarDeclListMore_more(
+              GlobalVarDeclElem_array(
+               a
+              ) [GlobalVarDeclElem_array]
+              GlobalVarDeclListMore_e(
+              ) [GlobalVarDeclListMore_e]
+            ) [GlobalVarDeclListMore_more]
+          ) [GlobalVarDeclList]
+          ConstVarDeclList_e(
+          ) [ConstVarDeclList_e]
+        ) [ConstVarDeclList_var_list]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  15:08:31,966 - =========================================================================
+ERROR 15:08:31,976 - [GlobalVarDeclElem_array] Ime promenljive je vec deklarisano unutar istog opsega: a na liniji 8
+INFO  15:08:31,977 - =========================================================================
+INFO  15:08:31,977 - Parsiranje NIJE uspesno zavrseno!

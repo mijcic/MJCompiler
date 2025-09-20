@@ -1,0 +1,106 @@
+INFO  15:20:13,408 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  15:20:13,500 - #2 program
+INFO  15:20:13,500 - #44 TestIf
+INFO  15:20:13,500 - #3 {
+INFO  15:20:13,502 - #11 void
+INFO  15:20:13,502 - #44 main
+INFO  15:20:13,503 - #12 (
+INFO  15:20:13,504 - #13 )
+INFO  15:20:13,505 - #43 set
+INFO  15:20:13,506 - #44 niz
+INFO  15:20:13,507 - #8 ;
+INFO  15:20:13,509 - #3 {
+INFO  15:20:13,510 - #44 niz
+INFO  15:20:13,511 - #6 =
+INFO  15:20:13,513 - #41 new
+INFO  15:20:13,514 - #43 set
+INFO  15:20:13,514 - #9 [
+INFO  15:20:13,515 - #45 5
+INFO  15:20:13,515 - #10 ]
+INFO  15:20:13,518 - #8 ;
+INFO  15:20:13,519 - #4 }
+INFO  15:20:13,520 - #4 }
+INFO  15:20:13,527 - Program(
+  ProgramName(
+   TestIf
+  ) [ProgramName]
+  ConstVarDeclList_e(
+  ) [ConstVarDeclList_e]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_set(
+          ) [Type_set]
+          LocalVarDeclElem_var(
+           niz
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_e(
+          ) [LocalVarDeclListMore_e]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_e(
+        ) [MethodsVarDeclList_e]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_expr(
+              DesignatorOption_designator(
+                Designator(
+                  DesignatorName(
+                   niz
+                  ) [DesignatorName]
+                  DesignatorMore_e(
+                  ) [DesignatorMore_e]
+                ) [Designator]
+              ) [DesignatorOption_designator]
+              Assignop(
+              ) [Assignop]
+              Expr_term(
+                Term(
+                  Factor_new(
+                    Type_set(
+                    ) [Type_set]
+                    FactorNewMore_array(
+                      Expr_term(
+                        Term(
+                          Factor_number(
+                           5
+                          ) [Factor_number]
+                          TermMore_e(
+                          ) [TermMore_e]
+                        ) [Term]
+                        ExprMore_e(
+                        ) [ExprMore_e]
+                      ) [Expr_term]
+                    ) [FactorNewMore_array]
+                  ) [Factor_new]
+                  TermMore_e(
+                  ) [TermMore_e]
+                ) [Term]
+                ExprMore_e(
+                ) [ExprMore_e]
+              ) [Expr_term]
+            ) [DesignatorStatementAssignop_expr]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  15:20:13,534 - =========================================================================
+INFO  15:20:13,544 - =========================================================================
+INFO  15:20:13,549 - Generisanje koda uspesno zavrseno!

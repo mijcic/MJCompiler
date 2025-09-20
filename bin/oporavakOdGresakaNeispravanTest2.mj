@@ -1,0 +1,47 @@
+program OporavakOdGresakaTest 
+
+const int a = 3;
+const char b = 'b';
+const bool c = false;
+
+int niz[] = new int[10];	// Oporavak od greske kod definicije globalne promenljive.
+int globalna1;	
+bool globalna2 = true;		// Oporavak od greske kod definicije globalne promenljive.
+char globalna3;
+
+{
+	int method1(int array[], int formPar1,
+		char formPar2 = 'h'		// Oporavak od greske kod definicije formalnog parametra funkcije.
+	) int t; char r; bool l;
+	{
+		t = formPar1;
+		array[t] = t || r;	// Oporavak od greske kod iskaza dodele.
+		print(array[t]); print(eol);
+		
+		if (read(formPar1)) {	// Oporavak od greske kod if konstrukcije.
+			formPar1 = formPar1 * 7;
+			print(formPar1); print(eol);
+		}
+		return t;
+	}
+	
+	void method2(
+		char formPar1 = 'p', 	// Oporavak od greske kod definicije formalnog parametra funkcije.
+		int formPar2 = 14		// Oporavak od greske kod definicije formalnog parametra funkcije.
+	) 
+	{
+		formPar2 = formpar1 = 4;	// Oporavak od greske kod iskaza dodele.
+		if (formPar2++) {	// Oporavak od greske kod if konstrukcije.
+			print(formPar2);
+		}
+		else {
+			print(formPar1);
+		}
+	}
+
+	void main() {
+		niz = new int[5];
+		method1(niz, 4, 'm');
+		method2('i', 5);
+	}
+}

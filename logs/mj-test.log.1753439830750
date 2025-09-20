@@ -1,0 +1,76 @@
+INFO  12:36:19,860 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  12:36:20,005 - #2 program
+INFO  12:36:20,005 - #44 Keske
+INFO  12:36:20,005 - #5 const
+INFO  12:36:20,009 - #44 int
+INFO  12:36:20,009 - #44 pi
+INFO  12:36:20,009 - #6 =
+INFO  12:36:20,009 - #45 3
+INFO  12:36:20,009 - #8 ;
+INFO  12:36:20,012 - #44 char
+INFO  12:36:20,014 - #44 carr
+INFO  12:36:20,014 - #9 [
+INFO  12:36:20,014 - #10 ]
+INFO  12:36:20,014 - #8 ;
+INFO  12:36:20,016 - #3 {
+INFO  12:36:20,019 - #11 void
+INFO  12:36:20,019 - #44 main
+INFO  12:36:20,021 - #12 (
+INFO  12:36:20,023 - #13 )
+INFO  12:36:20,025 - #3 {
+INFO  12:36:20,029 - #4 }
+INFO  12:36:20,031 - #4 }
+INFO  12:36:20,039 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type_type(
+         char
+        ) [Type_type]
+        GlobalVarDeclElem_array(
+         carr
+        ) [GlobalVarDeclElem_array]
+        GlobalVarDeclListMore_e(
+        ) [GlobalVarDeclListMore_e]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_e(
+      ) [ConstVarDeclList_e]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  12:36:20,039 - =========================================================================
+INFO  12:36:20,051 - =========================================================================
+INFO  12:36:20,057 - Generisanje koda uspesno zavrseno!

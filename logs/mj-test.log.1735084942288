@@ -1,0 +1,58 @@
+INFO  01:02:05,468 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  01:02:05,587 - #2 program
+INFO  01:02:05,587 - #44 Keske
+INFO  01:02:05,587 - #44 int
+INFO  01:02:05,589 - #44 char
+INFO  01:02:05,590 - #44 pi
+ERROR 01:02:05,590 - 
+Sintaksna greska na liniji 3
+INFO  01:02:05,591 - #6 =
+INFO  01:02:05,591 - #45 3
+INFO  01:02:05,591 - #8 ;
+INFO  01:02:05,592 - #3 {
+INFO  01:02:05,592 - #11 void
+INFO  01:02:05,592 - #44 main
+ERROR 01:02:05,600 - Oporavak od greske kod definicije globalne promenljive. Linija: 3
+INFO  01:02:05,607 - #12 (
+INFO  01:02:05,607 - #13 )
+INFO  01:02:05,609 - #3 {
+INFO  01:02:05,611 - #4 }
+INFO  01:02:05,612 - #4 }
+INFO  01:02:05,619 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_var_list(
+    GlobalVarDeclList(
+      Type(
+       int
+      ) [Type]
+      GlobalVarDeclElem_ERROR(
+      ) [GlobalVarDeclElem_ERROR]
+      GlobalVarDeclListMore_e(
+      ) [GlobalVarDeclListMore_e]
+    ) [GlobalVarDeclList]
+    ConstVarDeclList_e(
+    ) [ConstVarDeclList_e]
+  ) [ConstVarDeclList_var_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+       main
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  01:02:05,626 - =========================================================================
+INFO  01:02:05,637 - =========================================================================
+INFO  01:02:05,638 - Parsiranje NIJE uspesno zavrseno!

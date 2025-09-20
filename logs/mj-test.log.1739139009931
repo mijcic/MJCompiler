@@ -1,0 +1,141 @@
+INFO  23:02:22,542 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:02:22,582 - #2 program
+INFO  23:02:22,583 - #44 Keske
+INFO  23:02:22,583 - #3 {
+INFO  23:02:22,585 - #11 void
+INFO  23:02:22,585 - #44 main
+INFO  23:02:22,586 - #12 (
+INFO  23:02:22,586 - #13 )
+INFO  23:02:22,587 - #44 int
+INFO  23:02:22,587 - #44 i
+INFO  23:02:22,587 - #8 ;
+INFO  23:02:22,587 - #44 int
+INFO  23:02:22,587 - #44 j
+INFO  23:02:22,588 - #8 ;
+INFO  23:02:22,588 - #44 char
+INFO  23:02:22,588 - #44 a
+INFO  23:02:22,588 - #8 ;
+INFO  23:02:22,588 - #44 int
+INFO  23:02:22,588 - #44 niz
+INFO  23:02:22,588 - #9 [
+INFO  23:02:22,588 - #10 ]
+INFO  23:02:22,588 - #8 ;
+INFO  23:02:22,588 - #3 {
+INFO  23:02:22,589 - #44 ord
+INFO  23:02:22,589 - #12 (
+INFO  23:02:22,591 - #47 a
+INFO  23:02:22,591 - #13 )
+INFO  23:02:22,594 - #8 ;
+INFO  23:02:22,594 - #4 }
+INFO  23:02:22,594 - #4 }
+INFO  23:02:22,598 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_e(
+  ) [ConstVarDeclList_e]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_type(
+           int
+          ) [Type_type]
+          LocalVarDeclElem_var(
+           i
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_e(
+          ) [LocalVarDeclListMore_e]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type_type(
+             int
+            ) [Type_type]
+            LocalVarDeclElem_var(
+             j
+            ) [LocalVarDeclElem_var]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_list(
+            LocalVarDeclList(
+              Type_type(
+               char
+              ) [Type_type]
+              LocalVarDeclElem_var(
+               a
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclList]
+            MethodsVarDeclList_list(
+              LocalVarDeclList(
+                Type_type(
+                 int
+                ) [Type_type]
+                LocalVarDeclElem_array(
+                 niz
+                ) [LocalVarDeclElem_array]
+                LocalVarDeclListMore_e(
+                ) [LocalVarDeclListMore_e]
+              ) [LocalVarDeclList]
+              MethodsVarDeclList_e(
+              ) [MethodsVarDeclList_e]
+            ) [MethodsVarDeclList_list]
+          ) [MethodsVarDeclList_list]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_params(
+            DesignatorOption_designator(
+              Designator(
+                DesignatorName(
+                 ord
+                ) [DesignatorName]
+                DesignatorMore_e(
+                ) [DesignatorMore_e]
+              ) [Designator]
+            ) [DesignatorOption_designator]
+            ActParsList(
+              StartOfActParsList(
+              ) [StartOfActParsList]
+              ActPar(
+                Expr_term(
+                  Term(
+                    Factor_character(
+                     a
+                    ) [Factor_character]
+                    TermMore_e(
+                    ) [TermMore_e]
+                  ) [Term]
+                  ExprMore_e(
+                  ) [ExprMore_e]
+                ) [Expr_term]
+              ) [ActPar]
+              ActParsListMore_e(
+              ) [ActParsListMore_e]
+            ) [ActParsList]
+          ) [DesignatorStatement_params]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  23:02:22,599 - =========================================================================
+INFO  23:02:22,604 - =========================================================================
+INFO  23:02:22,607 - Generisanje koda uspesno zavrseno!

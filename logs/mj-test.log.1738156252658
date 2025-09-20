@@ -1,0 +1,102 @@
+INFO  14:10:36,654 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:10:36,694 - #2 program
+INFO  14:10:36,695 - #44 test301
+INFO  14:10:36,695 - #3 {
+INFO  14:10:36,696 - #11 void
+INFO  14:10:36,696 - #44 main
+INFO  14:10:36,696 - #12 (
+INFO  14:10:36,697 - #13 )
+INFO  14:10:36,697 - #44 int
+INFO  14:10:36,698 - #44 a
+INFO  14:10:36,699 - #8 ;
+INFO  14:10:36,699 - #44 int
+INFO  14:10:36,699 - #44 b
+INFO  14:10:36,700 - #8 ;
+INFO  14:10:36,700 - #44 int
+INFO  14:10:36,700 - #44 c
+INFO  14:10:36,700 - #8 ;
+INFO  14:10:36,700 - #3 {
+INFO  14:10:36,700 - #44 a
+INFO  14:10:36,700 - #6 =
+INFO  14:10:36,702 - #44 b
+INFO  14:10:36,702 - #44 UNION
+ERROR 14:10:36,702 - 
+Sintaksna greska na liniji 6
+INFO  14:10:36,703 - #44 c
+INFO  14:10:36,703 - #8 ;
+INFO  14:10:36,703 - #4 }
+INFO  14:10:36,703 - #4 }
+ERROR 14:10:36,706 - Oporavak od greske kod DesignatorStatement-a kod iskaza dodele. Linija: 5
+INFO  14:10:36,710 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConstVarDeclList_e(
+  ) [ConstVarDeclList_e]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type(
+           int
+          ) [Type]
+          LocalVarDeclElem_var(
+           a
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_e(
+          ) [LocalVarDeclListMore_e]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type(
+             int
+            ) [Type]
+            LocalVarDeclElem_var(
+             b
+            ) [LocalVarDeclElem_var]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_list(
+            LocalVarDeclList(
+              Type(
+               int
+              ) [Type]
+              LocalVarDeclElem_var(
+               c
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclList]
+            MethodsVarDeclList_e(
+            ) [MethodsVarDeclList_e]
+          ) [MethodsVarDeclList_list]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_ERROR(
+            ) [DesignatorStatementAssignop_ERROR]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  14:10:36,711 - =========================================================================
+INFO  14:10:36,715 - =========================================================================
+INFO  14:10:36,716 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,114 @@
+INFO  01:08:34,155 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  01:08:34,179 - #2 program
+INFO  01:08:34,180 - #44 p
+INFO  01:08:34,180 - #3 {
+INFO  01:08:34,180 - #11 void
+INFO  01:08:34,180 - #44 main
+INFO  01:08:34,180 - #12 (
+INFO  01:08:34,181 - #13 )
+INFO  01:08:34,181 - #43 set
+INFO  01:08:34,181 - #44 s1
+INFO  01:08:34,182 - #7 ,
+INFO  01:08:34,182 - #44 s2
+INFO  01:08:34,182 - #8 ;
+INFO  01:08:34,182 - #3 {
+INFO  01:08:34,183 - #44 s1
+INFO  01:08:34,183 - #6 =
+INFO  01:08:34,184 - #41 new
+INFO  01:08:34,184 - #43 set
+INFO  01:08:34,184 - #9 [
+INFO  01:08:34,184 - #45 2
+INFO  01:08:34,184 - #10 ]
+INFO  01:08:34,186 - #8 ;
+INFO  01:08:34,186 - #4 }
+INFO  01:08:34,187 - #4 }
+INFO  01:08:34,189 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  ConstVarDeclList_e(
+  ) [ConstVarDeclList_e]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_set(
+          ) [Type_set]
+          LocalVarDeclElem_var(
+           s1
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_more(
+            LocalVarDeclElem_var(
+             s2
+            ) [LocalVarDeclElem_var]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclListMore_more]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_e(
+        ) [MethodsVarDeclList_e]
+      ) [MethodsVarDeclList_list]
+      MethodDeclElemLeftBrace(
+      ) [MethodDeclElemLeftBrace]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_expr(
+              DesignatorOption_designator(
+                Designator(
+                  DesignatorName(
+                   s1
+                  ) [DesignatorName]
+                ) [Designator]
+              ) [DesignatorOption_designator]
+              Assignop(
+              ) [Assignop]
+              Expr_term(
+                Term(
+                  Factor_new(
+                    Type_set(
+                    ) [Type_set]
+                    FactorNewMore_array(
+                      Expr_term(
+                        Term(
+                          Factor_number(
+                           2
+                          ) [Factor_number]
+                          TermMore_e(
+                          ) [TermMore_e]
+                        ) [Term]
+                        ExprMore_e(
+                        ) [ExprMore_e]
+                      ) [Expr_term]
+                    ) [FactorNewMore_array]
+                  ) [Factor_new]
+                  TermMore_e(
+                  ) [TermMore_e]
+                ) [Term]
+                ExprMore_e(
+                ) [ExprMore_e]
+              ) [Expr_term]
+            ) [DesignatorStatementAssignop_expr]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  01:08:34,189 - =========================================================================
+INFO  01:08:34,194 - Koriscenje lokalne promenljive: s1 funkcije: main - [Obj] Kind: 1, Type: 7, Adr: 0, Level: 1, FpPos: 0 na liniji 6
+INFO  01:08:34,194 - =========================================================================
+INFO  01:08:34,202 - Generisanje koda uspesno zavrseno!

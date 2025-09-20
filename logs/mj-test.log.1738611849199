@@ -1,0 +1,142 @@
+INFO  20:44:03,649 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:44:03,691 - #2 program
+INFO  20:44:03,691 - #44 TestIf
+INFO  20:44:03,691 - #3 {
+INFO  20:44:03,692 - #11 void
+INFO  20:44:03,692 - #44 main
+INFO  20:44:03,692 - #12 (
+INFO  20:44:03,693 - #13 )
+INFO  20:44:03,693 - #43 set
+INFO  20:44:03,694 - #44 i
+INFO  20:44:03,694 - #7 ,
+INFO  20:44:03,695 - #44 j
+INFO  20:44:03,695 - #7 ,
+INFO  20:44:03,695 - #44 k
+INFO  20:44:03,695 - #8 ;
+INFO  20:44:03,695 - #44 char
+INFO  20:44:03,696 - #44 a
+INFO  20:44:03,696 - #7 ,
+INFO  20:44:03,696 - #44 b
+INFO  20:44:03,696 - #7 ,
+INFO  20:44:03,696 - #44 c
+INFO  20:44:03,696 - #8 ;
+INFO  20:44:03,696 - #3 {
+INFO  20:44:03,697 - #44 i
+INFO  20:44:03,697 - #6 =
+INFO  20:44:03,699 - #44 j
+INFO  20:44:03,699 - #38 union
+INFO  20:44:03,699 - #44 k
+INFO  20:44:03,700 - #8 ;
+INFO  20:44:03,700 - #4 }
+INFO  20:44:03,700 - #4 }
+INFO  20:44:03,704 - Program(
+  ProgramName(
+   TestIf
+  ) [ProgramName]
+  ConstVarDeclList_e(
+  ) [ConstVarDeclList_e]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_set(
+          ) [Type_set]
+          LocalVarDeclElem_var(
+           i
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_more(
+            LocalVarDeclElem_var(
+             j
+            ) [LocalVarDeclElem_var]
+            LocalVarDeclListMore_more(
+              LocalVarDeclElem_var(
+               k
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclListMore_more]
+          ) [LocalVarDeclListMore_more]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type_type(
+             char
+            ) [Type_type]
+            LocalVarDeclElem_var(
+             a
+            ) [LocalVarDeclElem_var]
+            LocalVarDeclListMore_more(
+              LocalVarDeclElem_var(
+               b
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_more(
+                LocalVarDeclElem_var(
+                 c
+                ) [LocalVarDeclElem_var]
+                LocalVarDeclListMore_e(
+                ) [LocalVarDeclListMore_e]
+              ) [LocalVarDeclListMore_more]
+            ) [LocalVarDeclListMore_more]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_e(
+          ) [MethodsVarDeclList_e]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_setop_union(
+              DesignatorOption_designator(
+                Designator(
+                  DesignatorName(
+                   i
+                  ) [DesignatorName]
+                  DesignatorMore_e(
+                  ) [DesignatorMore_e]
+                ) [Designator]
+              ) [DesignatorOption_designator]
+              Assignop(
+              ) [Assignop]
+              DesignatorOption_designator(
+                Designator(
+                  DesignatorName(
+                   j
+                  ) [DesignatorName]
+                  DesignatorMore_e(
+                  ) [DesignatorMore_e]
+                ) [Designator]
+              ) [DesignatorOption_designator]
+              Setop(
+              ) [Setop]
+              DesignatorOption_designator(
+                Designator(
+                  DesignatorName(
+                   k
+                  ) [DesignatorName]
+                  DesignatorMore_e(
+                  ) [DesignatorMore_e]
+                ) [Designator]
+              ) [DesignatorOption_designator]
+            ) [DesignatorStatementAssignop_setop_union]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  20:44:03,705 - =========================================================================
+INFO  20:44:03,710 - =========================================================================
+INFO  20:44:03,714 - Generisanje koda uspesno zavrseno!

@@ -1,0 +1,114 @@
+INFO  14:07:33,490 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:07:33,532 - #2 program
+INFO  14:07:33,532 - #44 test301
+INFO  14:07:33,532 - #5 const
+INFO  14:07:33,533 - #44 int
+INFO  14:07:33,533 - #44 nula
+INFO  14:07:33,533 - #6 =
+INFO  14:07:33,533 - #45 0
+INFO  14:07:33,533 - #8 ;
+INFO  14:07:33,534 - #5 const
+INFO  14:07:33,534 - #44 int
+INFO  14:07:33,534 - #44 jedan
+INFO  14:07:33,535 - #6 =
+INFO  14:07:33,535 - #45 1
+INFO  14:07:33,535 - #8 ;
+INFO  14:07:33,535 - #5 const
+INFO  14:07:33,535 - #44 int
+INFO  14:07:33,535 - #44 pet
+INFO  14:07:33,535 - #6 =
+INFO  14:07:33,535 - #45 5
+INFO  14:07:33,535 - #8 ;
+INFO  14:07:33,535 - #3 {
+INFO  14:07:33,536 - #11 void
+INFO  14:07:33,536 - #44 main
+INFO  14:07:33,537 - #12 (
+INFO  14:07:33,537 - #13 )
+INFO  14:07:33,538 - #3 {
+INFO  14:07:33,538 - #44 nula
+INFO  14:07:33,538 - #6 =
+INFO  14:07:33,540 - #44 jedan
+INFO  14:07:33,540 - #44 UNION
+ERROR 14:07:33,540 - 
+Sintaksna greska na liniji 10
+INFO  14:07:33,540 - #45 2
+INFO  14:07:33,540 - #8 ;
+INFO  14:07:33,540 - #4 }
+INFO  14:07:33,541 - #4 }
+ERROR 14:07:33,543 - Oporavak od greske kod DesignatorStatement-a kod iskaza dodele. Linija: 9
+INFO  14:07:33,548 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       nula
+       0
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclElem_number(
+         jedan
+         1
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclElem_number(
+           pet
+           5
+          ) [ConstDeclElem_number]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_e(
+        ) [ConstVarDeclList_e]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_ERROR(
+            ) [DesignatorStatementAssignop_ERROR]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  14:07:33,548 - =========================================================================
+INFO  14:07:33,553 - =========================================================================
+INFO  14:07:33,553 - Parsiranje NIJE uspesno zavrseno!

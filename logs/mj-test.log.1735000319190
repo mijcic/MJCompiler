@@ -1,0 +1,118 @@
+INFO  01:31:34,791 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  01:31:34,830 - #2 program
+INFO  01:31:34,830 - #44 test301
+INFO  01:31:34,830 - #44 int
+INFO  01:31:34,830 - #44 i
+INFO  01:31:34,830 - #7 ,
+INFO  01:31:34,830 - #7 ,
+ERROR 01:31:34,831 - 
+Sintaksna greska na liniji 5
+INFO  01:31:34,831 - #7 ,
+INFO  01:31:34,831 - #7 ,
+INFO  01:31:34,831 - #44 j
+INFO  01:31:34,831 - #8 ;
+INFO  01:31:34,832 - #3 {
+ERROR 01:31:34,834 - Oporavak od greske kod definicije globalne promenljive. Linija: 5
+INFO  01:31:34,836 - #11 void
+INFO  01:31:34,836 - #44 main
+INFO  01:31:34,836 - #12 (
+INFO  01:31:34,836 - #13 )
+INFO  01:31:34,837 - #44 int
+INFO  01:31:34,837 - #44 bodovi
+INFO  01:31:34,838 - #8 ;
+INFO  01:31:34,838 - #44 int
+INFO  01:31:34,839 - #44 temp
+INFO  01:31:34,839 - #8 ;
+INFO  01:31:34,839 - #3 {
+INFO  01:31:34,840 - #44 a
+INFO  01:31:34,840 - #6 =
+INFO  01:31:34,843 - #8 ;
+ERROR 01:31:34,843 - 
+Sintaksna greska na liniji 12
+INFO  01:31:34,844 - #4 }
+INFO  01:31:34,844 - #4 }
+ERROR 01:31:34,844 - Oporavak od greske kod DesignatorStatement-a kod iskaza dodele sa Expr. Linija: 12
+INFO  01:31:34,848 - Program(
+ test301
+  ConstVarDeclList_var_list(
+    GlobalVarDeclList(
+      Type(
+       int
+      ) [Type]
+      GlobalVarDeclElem_simple_var(
+       i
+      ) [GlobalVarDeclElem_simple_var]
+      GlobalVarDeclListMore_more(
+        GlobalVarDeclElem_ERROR(
+        ) [GlobalVarDeclElem_ERROR]
+        GlobalVarDeclListMore_more(
+          GlobalVarDeclElem_simple_var(
+           j
+          ) [GlobalVarDeclElem_simple_var]
+          GlobalVarDeclListMore_e(
+          ) [GlobalVarDeclListMore_e]
+        ) [GlobalVarDeclListMore_more]
+      ) [GlobalVarDeclListMore_more]
+    ) [GlobalVarDeclList]
+    ConstVarDeclList_e(
+    ) [ConstVarDeclList_e]
+  ) [ConstVarDeclList_var_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+       main
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type(
+           int
+          ) [Type]
+          LocalVarDeclElem_simple_var(
+           bodovi
+          ) [LocalVarDeclElem_simple_var]
+          LocalVarDeclListMore_e(
+          ) [LocalVarDeclListMore_e]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type(
+             int
+            ) [Type]
+            LocalVarDeclElem_simple_var(
+             temp
+            ) [LocalVarDeclElem_simple_var]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_e(
+          ) [MethodsVarDeclList_e]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_rest(
+            Designator(
+             a
+              DesignatorMore_e(
+              ) [DesignatorMore_e]
+            ) [Designator]
+            DesignatorStatementRest_assignop_expr(
+              DesignatorStatementRestAssignopExpr_ERROR(
+              ) [DesignatorStatementRestAssignopExpr_ERROR]
+            ) [DesignatorStatementRest_assignop_expr]
+          ) [DesignatorStatement_rest]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  01:31:34,848 - =========================================================================
+INFO  01:31:34,848 - Parsiranje NIJE uspesno zavrseno!

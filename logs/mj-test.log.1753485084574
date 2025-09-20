@@ -1,0 +1,70 @@
+INFO  01:11:02,950 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  01:11:03,043 - #2 program
+INFO  01:11:03,043 - #44 Keske
+INFO  01:11:03,043 - #5 const
+INFO  01:11:03,044 - #44 int
+INFO  01:11:03,045 - #44 pi
+INFO  01:11:03,045 - #6 =
+INFO  01:11:03,045 - #47 a
+INFO  01:11:03,045 - #7 ,
+INFO  01:11:03,046 - #44 g
+INFO  01:11:03,046 - #6 =
+INFO  01:11:03,046 - #45 11
+INFO  01:11:03,046 - #8 ;
+INFO  01:11:03,047 - #3 {
+INFO  01:11:03,050 - #11 void
+INFO  01:11:03,050 - #44 main
+INFO  01:11:03,051 - #12 (
+INFO  01:11:03,051 - #13 )
+INFO  01:11:03,053 - #3 {
+INFO  01:11:03,055 - #4 }
+INFO  01:11:03,055 - #4 }
+INFO  01:11:03,061 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_character(
+       pi
+       a
+      ) [ConstDeclElem_character]
+      ConstDeclListMore_more(
+        ConstDeclElem_number(
+         g
+         11
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclListMore_more]
+    ) [ConstDeclList]
+    ConstVarDeclList_e(
+    ) [ConstVarDeclList_e]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodsStatementList_e(
+      ) [MethodsStatementList_e]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  01:11:03,068 - =========================================================================
+ERROR 01:11:03,085 - Greska prilikom dodele konstanti: pi. Nepodudaranje tipova podataka na liniji 3
+INFO  01:11:03,085 - =========================================================================
+INFO  01:11:03,086 - Parsiranje NIJE uspesno zavrseno!

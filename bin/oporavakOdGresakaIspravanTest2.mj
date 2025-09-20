@@ -1,0 +1,41 @@
+program OporavakOdGresakaTest 
+
+const int a = 3;
+const char b = 'b';
+const bool c = false;
+
+int niz[];	
+int globalna1;	
+bool globalna2;		
+char globalna3;
+
+{
+	int method1(int array[], int formPar1, char formPar2) int t; char r; bool l; {
+		t = formPar1;
+		array[t] = t;	
+		print(array[t]); print(eol);		// 4
+		
+		if (formPar1 < 7) {	
+			formPar1 = formPar1 * 7;
+			print(formPar1); print(eol);	// 28
+		}
+		return t;
+	}
+	
+	void method2(char formPar1, int formPar2) {
+		formPar2 = 4;	
+		formPar2++;
+		if (formPar2 == 5) {
+			print(formPar2);				// 5
+		}
+		else {
+			print(formPar1);
+		}
+	}
+
+	void main() {
+		niz = new int[5];
+		method1(niz, 4, 'm');
+		method2('i', 5);
+	}
+}

@@ -1,0 +1,241 @@
+INFO  22:55:35,173 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  22:55:35,210 - #2 program
+INFO  22:55:35,210 - #44 OporavakOdGresakaTest
+INFO  22:55:35,210 - #5 const
+INFO  22:55:35,210 - #44 int
+INFO  22:55:35,210 - #44 a
+INFO  22:55:35,211 - #6 =
+INFO  22:55:35,211 - #45 3
+INFO  22:55:35,211 - #8 ;
+INFO  22:55:35,211 - #5 const
+INFO  22:55:35,212 - #44 char
+INFO  22:55:35,212 - #44 b
+INFO  22:55:35,212 - #6 =
+INFO  22:55:35,212 - #47 b
+INFO  22:55:35,212 - #8 ;
+INFO  22:55:35,212 - #5 const
+INFO  22:55:35,212 - #44 bool
+INFO  22:55:35,212 - #44 c
+INFO  22:55:35,212 - #6 =
+INFO  22:55:35,212 - #46 0
+INFO  22:55:35,212 - #8 ;
+INFO  22:55:35,212 - #44 char
+INFO  22:55:35,220 - #44 d
+INFO  22:55:35,220 - #6 =
+ERROR 22:55:35,220 - 
+Sintaksna greska na liniji 7
+INFO  22:55:35,220 - #47 d
+INFO  22:55:35,220 - #8 ;
+INFO  22:55:35,220 - #3 {
+INFO  22:55:35,222 - #44 int
+INFO  22:55:35,222 - #44 method1
+ERROR 22:55:35,222 - [GlobalVarDeclElem] Oporavak od greske kod definicije globalne promenljive. Linija: 7
+INFO  22:55:35,224 - #12 (
+INFO  22:55:35,224 - #44 int
+INFO  22:55:35,224 - #44 e
+INFO  22:55:35,224 - #6 =
+ERROR 22:55:35,224 - 
+Sintaksna greska na liniji 11
+INFO  22:55:35,224 - #45 5
+INFO  22:55:35,224 - #7 ,
+INFO  22:55:35,224 - #44 char
+INFO  22:55:35,224 - #44 f
+INFO  22:55:35,224 - #6 =
+ERROR 22:55:35,225 - [FormParsElem] Oporavak od greske kod definicije formalnog parametra funkcije. Linija: 10
+ERROR 22:55:35,225 - 
+Sintaksna greska na liniji 12
+INFO  22:55:35,225 - #47 f
+INFO  22:55:35,225 - #7 ,
+INFO  22:55:35,225 - #44 bool
+INFO  22:55:35,225 - #44 b
+INFO  22:55:35,225 - #6 =
+ERROR 22:55:35,225 - [FormParsElem] Oporavak od greske kod definicije formalnog parametra funkcije. Linija: 11
+ERROR 22:55:35,225 - 
+Sintaksna greska na liniji 13
+INFO  22:55:35,225 - #46 1
+INFO  22:55:35,225 - #13 )
+INFO  22:55:35,225 - #3 {
+INFO  22:55:35,225 - #44 f
+INFO  22:55:35,225 - #6 =
+ERROR 22:55:35,226 - [FormParsElem] Oporavak od greske kod definicije formalnog parametra funkcije. Linija: 12
+INFO  22:55:35,230 - #47 a
+INFO  22:55:35,230 - #8 ;
+INFO  22:55:35,232 - #18 return
+INFO  22:55:35,232 - #44 a
+INFO  22:55:35,232 - #8 ;
+INFO  22:55:35,232 - #4 }
+INFO  22:55:35,232 - #11 void
+INFO  22:55:35,234 - #44 main
+INFO  22:55:35,234 - #12 (
+INFO  22:55:35,234 - #13 )
+INFO  22:55:35,235 - #3 {
+INFO  22:55:35,235 - #4 }
+INFO  22:55:35,235 - #4 }
+INFO  22:55:35,236 - Program(
+  ProgramName(
+   OporavakOdGresakaTest
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       a
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_const_list(
+      ConstDeclList(
+        Type_type(
+         char
+        ) [Type_type]
+        ConstDeclElem_character(
+         b
+         b
+        ) [ConstDeclElem_character]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type_type(
+           bool
+          ) [Type_type]
+          ConstDeclElem_bool(
+           c
+           0
+          ) [ConstDeclElem_bool]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_var_list(
+          GlobalVarDeclList(
+            Type_type(
+             char
+            ) [Type_type]
+            GlobalVarDeclElem_ERROR(
+            ) [GlobalVarDeclElem_ERROR]
+            GlobalVarDeclListMore_e(
+            ) [GlobalVarDeclListMore_e]
+          ) [GlobalVarDeclList]
+          ConstVarDeclList_e(
+          ) [ConstVarDeclList_e]
+        ) [ConstVarDeclList_var_list]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_const_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_type(
+          Type_type(
+           int
+          ) [Type_type]
+        ) [MethodsType_type]
+        MethodName(
+         method1
+        ) [MethodName]
+        MethodSignaturesFormPars_list(
+          FormParsList(
+            FormParsElem_ERROR(
+            ) [FormParsElem_ERROR]
+            FormParsListMore_more(
+              FormParsElem_ERROR(
+              ) [FormParsElem_ERROR]
+              FormParsListMore_more(
+                FormParsElem_ERROR(
+                ) [FormParsElem_ERROR]
+                FormParsListMore_e(
+                ) [FormParsListMore_e]
+              ) [FormParsListMore_more]
+            ) [FormParsListMore_more]
+          ) [FormParsList]
+        ) [MethodSignaturesFormPars_list]
+      ) [MethodSignature]
+      MethodsVarDeclList_e(
+      ) [MethodsVarDeclList_e]
+      MethodDeclElemLeftBrace(
+      ) [MethodDeclElemLeftBrace]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_expr(
+              DesignatorOption_designator(
+                Designator(
+                  DesignatorName(
+                   f
+                  ) [DesignatorName]
+                ) [Designator]
+              ) [DesignatorOption_designator]
+              Assignop(
+              ) [Assignop]
+              Expr_term(
+                Term(
+                  Factor_character(
+                   a
+                  ) [Factor_character]
+                  TermMore_e(
+                  ) [TermMore_e]
+                ) [Term]
+                ExprMore_e(
+                ) [ExprMore_e]
+              ) [Expr_term]
+            ) [DesignatorStatementAssignop_expr]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_list(
+          Statement_return_expr(
+            Expr_term(
+              Term(
+                Factor_designator(
+                  DesignatorOption_designator(
+                    Designator(
+                      DesignatorName(
+                       a
+                      ) [DesignatorName]
+                    ) [Designator]
+                  ) [DesignatorOption_designator]
+                ) [Factor_designator]
+                TermMore_e(
+                ) [TermMore_e]
+              ) [Term]
+              ExprMore_e(
+              ) [ExprMore_e]
+            ) [Expr_term]
+          ) [Statement_return_expr]
+          MethodsStatementList_e(
+          ) [MethodsStatementList_e]
+        ) [MethodsStatementList_list]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_more(
+      MethodDeclElem(
+        MethodSignature(
+          MethodsType_void(
+          ) [MethodsType_void]
+          MethodName(
+           main
+          ) [MethodName]
+          MethodSignaturesFormPars_e(
+          ) [MethodSignaturesFormPars_e]
+        ) [MethodSignature]
+        MethodsVarDeclList_e(
+        ) [MethodsVarDeclList_e]
+        MethodDeclElemLeftBrace(
+        ) [MethodDeclElemLeftBrace]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodDeclElem]
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+    ) [MethodDeclList_more]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  22:55:35,239 - =========================================================================
+ERROR 22:55:35,250 - [DesignatorName] Pristup promenljivoj koja nije deklarisana: f na liniji 16
+ERROR 22:55:35,250 - [DesignatorStatementAssignop_expr] Greska prilikom dodele vrednosti promenljivoj: noObj, zbog nepodudaranja tipova podataka na liniji 16
+INFO  22:55:35,250 - =========================================================================
+INFO  22:55:35,250 - Parsiranje NIJE uspesno zavrseno!

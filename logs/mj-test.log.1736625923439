@@ -1,0 +1,135 @@
+INFO  21:04:30,693 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  21:04:30,775 - #2 program
+INFO  21:04:30,775 - #44 Keske
+INFO  21:04:30,776 - #3 {
+INFO  21:04:30,778 - #11 void
+INFO  21:04:30,778 - #44 main
+INFO  21:04:30,780 - #12 (
+INFO  21:04:30,780 - #13 )
+INFO  21:04:30,781 - #44 int
+INFO  21:04:30,782 - #44 a
+INFO  21:04:30,784 - #7 ,
+INFO  21:04:30,784 - #44 b
+INFO  21:04:30,784 - #9 [
+INFO  21:04:30,784 - #10 ]
+INFO  21:04:30,784 - #8 ;
+INFO  21:04:30,787 - #3 {
+INFO  21:04:30,790 - #44 a
+INFO  21:04:30,790 - #6 =
+INFO  21:04:30,792 - #45 3
+INFO  21:04:30,794 - #33 +
+INFO  21:04:30,796 - #44 b
+INFO  21:04:30,797 - #9 [
+INFO  21:04:30,798 - #45 2
+INFO  21:04:30,805 - #10 ]
+INFO  21:04:30,805 - #8 ;
+INFO  21:04:30,806 - #4 }
+INFO  21:04:30,807 - #4 }
+INFO  21:04:30,815 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_e(
+  ) [ConstVarDeclList_e]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type(
+           int
+          ) [Type]
+          LocalVarDeclElem_var(
+           a
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_more(
+            LocalVarDeclElem_array(
+             b
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclListMore_more]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_e(
+        ) [MethodsVarDeclList_e]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_rest(
+            Designator(
+              DesignatorName(
+               a
+              ) [DesignatorName]
+              DesignatorMore_e(
+              ) [DesignatorMore_e]
+            ) [Designator]
+            DesignatorStatementRest_assignop_expr(
+              DesignatorStatementRestAssignopExpr_assignop_expr(
+                Assignop(
+                ) [Assignop]
+                Expr_term(
+                  Term(
+                    Factor_number(
+                     3
+                    ) [Factor_number]
+                    TermMore_e(
+                    ) [TermMore_e]
+                  ) [Term]
+                  ExprMore_more(
+                    ExprMore_e(
+                    ) [ExprMore_e]
+                    Addop_plus(
+                    ) [Addop_plus]
+                    Term(
+                      Factor_designator(
+                        Designator(
+                          DesignatorName(
+                           b
+                          ) [DesignatorName]
+                          DesignatorMore_array(
+                            Expr_term(
+                              Term(
+                                Factor_number(
+                                 2
+                                ) [Factor_number]
+                                TermMore_e(
+                                ) [TermMore_e]
+                              ) [Term]
+                              ExprMore_e(
+                              ) [ExprMore_e]
+                            ) [Expr_term]
+                            DesignatorMore_e(
+                            ) [DesignatorMore_e]
+                          ) [DesignatorMore_array]
+                        ) [Designator]
+                      ) [Factor_designator]
+                      TermMore_e(
+                      ) [TermMore_e]
+                    ) [Term]
+                  ) [ExprMore_more]
+                ) [Expr_term]
+              ) [DesignatorStatementRestAssignopExpr_assignop_expr]
+            ) [DesignatorStatementRest_assignop_expr]
+          ) [DesignatorStatement_rest]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  21:04:30,816 - =========================================================================
+ERROR 21:04:30,837 - Mulop operacija ne int vrednosti. na liniji 5
+ERROR 21:04:30,837 - Addop operacija ne int vrednosti. na liniji 6
+INFO  21:04:30,837 - =========================================================================
+INFO  21:04:30,838 - Parsiranje NIJE uspesno zavrseno!

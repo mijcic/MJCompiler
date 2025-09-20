@@ -1,0 +1,209 @@
+INFO  21:03:59,657 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  21:03:59,707 - #2 program
+INFO  21:03:59,707 - #44 Keske
+INFO  21:03:59,707 - #5 const
+INFO  21:03:59,708 - #44 int
+INFO  21:03:59,708 - #44 pi
+INFO  21:03:59,709 - #6 =
+INFO  21:03:59,709 - #45 3
+INFO  21:03:59,709 - #7 ,
+INFO  21:03:59,709 - #44 g
+INFO  21:03:59,709 - #6 =
+INFO  21:03:59,709 - #45 11
+INFO  21:03:59,709 - #8 ;
+INFO  21:03:59,710 - #44 char
+INFO  21:03:59,711 - #44 x
+INFO  21:03:59,711 - #7 ,
+INFO  21:03:59,711 - #44 y
+INFO  21:03:59,711 - #9 [
+INFO  21:03:59,711 - #10 ]
+INFO  21:03:59,711 - #8 ;
+INFO  21:03:59,712 - #5 const
+INFO  21:03:59,713 - #44 bool
+INFO  21:03:59,713 - #44 t
+INFO  21:03:59,720 - #6 =
+INFO  21:03:59,720 - #46 1
+INFO  21:03:59,720 - #8 ;
+INFO  21:03:59,720 - #3 {
+INFO  21:03:59,721 - #11 void
+INFO  21:03:59,721 - #44 main
+INFO  21:03:59,722 - #12 (
+INFO  21:03:59,723 - #13 )
+INFO  21:03:59,723 - #44 int
+INFO  21:03:59,724 - #44 a
+INFO  21:03:59,724 - #7 ,
+INFO  21:03:59,724 - #44 b
+INFO  21:03:59,724 - #9 [
+INFO  21:03:59,724 - #10 ]
+INFO  21:03:59,724 - #8 ;
+INFO  21:03:59,725 - #44 int
+INFO  21:03:59,726 - #44 x
+INFO  21:03:59,726 - #9 [
+INFO  21:03:59,726 - #10 ]
+INFO  21:03:59,726 - #7 ,
+INFO  21:03:59,726 - #44 y
+INFO  21:03:59,726 - #8 ;
+INFO  21:03:59,726 - #44 char
+INFO  21:03:59,726 - #44 eol
+INFO  21:03:59,727 - #8 ;
+INFO  21:03:59,727 - #44 char
+INFO  21:03:59,727 - #44 e
+INFO  21:03:59,727 - #9 [
+INFO  21:03:59,727 - #10 ]
+INFO  21:03:59,727 - #8 ;
+INFO  21:03:59,727 - #3 {
+INFO  21:03:59,728 - #19 read
+INFO  21:03:59,728 - #12 (
+INFO  21:03:59,728 - #44 eol
+INFO  21:03:59,728 - #13 )
+INFO  21:03:59,730 - #8 ;
+INFO  21:03:59,730 - #4 }
+INFO  21:03:59,731 - #4 }
+INFO  21:03:59,736 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_more(
+        ConstDeclElem_number(
+         g
+         11
+        ) [ConstDeclElem_number]
+        ConstDeclListMore_e(
+        ) [ConstDeclListMore_e]
+      ) [ConstDeclListMore_more]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type(
+         char
+        ) [Type]
+        GlobalVarDeclElem_var(
+         x
+        ) [GlobalVarDeclElem_var]
+        GlobalVarDeclListMore_more(
+          GlobalVarDeclElem_array(
+           y
+          ) [GlobalVarDeclElem_array]
+          GlobalVarDeclListMore_e(
+          ) [GlobalVarDeclListMore_e]
+        ) [GlobalVarDeclListMore_more]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_const_list(
+        ConstDeclList(
+          Type(
+           bool
+          ) [Type]
+          ConstDeclElem_bool(
+           t
+           1
+          ) [ConstDeclElem_bool]
+          ConstDeclListMore_e(
+          ) [ConstDeclListMore_e]
+        ) [ConstDeclList]
+        ConstVarDeclList_e(
+        ) [ConstVarDeclList_e]
+      ) [ConstVarDeclList_const_list]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type(
+           int
+          ) [Type]
+          LocalVarDeclElem_var(
+           a
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_more(
+            LocalVarDeclElem_array(
+             b
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclListMore_more]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type(
+             int
+            ) [Type]
+            LocalVarDeclElem_array(
+             x
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_more(
+              LocalVarDeclElem_var(
+               y
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclListMore_more]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_list(
+            LocalVarDeclList(
+              Type(
+               char
+              ) [Type]
+              LocalVarDeclElem_var(
+               eol
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclList]
+            MethodsVarDeclList_list(
+              LocalVarDeclList(
+                Type(
+                 char
+                ) [Type]
+                LocalVarDeclElem_array(
+                 e
+                ) [LocalVarDeclElem_array]
+                LocalVarDeclListMore_e(
+                ) [LocalVarDeclListMore_e]
+              ) [LocalVarDeclList]
+              MethodsVarDeclList_e(
+              ) [MethodsVarDeclList_e]
+            ) [MethodsVarDeclList_list]
+          ) [MethodsVarDeclList_list]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_read(
+          Designator(
+            DesignatorName(
+             eol
+            ) [DesignatorName]
+            DesignatorMore_e(
+            ) [DesignatorMore_e]
+          ) [Designator]
+        ) [Statement_read]
+        MethodsStatementList_e(
+        ) [MethodsStatementList_e]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  21:03:59,737 - =========================================================================
+ERROR 21:03:59,746 - Read ne int/char/bool promenljive: noObj na liniji 30
+INFO  21:03:59,746 - =========================================================================
+INFO  21:03:59,747 - Parsiranje NIJE uspesno zavrseno!

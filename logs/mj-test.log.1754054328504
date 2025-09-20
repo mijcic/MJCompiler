@@ -1,0 +1,234 @@
+INFO  14:50:16,766 - Compiling source file: C:\Users\Mia\Desktop\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:50:16,863 - #2 program
+INFO  14:50:16,864 - #44 Keske
+INFO  14:50:16,864 - #5 const
+INFO  14:50:16,865 - #44 int
+INFO  14:50:16,865 - #44 pi
+INFO  14:50:16,865 - #6 =
+INFO  14:50:16,866 - #45 3
+INFO  14:50:16,866 - #8 ;
+INFO  14:50:16,867 - #44 int
+INFO  14:50:16,867 - #44 x
+INFO  14:50:16,867 - #7 ,
+INFO  14:50:16,868 - #44 y
+INFO  14:50:16,868 - #9 [
+INFO  14:50:16,868 - #10 ]
+INFO  14:50:16,868 - #8 ;
+INFO  14:50:16,869 - #3 {
+INFO  14:50:16,871 - #11 void
+INFO  14:50:16,872 - #44 main
+INFO  14:50:16,872 - #12 (
+INFO  14:50:16,873 - #13 )
+INFO  14:50:16,874 - #44 int
+INFO  14:50:16,875 - #44 a
+INFO  14:50:16,882 - #7 ,
+INFO  14:50:16,882 - #44 b
+INFO  14:50:16,882 - #8 ;
+INFO  14:50:16,883 - #44 char
+INFO  14:50:16,884 - #44 carr
+INFO  14:50:16,884 - #9 [
+INFO  14:50:16,885 - #10 ]
+INFO  14:50:16,885 - #8 ;
+INFO  14:50:16,885 - #43 set
+INFO  14:50:16,885 - #44 set1
+INFO  14:50:16,885 - #8 ;
+INFO  14:50:16,885 - #3 {
+INFO  14:50:16,887 - #44 carr
+INFO  14:50:16,887 - #6 =
+INFO  14:50:16,890 - #41 new
+INFO  14:50:16,891 - #44 char
+INFO  14:50:16,891 - #9 [
+INFO  14:50:16,891 - #45 5
+INFO  14:50:16,891 - #10 ]
+INFO  14:50:16,894 - #8 ;
+INFO  14:50:16,895 - #20 print
+INFO  14:50:16,895 - #12 (
+INFO  14:50:16,895 - #44 carr
+INFO  14:50:16,896 - #9 [
+INFO  14:50:16,898 - #45 1
+INFO  14:50:16,898 - #10 ]
+INFO  14:50:16,898 - #13 )
+INFO  14:50:16,899 - #8 ;
+INFO  14:50:16,899 - #4 }
+INFO  14:50:16,900 - #4 }
+INFO  14:50:16,912 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ConstVarDeclList_const_list(
+    ConstDeclList(
+      Type_type(
+       int
+      ) [Type_type]
+      ConstDeclElem_number(
+       pi
+       3
+      ) [ConstDeclElem_number]
+      ConstDeclListMore_e(
+      ) [ConstDeclListMore_e]
+    ) [ConstDeclList]
+    ConstVarDeclList_var_list(
+      GlobalVarDeclList(
+        Type_type(
+         int
+        ) [Type_type]
+        GlobalVarDeclElem_var(
+         x
+        ) [GlobalVarDeclElem_var]
+        GlobalVarDeclListMore_more(
+          GlobalVarDeclElem_array(
+           y
+          ) [GlobalVarDeclElem_array]
+          GlobalVarDeclListMore_e(
+          ) [GlobalVarDeclListMore_e]
+        ) [GlobalVarDeclListMore_more]
+      ) [GlobalVarDeclList]
+      ConstVarDeclList_e(
+      ) [ConstVarDeclList_e]
+    ) [ConstVarDeclList_var_list]
+  ) [ConstVarDeclList_const_list]
+  MethodDeclList_more(
+    MethodDeclElem(
+      MethodSignature(
+        MethodsType_void(
+        ) [MethodsType_void]
+        MethodName(
+         main
+        ) [MethodName]
+        MethodSignaturesFormPars_e(
+        ) [MethodSignaturesFormPars_e]
+      ) [MethodSignature]
+      MethodsVarDeclList_list(
+        LocalVarDeclList(
+          Type_type(
+           int
+          ) [Type_type]
+          LocalVarDeclElem_var(
+           a
+          ) [LocalVarDeclElem_var]
+          LocalVarDeclListMore_more(
+            LocalVarDeclElem_var(
+             b
+            ) [LocalVarDeclElem_var]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclListMore_more]
+        ) [LocalVarDeclList]
+        MethodsVarDeclList_list(
+          LocalVarDeclList(
+            Type_type(
+             char
+            ) [Type_type]
+            LocalVarDeclElem_array(
+             carr
+            ) [LocalVarDeclElem_array]
+            LocalVarDeclListMore_e(
+            ) [LocalVarDeclListMore_e]
+          ) [LocalVarDeclList]
+          MethodsVarDeclList_list(
+            LocalVarDeclList(
+              Type_set(
+              ) [Type_set]
+              LocalVarDeclElem_var(
+               set1
+              ) [LocalVarDeclElem_var]
+              LocalVarDeclListMore_e(
+              ) [LocalVarDeclListMore_e]
+            ) [LocalVarDeclList]
+            MethodsVarDeclList_e(
+            ) [MethodsVarDeclList_e]
+          ) [MethodsVarDeclList_list]
+        ) [MethodsVarDeclList_list]
+      ) [MethodsVarDeclList_list]
+      MethodsStatementList_list(
+        Statement_designatorStatement(
+          DesignatorStatement_assignop(
+            DesignatorStatementAssignop_expr(
+              DesignatorOption_designator(
+                Designator(
+                  DesignatorName(
+                   carr
+                  ) [DesignatorName]
+                  DesignatorMore_e(
+                  ) [DesignatorMore_e]
+                ) [Designator]
+              ) [DesignatorOption_designator]
+              Assignop(
+              ) [Assignop]
+              Expr_term(
+                Term(
+                  Factor_new(
+                    Type_type(
+                     char
+                    ) [Type_type]
+                    FactorNewMore_array(
+                      Expr_term(
+                        Term(
+                          Factor_number(
+                           5
+                          ) [Factor_number]
+                          TermMore_e(
+                          ) [TermMore_e]
+                        ) [Term]
+                        ExprMore_e(
+                        ) [ExprMore_e]
+                      ) [Expr_term]
+                    ) [FactorNewMore_array]
+                  ) [Factor_new]
+                  TermMore_e(
+                  ) [TermMore_e]
+                ) [Term]
+                ExprMore_e(
+                ) [ExprMore_e]
+              ) [Expr_term]
+            ) [DesignatorStatementAssignop_expr]
+          ) [DesignatorStatement_assignop]
+        ) [Statement_designatorStatement]
+        MethodsStatementList_list(
+          Statement_print_expr(
+            Expr_term(
+              Term(
+                Factor_designator(
+                  DesignatorOption_designator_array(
+                    DesignatorArray(
+                      DesignatorArrayName(
+                       carr
+                      ) [DesignatorArrayName]
+                      DesignatorArrayMore_more(
+                        Expr_term(
+                          Term(
+                            Factor_number(
+                             1
+                            ) [Factor_number]
+                            TermMore_e(
+                            ) [TermMore_e]
+                          ) [Term]
+                          ExprMore_e(
+                          ) [ExprMore_e]
+                        ) [Expr_term]
+                        DesignatorAndArrayMore_e(
+                        ) [DesignatorAndArrayMore_e]
+                      ) [DesignatorArrayMore_more]
+                    ) [DesignatorArray]
+                  ) [DesignatorOption_designator_array]
+                ) [Factor_designator]
+                TermMore_e(
+                ) [TermMore_e]
+              ) [Term]
+              ExprMore_e(
+              ) [ExprMore_e]
+            ) [Expr_term]
+          ) [Statement_print_expr]
+          MethodsStatementList_e(
+          ) [MethodsStatementList_e]
+        ) [MethodsStatementList_list]
+      ) [MethodsStatementList_list]
+    ) [MethodDeclElem]
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+  ) [MethodDeclList_more]
+) [Program]
+INFO  14:50:16,912 - =========================================================================
+INFO  14:50:16,928 - Pristup elementu niza: carr[Kind: 5] na liniji 35
+INFO  14:50:16,928 - =========================================================================
+INFO  14:50:16,934 - Generisanje koda uspesno zavrseno!

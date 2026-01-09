@@ -15,6 +15,8 @@ Key features include:
 
 - Code generation to **MJVM-compatible bytecode**
 
+---
+
 ## Tech Stack
 
 - **Language:** Java (JDK 1.8)
@@ -26,6 +28,8 @@ Key features include:
 - **Execution Environment:** MJVM
 
 - **Libraries:** symboltable-1-1.jar, mj-runtime-1.1.jar, log4j-1.2.17.jar, cup_v10k.jar, JFlex.jar
+
+---
 
 ## Project Highlights
 
